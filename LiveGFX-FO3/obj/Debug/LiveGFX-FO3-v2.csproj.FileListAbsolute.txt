@@ -1,0 +1,20 @@
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\LiveGFX-FO3.exe.config
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\LiveGFX-FO3.exe
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\LiveGFX-FO3.pdb
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\Bunifu_UI_v1.5.dll
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\MetroFramework.dll
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3-v2.csprojResolveAssemblyReference.cache
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.EventInfo.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.InGame.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.LiveEvent.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.LiveGFX.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.Properties.Resources.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.Table.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX_FO3.TeamDatabase.resources
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3-v2.csproj.GenerateResource.Cache
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3.exe
+C:\Users\INV-Benz\Documents\Visual Studio 2015\Projects\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3.pdb
+D:\[Work]\[Garena]\GPL\LiveGFX-FO3\LiveGFX-FO3\bin\Debug\LiveGFX-FO3.exe.config
+D:\[Work]\[Garena]\GPL\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3.exe
+D:\[Work]\[Garena]\GPL\LiveGFX-FO3\LiveGFX-FO3\obj\Debug\LiveGFX-FO3.pdb

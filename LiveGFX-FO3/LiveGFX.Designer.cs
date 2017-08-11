@@ -48,11 +48,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.liveEvent1 = new LiveGFX_FO3.LiveEvent();
-            this.teamDatabase1 = new LiveGFX_FO3.TeamDatabase();
-            this.table1 = new LiveGFX_FO3.Table();
             this.eventInfo1 = new LiveGFX_FO3.EventInfo();
             this.inGame1 = new LiveGFX_FO3.InGame();
+            this.liveEvent1 = new LiveGFX_FO3.LiveEvent();
+            this.table1 = new LiveGFX_FO3.Table();
+            this.teamDatabase1 = new LiveGFX_FO3.TeamDatabase();
             this.bar_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimize)).BeginInit();
@@ -80,7 +80,7 @@
             this.bar_title.Dock = System.Windows.Forms.DockStyle.Top;
             this.bar_title.Location = new System.Drawing.Point(0, 0);
             this.bar_title.Name = "bar_title";
-            this.bar_title.Size = new System.Drawing.Size(1280, 28);
+            this.bar_title.Size = new System.Drawing.Size(1600, 28);
             this.bar_title.TabIndex = 1;
             this.bar_title.DoubleClick += new System.EventHandler(this.bar_title_DoubleClick);
             // 
@@ -91,9 +91,9 @@
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(40, 6);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(302, 16);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(341, 16);
             this.bunifuCustomLabel1.TabIndex = 5;
-            this.bunifuCustomLabel1.Text = "Studio INVATE - LiveGFX : FIFA ONLINE 3 version 0.1 BETA";
+            this.bunifuCustomLabel1.Text = "Studio INVATE - LiveGFX : League of Legends Version 0.1 ALPHA";
             // 
             // pictureBox1
             // 
@@ -114,7 +114,7 @@
             this.btn_minimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_minimize.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimize.Image")));
             this.btn_minimize.ImageActive = null;
-            this.btn_minimize.Location = new System.Drawing.Point(1176, 2);
+            this.btn_minimize.Location = new System.Drawing.Point(1496, 2);
             this.btn_minimize.Name = "btn_minimize";
             this.btn_minimize.Size = new System.Drawing.Size(25, 25);
             this.btn_minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +130,7 @@
             this.btn_maximize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_maximize.Image = ((System.Drawing.Image)(resources.GetObject("btn_maximize.Image")));
             this.btn_maximize.ImageActive = null;
-            this.btn_maximize.Location = new System.Drawing.Point(1214, 2);
+            this.btn_maximize.Location = new System.Drawing.Point(1534, 2);
             this.btn_maximize.Name = "btn_maximize";
             this.btn_maximize.Size = new System.Drawing.Size(25, 25);
             this.btn_maximize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -146,7 +146,7 @@
             this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
             this.btn_close.ImageActive = null;
-            this.btn_close.Location = new System.Drawing.Point(1248, 2);
+            this.btn_close.Location = new System.Drawing.Point(1568, 2);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(25, 25);
             this.btn_close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +169,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 28);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1280, 66);
+            this.panel2.Size = new System.Drawing.Size(1600, 66);
             this.panel2.TabIndex = 2;
             // 
             // btn_options
@@ -192,7 +192,7 @@
             this.btn_options.IconVisible = true;
             this.btn_options.IconZoom = 40D;
             this.btn_options.IsTab = true;
-            this.btn_options.Location = new System.Drawing.Point(1130, 0);
+            this.btn_options.Location = new System.Drawing.Point(1450, 0);
             this.btn_options.Name = "btn_options";
             this.btn_options.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btn_options.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(72)))), ((int)(((byte)(75)))));
@@ -413,40 +413,14 @@
             this.bunifuDragControl1.TargetControl = this.bar_title;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // liveEvent1
-            // 
-            this.liveEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
-            this.liveEvent1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.liveEvent1.Location = new System.Drawing.Point(0, 94);
-            this.liveEvent1.Name = "liveEvent1";
-            this.liveEvent1.Size = new System.Drawing.Size(1280, 626);
-            this.liveEvent1.TabIndex = 3;
-            // 
-            // teamDatabase1
-            // 
-            this.teamDatabase1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
-            this.teamDatabase1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.teamDatabase1.Location = new System.Drawing.Point(0, 0);
-            this.teamDatabase1.Name = "teamDatabase1";
-            this.teamDatabase1.Size = new System.Drawing.Size(1280, 720);
-            this.teamDatabase1.TabIndex = 7;
-            // 
-            // table1
-            // 
-            this.table1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
-            this.table1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.table1.Location = new System.Drawing.Point(0, 0);
-            this.table1.Name = "table1";
-            this.table1.Size = new System.Drawing.Size(1280, 720);
-            this.table1.TabIndex = 6;
-            // 
             // eventInfo1
             // 
+            this.eventInfo1.AutoScroll = true;
             this.eventInfo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
             this.eventInfo1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.eventInfo1.Location = new System.Drawing.Point(0, 0);
             this.eventInfo1.Name = "eventInfo1";
-            this.eventInfo1.Size = new System.Drawing.Size(1280, 720);
+            this.eventInfo1.Size = new System.Drawing.Size(1600, 900);
             this.eventInfo1.TabIndex = 5;
             // 
             // inGame1
@@ -455,15 +429,42 @@
             this.inGame1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.inGame1.Location = new System.Drawing.Point(0, 0);
             this.inGame1.Name = "inGame1";
-            this.inGame1.Size = new System.Drawing.Size(1280, 720);
+            this.inGame1.Size = new System.Drawing.Size(1600, 900);
             this.inGame1.TabIndex = 4;
+            // 
+            // liveEvent1
+            // 
+            this.liveEvent1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.liveEvent1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.liveEvent1.Location = new System.Drawing.Point(0, 94);
+            this.liveEvent1.Name = "liveEvent1";
+            this.liveEvent1.Size = new System.Drawing.Size(1600, 806);
+            this.liveEvent1.TabIndex = 3;
+            // 
+            // table1
+            // 
+            this.table1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.table1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.table1.Location = new System.Drawing.Point(0, 0);
+            this.table1.Name = "table1";
+            this.table1.Size = new System.Drawing.Size(1600, 900);
+            this.table1.TabIndex = 6;
+            // 
+            // teamDatabase1
+            // 
+            this.teamDatabase1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.teamDatabase1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.teamDatabase1.Location = new System.Drawing.Point(0, 0);
+            this.teamDatabase1.Name = "teamDatabase1";
+            this.teamDatabase1.Size = new System.Drawing.Size(1600, 900);
+            this.teamDatabase1.TabIndex = 7;
             // 
             // LiveGFX
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.liveEvent1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.bar_title);
@@ -508,11 +509,11 @@
         private Bunifu.Framework.UI.BunifuImageButton btn_maximize;
         private Bunifu.Framework.UI.BunifuImageButton btn_close;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
-        private LiveEvent liveEvent1;
         private InGame inGame1;
         private EventInfo eventInfo1;
-        private Table table1;
+        private LiveEvent liveEvent1;
         private TeamDatabase teamDatabase1;
+        private Table table1;
     }
 }
 

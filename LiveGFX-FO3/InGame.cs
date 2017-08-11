@@ -61,5 +61,26 @@ namespace LiveGFX_FO3
         {
 
         }
+
+        private void bo1_checkbox_OnChange(object sender, EventArgs e)
+        {
+            bo1_checkbox.Checked = true;
+            bo3_checkbox.Checked = false;
+            bo5_checkbox.Checked = false;
+        }
+
+        private void bo3_checkbox_OnChange(object sender, EventArgs e)
+        {
+            bo3_checkbox.Checked = true;
+            bo1_checkbox.Checked = false;
+            bo5_checkbox.Checked = false;
+        }
+
+        private void bo5_checkbox_OnChange(object sender, EventArgs e)
+        {
+            bo5_checkbox.Checked = true;
+            bo1_checkbox.Checked = false;
+            bo3_checkbox.Checked = false;
+        }
     }
 }

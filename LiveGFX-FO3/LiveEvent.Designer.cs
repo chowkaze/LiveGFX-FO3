@@ -40,38 +40,35 @@
             this.panel14 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.tm_updatetext = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.metroButton14 = new MetroFramework.Controls.MetroButton();
+            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tm_sec = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.metroButton7 = new MetroFramework.Controls.MetroButton();
             this.metroButton8 = new MetroFramework.Controls.MetroButton();
             this.metroButton9 = new MetroFramework.Controls.MetroButton();
             this.metroButton10 = new MetroFramework.Controls.MetroButton();
             this.metroButton11 = new MetroFramework.Controls.MetroButton();
             this.metroButton12 = new MetroFramework.Controls.MetroButton();
-            this.bunifuMaterialTextbox13 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.tm_min = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel20 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton18 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tm_time = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tm_butt = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel16 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox9 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuMaterialTextbox5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox7 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.tm_combo = new MetroFramework.Controls.MetroComboBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.bunifuMaterialTextbox9 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuMaterialTextbox16 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel24 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.metroComboBox12 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.current_teamr = new MetroFramework.Controls.MetroComboBox();
+            this.current_mess = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel21 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuMaterialTextbox18 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuMaterialTextbox17 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.metroComboBox11 = new MetroFramework.Controls.MetroComboBox();
+            this.current_butt = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.current_teaml = new MetroFramework.Controls.MetroComboBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
@@ -90,11 +87,14 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton16 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tab_timesec = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.tab_timemin = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.metroButton13 = new MetroFramework.Controls.MetroButton();
-            this.bunifuFlatButton20 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuMaterialTextbox15 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.tab_timeupdate = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tab_timetitle = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMaterialTextbox14 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.tab_timemess = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.metroButton6 = new MetroFramework.Controls.MetroButton();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.metroButton5 = new MetroFramework.Controls.MetroButton();
@@ -102,12 +102,11 @@
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
-            this.bunifuFlatButton8 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.tab_timebutt = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMaterialTextbox12 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.metroComboBox18 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bracket_combo = new MetroFramework.Controls.MetroComboBox();
+            this.bracket_butt = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.l3_team2 = new MetroFramework.Controls.MetroComboBox();
@@ -117,16 +116,6 @@
             this.panel21 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.l3_long3 = new MetroFramework.Controls.MetroComboBox();
-            this.l3_long3_butt = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.l3_long2 = new MetroFramework.Controls.MetroComboBox();
-            this.l3_long2_butt = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.l3_long1 = new MetroFramework.Controls.MetroComboBox();
-            this.l3_long1_butt = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel24 = new System.Windows.Forms.Panel();
             this.tab3_1 = new MetroFramework.Controls.MetroComboBox();
             this.tab3_butt = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -153,6 +142,21 @@
             this.panel32 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.clear_ch3 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.predict_update = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.predict_team1 = new MetroFramework.Controls.MetroComboBox();
+            this.predict_team3 = new MetroFramework.Controls.MetroComboBox();
+            this.predict_team2 = new MetroFramework.Controls.MetroComboBox();
+            this.predict_1 = new MetroFramework.Controls.MetroComboBox();
+            this.predict_butt = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.predict_3 = new MetroFramework.Controls.MetroComboBox();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.predict_2 = new MetroFramework.Controls.MetroComboBox();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.analyzed_combo = new MetroFramework.Controls.MetroComboBox();
+            this.analyzed_butt = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel7.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -170,9 +174,6 @@
             this.panel20.SuspendLayout();
             this.panel21.SuspendLayout();
             this.panel22.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel25.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -182,6 +183,9 @@
             this.panel30.SuspendLayout();
             this.panel31.SuspendLayout();
             this.panel32.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel19.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel7
@@ -385,31 +389,104 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel10.Controls.Add(this.tm_updatetext);
+            this.panel10.Controls.Add(this.metroButton14);
+            this.panel10.Controls.Add(this.bunifuCustomLabel15);
+            this.panel10.Controls.Add(this.tm_sec);
             this.panel10.Controls.Add(this.metroButton7);
             this.panel10.Controls.Add(this.metroButton8);
             this.panel10.Controls.Add(this.metroButton9);
             this.panel10.Controls.Add(this.metroButton10);
             this.panel10.Controls.Add(this.metroButton11);
             this.panel10.Controls.Add(this.metroButton12);
-            this.panel10.Controls.Add(this.bunifuMaterialTextbox13);
+            this.panel10.Controls.Add(this.tm_min);
             this.panel10.Controls.Add(this.bunifuCustomLabel20);
-            this.panel10.Controls.Add(this.bunifuFlatButton10);
-            this.panel10.Controls.Add(this.bunifuCustomLabel9);
-            this.panel10.Controls.Add(this.bunifuFlatButton18);
+            this.panel10.Controls.Add(this.tm_time);
+            this.panel10.Controls.Add(this.tm_butt);
             this.panel10.Controls.Add(this.panel16);
-            this.panel10.Controls.Add(this.bunifuCustomLabel10);
-            this.panel10.Controls.Add(this.metroComboBox9);
-            this.panel10.Controls.Add(this.bunifuMaterialTextbox5);
-            this.panel10.Controls.Add(this.bunifuMaterialTextbox6);
-            this.panel10.Controls.Add(this.bunifuMaterialTextbox7);
+            this.panel10.Controls.Add(this.tm_combo);
             this.panel10.Location = new System.Drawing.Point(429, 13);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(413, 356);
             this.panel10.TabIndex = 15;
             // 
+            // tm_updatetext
+            // 
+            this.tm_updatetext.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.tm_updatetext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tm_updatetext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tm_updatetext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tm_updatetext.BorderRadius = 0;
+            this.tm_updatetext.ButtonText = "UPDATE";
+            this.tm_updatetext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tm_updatetext.DisabledColor = System.Drawing.Color.Gray;
+            this.tm_updatetext.Iconcolor = System.Drawing.Color.Transparent;
+            this.tm_updatetext.Iconimage = ((System.Drawing.Image)(resources.GetObject("tm_updatetext.Iconimage")));
+            this.tm_updatetext.Iconimage_right = null;
+            this.tm_updatetext.Iconimage_right_Selected = null;
+            this.tm_updatetext.Iconimage_Selected = null;
+            this.tm_updatetext.IconRightVisible = true;
+            this.tm_updatetext.IconRightZoom = 0D;
+            this.tm_updatetext.IconVisible = false;
+            this.tm_updatetext.IconZoom = 80D;
+            this.tm_updatetext.IsTab = false;
+            this.tm_updatetext.Location = new System.Drawing.Point(259, 91);
+            this.tm_updatetext.Name = "tm_updatetext";
+            this.tm_updatetext.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tm_updatetext.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.tm_updatetext.OnHoverTextColor = System.Drawing.Color.White;
+            this.tm_updatetext.selected = false;
+            this.tm_updatetext.Size = new System.Drawing.Size(138, 30);
+            this.tm_updatetext.TabIndex = 136;
+            this.tm_updatetext.Text = "UPDATE";
+            this.tm_updatetext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tm_updatetext.Textcolor = System.Drawing.Color.White;
+            this.tm_updatetext.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // metroButton14
+            // 
+            this.metroButton14.Location = new System.Drawing.Point(11, 274);
+            this.metroButton14.Name = "metroButton14";
+            this.metroButton14.Size = new System.Drawing.Size(51, 23);
+            this.metroButton14.TabIndex = 136;
+            this.metroButton14.Text = "0";
+            this.metroButton14.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel15
+            // 
+            this.bunifuCustomLabel15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel15.AutoSize = true;
+            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel15.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel15.Location = new System.Drawing.Point(265, 241);
+            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
+            this.bunifuCustomLabel15.Size = new System.Drawing.Size(11, 16);
+            this.bunifuCustomLabel15.TabIndex = 136;
+            this.bunifuCustomLabel15.Text = ":";
+            // 
+            // tm_sec
+            // 
+            this.tm_sec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tm_sec.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tm_sec.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tm_sec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tm_sec.isPassword = false;
+            this.tm_sec.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tm_sec.LineIdleColor = System.Drawing.Color.Gray;
+            this.tm_sec.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tm_sec.LineThickness = 2;
+            this.tm_sec.Location = new System.Drawing.Point(277, 235);
+            this.tm_sec.Margin = new System.Windows.Forms.Padding(4);
+            this.tm_sec.Name = "tm_sec";
+            this.tm_sec.Size = new System.Drawing.Size(33, 29);
+            this.tm_sec.TabIndex = 136;
+            this.tm_sec.Text = "00";
+            this.tm_sec.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // metroButton7
             // 
-            this.metroButton7.Location = new System.Drawing.Point(316, 271);
+            this.metroButton7.Location = new System.Drawing.Point(353, 274);
             this.metroButton7.Name = "metroButton7";
             this.metroButton7.Size = new System.Drawing.Size(51, 23);
             this.metroButton7.TabIndex = 45;
@@ -418,7 +495,7 @@
             // 
             // metroButton8
             // 
-            this.metroButton8.Location = new System.Drawing.Point(259, 271);
+            this.metroButton8.Location = new System.Drawing.Point(296, 274);
             this.metroButton8.Name = "metroButton8";
             this.metroButton8.Size = new System.Drawing.Size(51, 23);
             this.metroButton8.TabIndex = 44;
@@ -427,7 +504,7 @@
             // 
             // metroButton9
             // 
-            this.metroButton9.Location = new System.Drawing.Point(202, 271);
+            this.metroButton9.Location = new System.Drawing.Point(239, 274);
             this.metroButton9.Name = "metroButton9";
             this.metroButton9.Size = new System.Drawing.Size(51, 23);
             this.metroButton9.TabIndex = 43;
@@ -436,7 +513,7 @@
             // 
             // metroButton10
             // 
-            this.metroButton10.Location = new System.Drawing.Point(145, 271);
+            this.metroButton10.Location = new System.Drawing.Point(182, 274);
             this.metroButton10.Name = "metroButton10";
             this.metroButton10.Size = new System.Drawing.Size(51, 23);
             this.metroButton10.TabIndex = 42;
@@ -445,7 +522,7 @@
             // 
             // metroButton11
             // 
-            this.metroButton11.Location = new System.Drawing.Point(88, 271);
+            this.metroButton11.Location = new System.Drawing.Point(125, 274);
             this.metroButton11.Name = "metroButton11";
             this.metroButton11.Size = new System.Drawing.Size(51, 23);
             this.metroButton11.TabIndex = 41;
@@ -454,31 +531,31 @@
             // 
             // metroButton12
             // 
-            this.metroButton12.Location = new System.Drawing.Point(31, 271);
+            this.metroButton12.Location = new System.Drawing.Point(68, 274);
             this.metroButton12.Name = "metroButton12";
             this.metroButton12.Size = new System.Drawing.Size(51, 23);
             this.metroButton12.TabIndex = 40;
             this.metroButton12.Text = "5";
             this.metroButton12.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuMaterialTextbox13
+            // tm_min
             // 
-            this.bunifuMaterialTextbox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox13.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox13.isPassword = false;
-            this.bunifuMaterialTextbox13.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox13.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox13.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox13.LineThickness = 2;
-            this.bunifuMaterialTextbox13.Location = new System.Drawing.Point(177, 234);
-            this.bunifuMaterialTextbox13.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox13.Name = "bunifuMaterialTextbox13";
-            this.bunifuMaterialTextbox13.Size = new System.Drawing.Size(216, 29);
-            this.bunifuMaterialTextbox13.TabIndex = 39;
-            this.bunifuMaterialTextbox13.Text = "00:00";
-            this.bunifuMaterialTextbox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tm_min.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tm_min.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tm_min.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tm_min.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tm_min.isPassword = false;
+            this.tm_min.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tm_min.LineIdleColor = System.Drawing.Color.Gray;
+            this.tm_min.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tm_min.LineThickness = 2;
+            this.tm_min.Location = new System.Drawing.Point(230, 235);
+            this.tm_min.Margin = new System.Windows.Forms.Padding(4);
+            this.tm_min.Name = "tm_min";
+            this.tm_min.Size = new System.Drawing.Size(33, 29);
+            this.tm_min.TabIndex = 39;
+            this.tm_min.Text = "00";
+            this.tm_min.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bunifuCustomLabel20
             // 
@@ -493,84 +570,72 @@
             this.bunifuCustomLabel20.TabIndex = 38;
             this.bunifuCustomLabel20.Text = "COUNTDOWN TIMER";
             // 
-            // bunifuFlatButton10
+            // tm_time
             // 
-            this.bunifuFlatButton10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
-            this.bunifuFlatButton10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton10.BorderRadius = 0;
-            this.bunifuFlatButton10.ButtonText = "UPDATE";
-            this.bunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton10.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton10.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton10.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton10.Iconimage")));
-            this.bunifuFlatButton10.Iconimage_right = null;
-            this.bunifuFlatButton10.Iconimage_right_Selected = null;
-            this.bunifuFlatButton10.Iconimage_Selected = null;
-            this.bunifuFlatButton10.IconRightVisible = true;
-            this.bunifuFlatButton10.IconRightZoom = 0D;
-            this.bunifuFlatButton10.IconVisible = false;
-            this.bunifuFlatButton10.IconZoom = 80D;
-            this.bunifuFlatButton10.IsTab = false;
-            this.bunifuFlatButton10.Location = new System.Drawing.Point(115, 305);
-            this.bunifuFlatButton10.Name = "bunifuFlatButton10";
-            this.bunifuFlatButton10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton10.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
-            this.bunifuFlatButton10.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.selected = false;
-            this.bunifuFlatButton10.Size = new System.Drawing.Size(138, 30);
-            this.bunifuFlatButton10.TabIndex = 37;
-            this.bunifuFlatButton10.Text = "UPDATE";
-            this.bunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton10.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tm_time.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.tm_time.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tm_time.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tm_time.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tm_time.BorderRadius = 0;
+            this.tm_time.ButtonText = "UPDATE";
+            this.tm_time.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tm_time.DisabledColor = System.Drawing.Color.Gray;
+            this.tm_time.Iconcolor = System.Drawing.Color.Transparent;
+            this.tm_time.Iconimage = ((System.Drawing.Image)(resources.GetObject("tm_time.Iconimage")));
+            this.tm_time.Iconimage_right = null;
+            this.tm_time.Iconimage_right_Selected = null;
+            this.tm_time.Iconimage_Selected = null;
+            this.tm_time.IconRightVisible = true;
+            this.tm_time.IconRightZoom = 0D;
+            this.tm_time.IconVisible = false;
+            this.tm_time.IconZoom = 80D;
+            this.tm_time.IsTab = false;
+            this.tm_time.Location = new System.Drawing.Point(115, 305);
+            this.tm_time.Name = "tm_time";
+            this.tm_time.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tm_time.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.tm_time.OnHoverTextColor = System.Drawing.Color.White;
+            this.tm_time.selected = false;
+            this.tm_time.Size = new System.Drawing.Size(138, 30);
+            this.tm_time.TabIndex = 37;
+            this.tm_time.Text = "UPDATE";
+            this.tm_time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tm_time.Textcolor = System.Drawing.Color.White;
+            this.tm_time.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuCustomLabel9
+            // tm_butt
             // 
-            this.bunifuCustomLabel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel9.AutoSize = true;
-            this.bunifuCustomLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel9.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel9.Location = new System.Drawing.Point(141, 97);
-            this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
-            this.bunifuCustomLabel9.Size = new System.Drawing.Size(12, 16);
-            this.bunifuCustomLabel9.TabIndex = 23;
-            this.bunifuCustomLabel9.Text = "-";
-            // 
-            // bunifuFlatButton18
-            // 
-            this.bunifuFlatButton18.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton18.BorderRadius = 0;
-            this.bunifuFlatButton18.ButtonText = "ON";
-            this.bunifuFlatButton18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton18.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton18.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton18.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton18.Iconimage")));
-            this.bunifuFlatButton18.Iconimage_right = null;
-            this.bunifuFlatButton18.Iconimage_right_Selected = null;
-            this.bunifuFlatButton18.Iconimage_Selected = null;
-            this.bunifuFlatButton18.IconRightVisible = true;
-            this.bunifuFlatButton18.IconRightZoom = 0D;
-            this.bunifuFlatButton18.IconVisible = false;
-            this.bunifuFlatButton18.IconZoom = 80D;
-            this.bunifuFlatButton18.IsTab = false;
-            this.bunifuFlatButton18.Location = new System.Drawing.Point(259, 305);
-            this.bunifuFlatButton18.Name = "bunifuFlatButton18";
-            this.bunifuFlatButton18.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton18.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton18.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton18.selected = false;
-            this.bunifuFlatButton18.Size = new System.Drawing.Size(141, 30);
-            this.bunifuFlatButton18.TabIndex = 24;
-            this.bunifuFlatButton18.Text = "ON";
-            this.bunifuFlatButton18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton18.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton18.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tm_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tm_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tm_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.tm_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tm_butt.BorderRadius = 0;
+            this.tm_butt.ButtonText = "ON";
+            this.tm_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tm_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.tm_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.tm_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("tm_butt.Iconimage")));
+            this.tm_butt.Iconimage_right = null;
+            this.tm_butt.Iconimage_right_Selected = null;
+            this.tm_butt.Iconimage_Selected = null;
+            this.tm_butt.IconRightVisible = true;
+            this.tm_butt.IconRightZoom = 0D;
+            this.tm_butt.IconVisible = false;
+            this.tm_butt.IconZoom = 80D;
+            this.tm_butt.IsTab = false;
+            this.tm_butt.Location = new System.Drawing.Point(259, 305);
+            this.tm_butt.Name = "tm_butt";
+            this.tm_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.tm_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.tm_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.tm_butt.selected = false;
+            this.tm_butt.Size = new System.Drawing.Size(141, 30);
+            this.tm_butt.TabIndex = 24;
+            this.tm_butt.Text = "ON";
+            this.tm_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tm_butt.Textcolor = System.Drawing.Color.Black;
+            this.tm_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tm_butt.Click += new System.EventHandler(this.tm_butt_Click);
             // 
             // panel16
             // 
@@ -591,94 +656,24 @@
             this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.Silver;
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(14, 12);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(95, 16);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(124, 16);
             this.bunifuCustomLabel4.TabIndex = 2;
-            this.bunifuCustomLabel4.Text = "NEXT MATCH";
+            this.bunifuCustomLabel4.Text = "TODAY MATCHES";
             // 
-            // bunifuCustomLabel10
+            // tm_combo
             // 
-            this.bunifuCustomLabel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel10.AutoSize = true;
-            this.bunifuCustomLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel10.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel10.Location = new System.Drawing.Point(22, 97);
-            this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
-            this.bunifuCustomLabel10.Size = new System.Drawing.Size(55, 16);
-            this.bunifuCustomLabel10.TabIndex = 16;
-            this.bunifuCustomLabel10.Text = "SCORE";
-            // 
-            // metroComboBox9
-            // 
-            this.metroComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox9.FormattingEnabled = true;
-            this.metroComboBox9.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox9.ItemHeight = 23;
-            this.metroComboBox9.Items.AddRange(new object[] {
+            this.tm_combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tm_combo.FormattingEnabled = true;
+            this.tm_combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.tm_combo.ItemHeight = 23;
+            this.tm_combo.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox9.Location = new System.Drawing.Point(14, 46);
-            this.metroComboBox9.Name = "metroComboBox9";
-            this.metroComboBox9.Size = new System.Drawing.Size(386, 29);
-            this.metroComboBox9.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox9.TabIndex = 17;
-            this.metroComboBox9.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // bunifuMaterialTextbox5
-            // 
-            this.bunifuMaterialTextbox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox5.isPassword = false;
-            this.bunifuMaterialTextbox5.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox5.LineThickness = 2;
-            this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(90, 90);
-            this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox5.Name = "bunifuMaterialTextbox5";
-            this.bunifuMaterialTextbox5.Size = new System.Drawing.Size(39, 29);
-            this.bunifuMaterialTextbox5.TabIndex = 22;
-            this.bunifuMaterialTextbox5.Text = "0";
-            this.bunifuMaterialTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // bunifuMaterialTextbox6
-            // 
-            this.bunifuMaterialTextbox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox6.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox6.isPassword = false;
-            this.bunifuMaterialTextbox6.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox6.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox6.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox6.LineThickness = 2;
-            this.bunifuMaterialTextbox6.Location = new System.Drawing.Point(162, 90);
-            this.bunifuMaterialTextbox6.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox6.Name = "bunifuMaterialTextbox6";
-            this.bunifuMaterialTextbox6.Size = new System.Drawing.Size(39, 29);
-            this.bunifuMaterialTextbox6.TabIndex = 21;
-            this.bunifuMaterialTextbox6.Text = "0";
-            this.bunifuMaterialTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // bunifuMaterialTextbox7
-            // 
-            this.bunifuMaterialTextbox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox7.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox7.isPassword = false;
-            this.bunifuMaterialTextbox7.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox7.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox7.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox7.LineThickness = 2;
-            this.bunifuMaterialTextbox7.Location = new System.Drawing.Point(210, 90);
-            this.bunifuMaterialTextbox7.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox7.Name = "bunifuMaterialTextbox7";
-            this.bunifuMaterialTextbox7.Size = new System.Drawing.Size(190, 29);
-            this.bunifuMaterialTextbox7.TabIndex = 20;
-            this.bunifuMaterialTextbox7.Text = "BEST OF 5";
-            this.bunifuMaterialTextbox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tm_combo.Location = new System.Drawing.Point(14, 46);
+            this.tm_combo.Name = "tm_combo";
+            this.tm_combo.Size = new System.Drawing.Size(386, 29);
+            this.tm_combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.tm_combo.TabIndex = 17;
+            this.tm_combo.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // panel4
             // 
@@ -759,14 +754,12 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel5.Controls.Add(this.metroComboBox12);
-            this.panel5.Controls.Add(this.bunifuMaterialTextbox1);
+            this.panel5.Controls.Add(this.current_teamr);
+            this.panel5.Controls.Add(this.current_mess);
             this.panel5.Controls.Add(this.bunifuCustomLabel21);
             this.panel5.Controls.Add(this.bunifuMaterialTextbox18);
-            this.panel5.Controls.Add(this.bunifuMaterialTextbox17);
-            this.panel5.Controls.Add(this.bunifuCustomLabel25);
-            this.panel5.Controls.Add(this.bunifuFlatButton7);
-            this.panel5.Controls.Add(this.metroComboBox11);
+            this.panel5.Controls.Add(this.current_butt);
+            this.panel5.Controls.Add(this.current_teaml);
             this.panel5.Controls.Add(this.panel8);
             this.panel5.Controls.Add(this.bunifuMaterialTextbox2);
             this.panel5.Controls.Add(this.bunifuMaterialTextbox3);
@@ -776,39 +769,39 @@
             this.panel5.Size = new System.Drawing.Size(413, 211);
             this.panel5.TabIndex = 16;
             // 
-            // metroComboBox12
+            // current_teamr
             // 
-            this.metroComboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox12.FormattingEnabled = true;
-            this.metroComboBox12.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox12.ItemHeight = 23;
-            this.metroComboBox12.Items.AddRange(new object[] {
+            this.current_teamr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.current_teamr.FormattingEnabled = true;
+            this.current_teamr.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.current_teamr.ItemHeight = 23;
+            this.current_teamr.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox12.Location = new System.Drawing.Point(251, 121);
-            this.metroComboBox12.Name = "metroComboBox12";
-            this.metroComboBox12.Size = new System.Drawing.Size(150, 29);
-            this.metroComboBox12.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox12.TabIndex = 42;
-            this.metroComboBox12.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.current_teamr.Location = new System.Drawing.Point(251, 121);
+            this.current_teamr.Name = "current_teamr";
+            this.current_teamr.Size = new System.Drawing.Size(150, 29);
+            this.current_teamr.Style = MetroFramework.MetroColorStyle.Black;
+            this.current_teamr.TabIndex = 42;
+            this.current_teamr.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuMaterialTextbox1
+            // current_mess
             // 
-            this.bunifuMaterialTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox1.isPassword = false;
-            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox1.LineThickness = 2;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(96, 85);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(305, 29);
-            this.bunifuMaterialTextbox1.TabIndex = 41;
-            this.bunifuMaterialTextbox1.Text = "DESCRIPTION";
-            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.current_mess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.current_mess.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.current_mess.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.current_mess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.current_mess.isPassword = false;
+            this.current_mess.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.current_mess.LineIdleColor = System.Drawing.Color.Gray;
+            this.current_mess.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.current_mess.LineThickness = 2;
+            this.current_mess.Location = new System.Drawing.Point(96, 85);
+            this.current_mess.Margin = new System.Windows.Forms.Padding(4);
+            this.current_mess.Name = "current_mess";
+            this.current_mess.Size = new System.Drawing.Size(305, 29);
+            this.current_mess.TabIndex = 41;
+            this.current_mess.Text = "DESCRIPTION";
+            this.current_mess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bunifuCustomLabel21
             // 
@@ -842,84 +835,53 @@
             this.bunifuMaterialTextbox18.Text = "ROUND 4";
             this.bunifuMaterialTextbox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuMaterialTextbox17
+            // current_butt
             // 
-            this.bunifuMaterialTextbox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox17.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox17.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox17.isPassword = false;
-            this.bunifuMaterialTextbox17.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox17.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox17.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox17.LineThickness = 2;
-            this.bunifuMaterialTextbox17.Location = new System.Drawing.Point(76, 47);
-            this.bunifuMaterialTextbox17.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox17.Name = "bunifuMaterialTextbox17";
-            this.bunifuMaterialTextbox17.Size = new System.Drawing.Size(324, 29);
-            this.bunifuMaterialTextbox17.TabIndex = 36;
-            this.bunifuMaterialTextbox17.Text = "TOURNAMENT TITLE";
-            this.bunifuMaterialTextbox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.current_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.current_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.current_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.current_butt.BorderRadius = 0;
+            this.current_butt.ButtonText = "ON";
+            this.current_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.current_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.current_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.current_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("current_butt.Iconimage")));
+            this.current_butt.Iconimage_right = null;
+            this.current_butt.Iconimage_right_Selected = null;
+            this.current_butt.Iconimage_Selected = null;
+            this.current_butt.IconRightVisible = true;
+            this.current_butt.IconRightZoom = 0D;
+            this.current_butt.IconVisible = false;
+            this.current_butt.IconZoom = 80D;
+            this.current_butt.IsTab = false;
+            this.current_butt.Location = new System.Drawing.Point(237, 159);
+            this.current_butt.Name = "current_butt";
+            this.current_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.current_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.current_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.current_butt.selected = false;
+            this.current_butt.Size = new System.Drawing.Size(164, 30);
+            this.current_butt.TabIndex = 25;
+            this.current_butt.Text = "ON";
+            this.current_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.current_butt.Textcolor = System.Drawing.Color.Black;
+            this.current_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.current_butt.Click += new System.EventHandler(this.current_butt_Click);
             // 
-            // bunifuCustomLabel25
+            // current_teaml
             // 
-            this.bunifuCustomLabel25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel25.AutoSize = true;
-            this.bunifuCustomLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel25.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel25.Location = new System.Drawing.Point(14, 54);
-            this.bunifuCustomLabel25.Name = "bunifuCustomLabel25";
-            this.bunifuCustomLabel25.Size = new System.Drawing.Size(45, 16);
-            this.bunifuCustomLabel25.TabIndex = 35;
-            this.bunifuCustomLabel25.Text = "TITLE";
-            // 
-            // bunifuFlatButton7
-            // 
-            this.bunifuFlatButton7.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton7.BorderRadius = 0;
-            this.bunifuFlatButton7.ButtonText = "ON";
-            this.bunifuFlatButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton7.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton7.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton7.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton7.Iconimage")));
-            this.bunifuFlatButton7.Iconimage_right = null;
-            this.bunifuFlatButton7.Iconimage_right_Selected = null;
-            this.bunifuFlatButton7.Iconimage_Selected = null;
-            this.bunifuFlatButton7.IconRightVisible = true;
-            this.bunifuFlatButton7.IconRightZoom = 0D;
-            this.bunifuFlatButton7.IconVisible = false;
-            this.bunifuFlatButton7.IconZoom = 80D;
-            this.bunifuFlatButton7.IsTab = false;
-            this.bunifuFlatButton7.Location = new System.Drawing.Point(237, 159);
-            this.bunifuFlatButton7.Name = "bunifuFlatButton7";
-            this.bunifuFlatButton7.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton7.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton7.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton7.selected = false;
-            this.bunifuFlatButton7.Size = new System.Drawing.Size(164, 30);
-            this.bunifuFlatButton7.TabIndex = 25;
-            this.bunifuFlatButton7.Text = "ON";
-            this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton7.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // metroComboBox11
-            // 
-            this.metroComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox11.FormattingEnabled = true;
-            this.metroComboBox11.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox11.ItemHeight = 23;
-            this.metroComboBox11.Items.AddRange(new object[] {
+            this.current_teaml.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.current_teaml.FormattingEnabled = true;
+            this.current_teaml.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.current_teaml.ItemHeight = 23;
+            this.current_teaml.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox11.Location = new System.Drawing.Point(13, 121);
-            this.metroComboBox11.Name = "metroComboBox11";
-            this.metroComboBox11.Size = new System.Drawing.Size(142, 29);
-            this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox11.TabIndex = 24;
-            this.metroComboBox11.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.current_teaml.Location = new System.Drawing.Point(13, 121);
+            this.current_teaml.Name = "current_teaml";
+            this.current_teaml.Size = new System.Drawing.Size(142, 29);
+            this.current_teaml.Style = MetroFramework.MetroColorStyle.Black;
+            this.current_teaml.TabIndex = 24;
+            this.current_teaml.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // panel8
             // 
@@ -1008,7 +970,7 @@
             this.panel9.Controls.Add(this.tab2_butt);
             this.panel9.Controls.Add(this.tab2_2);
             this.panel9.Controls.Add(this.panel17);
-            this.panel9.Location = new System.Drawing.Point(11, 349);
+            this.panel9.Location = new System.Drawing.Point(11, 179);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(412, 169);
             this.panel9.TabIndex = 25;
@@ -1222,11 +1184,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel1.Controls.Add(this.bunifuCustomLabel6);
+            this.panel1.Controls.Add(this.tab_timesec);
+            this.panel1.Controls.Add(this.tab_timemin);
             this.panel1.Controls.Add(this.metroButton13);
-            this.panel1.Controls.Add(this.bunifuFlatButton20);
-            this.panel1.Controls.Add(this.bunifuMaterialTextbox15);
+            this.panel1.Controls.Add(this.tab_timeupdate);
+            this.panel1.Controls.Add(this.tab_timetitle);
             this.panel1.Controls.Add(this.bunifuCustomLabel23);
-            this.panel1.Controls.Add(this.bunifuMaterialTextbox14);
+            this.panel1.Controls.Add(this.tab_timemess);
             this.panel1.Controls.Add(this.metroButton6);
             this.panel1.Controls.Add(this.bunifuCustomLabel22);
             this.panel1.Controls.Add(this.metroButton5);
@@ -1234,13 +1199,63 @@
             this.panel1.Controls.Add(this.metroButton2);
             this.panel1.Controls.Add(this.metroButton1);
             this.panel1.Controls.Add(this.metroButton4);
-            this.panel1.Controls.Add(this.bunifuFlatButton8);
+            this.panel1.Controls.Add(this.tab_timebutt);
             this.panel1.Controls.Add(this.bunifuCustomLabel1);
-            this.panel1.Controls.Add(this.bunifuMaterialTextbox12);
             this.panel1.Location = new System.Drawing.Point(430, 375);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(412, 183);
             this.panel1.TabIndex = 35;
+            // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel6.AutoSize = true;
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(188, 100);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(11, 16);
+            this.bunifuCustomLabel6.TabIndex = 139;
+            this.bunifuCustomLabel6.Text = ":";
+            // 
+            // tab_timesec
+            // 
+            this.tab_timesec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tab_timesec.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tab_timesec.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tab_timesec.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tab_timesec.isPassword = false;
+            this.tab_timesec.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timesec.LineIdleColor = System.Drawing.Color.Gray;
+            this.tab_timesec.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timesec.LineThickness = 2;
+            this.tab_timesec.Location = new System.Drawing.Point(200, 94);
+            this.tab_timesec.Margin = new System.Windows.Forms.Padding(4);
+            this.tab_timesec.Name = "tab_timesec";
+            this.tab_timesec.Size = new System.Drawing.Size(33, 29);
+            this.tab_timesec.TabIndex = 138;
+            this.tab_timesec.Text = "00";
+            this.tab_timesec.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // tab_timemin
+            // 
+            this.tab_timemin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tab_timemin.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tab_timemin.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tab_timemin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tab_timemin.isPassword = false;
+            this.tab_timemin.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timemin.LineIdleColor = System.Drawing.Color.Gray;
+            this.tab_timemin.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timemin.LineThickness = 2;
+            this.tab_timemin.Location = new System.Drawing.Point(153, 94);
+            this.tab_timemin.Margin = new System.Windows.Forms.Padding(4);
+            this.tab_timemin.Name = "tab_timemin";
+            this.tab_timemin.Size = new System.Drawing.Size(33, 29);
+            this.tab_timemin.TabIndex = 137;
+            this.tab_timemin.Text = "00";
+            this.tab_timemin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // metroButton13
             // 
@@ -1251,57 +1266,57 @@
             this.metroButton13.Text = "0";
             this.metroButton13.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuFlatButton20
+            // tab_timeupdate
             // 
-            this.bunifuFlatButton20.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
-            this.bunifuFlatButton20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton20.BorderRadius = 0;
-            this.bunifuFlatButton20.ButtonText = "UPDATE";
-            this.bunifuFlatButton20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton20.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton20.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton20.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton20.Iconimage")));
-            this.bunifuFlatButton20.Iconimage_right = null;
-            this.bunifuFlatButton20.Iconimage_right_Selected = null;
-            this.bunifuFlatButton20.Iconimage_Selected = null;
-            this.bunifuFlatButton20.IconRightVisible = true;
-            this.bunifuFlatButton20.IconRightZoom = 0D;
-            this.bunifuFlatButton20.IconVisible = false;
-            this.bunifuFlatButton20.IconZoom = 80D;
-            this.bunifuFlatButton20.IsTab = false;
-            this.bunifuFlatButton20.Location = new System.Drawing.Point(267, 53);
-            this.bunifuFlatButton20.Name = "bunifuFlatButton20";
-            this.bunifuFlatButton20.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton20.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
-            this.bunifuFlatButton20.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton20.selected = false;
-            this.bunifuFlatButton20.Size = new System.Drawing.Size(132, 30);
-            this.bunifuFlatButton20.TabIndex = 38;
-            this.bunifuFlatButton20.Text = "UPDATE";
-            this.bunifuFlatButton20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton20.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton20.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tab_timeupdate.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.tab_timeupdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.tab_timeupdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tab_timeupdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tab_timeupdate.BorderRadius = 0;
+            this.tab_timeupdate.ButtonText = "UPDATE";
+            this.tab_timeupdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tab_timeupdate.DisabledColor = System.Drawing.Color.Gray;
+            this.tab_timeupdate.Iconcolor = System.Drawing.Color.Transparent;
+            this.tab_timeupdate.Iconimage = ((System.Drawing.Image)(resources.GetObject("tab_timeupdate.Iconimage")));
+            this.tab_timeupdate.Iconimage_right = null;
+            this.tab_timeupdate.Iconimage_right_Selected = null;
+            this.tab_timeupdate.Iconimage_Selected = null;
+            this.tab_timeupdate.IconRightVisible = true;
+            this.tab_timeupdate.IconRightZoom = 0D;
+            this.tab_timeupdate.IconVisible = false;
+            this.tab_timeupdate.IconZoom = 80D;
+            this.tab_timeupdate.IsTab = false;
+            this.tab_timeupdate.Location = new System.Drawing.Point(267, 53);
+            this.tab_timeupdate.Name = "tab_timeupdate";
+            this.tab_timeupdate.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tab_timeupdate.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.tab_timeupdate.OnHoverTextColor = System.Drawing.Color.White;
+            this.tab_timeupdate.selected = false;
+            this.tab_timeupdate.Size = new System.Drawing.Size(132, 30);
+            this.tab_timeupdate.TabIndex = 38;
+            this.tab_timeupdate.Text = "UPDATE";
+            this.tab_timeupdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tab_timeupdate.Textcolor = System.Drawing.Color.White;
+            this.tab_timeupdate.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
-            // bunifuMaterialTextbox15
+            // tab_timetitle
             // 
-            this.bunifuMaterialTextbox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox15.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox15.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox15.isPassword = false;
-            this.bunifuMaterialTextbox15.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox15.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox15.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox15.LineThickness = 2;
-            this.bunifuMaterialTextbox15.Location = new System.Drawing.Point(112, 19);
-            this.bunifuMaterialTextbox15.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox15.Name = "bunifuMaterialTextbox15";
-            this.bunifuMaterialTextbox15.Size = new System.Drawing.Size(285, 29);
-            this.bunifuMaterialTextbox15.TabIndex = 32;
-            this.bunifuMaterialTextbox15.Text = "COMING UP";
-            this.bunifuMaterialTextbox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab_timetitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tab_timetitle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tab_timetitle.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tab_timetitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tab_timetitle.isPassword = false;
+            this.tab_timetitle.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timetitle.LineIdleColor = System.Drawing.Color.Gray;
+            this.tab_timetitle.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timetitle.LineThickness = 2;
+            this.tab_timetitle.Location = new System.Drawing.Point(112, 19);
+            this.tab_timetitle.Margin = new System.Windows.Forms.Padding(4);
+            this.tab_timetitle.Name = "tab_timetitle";
+            this.tab_timetitle.Size = new System.Drawing.Size(285, 29);
+            this.tab_timetitle.TabIndex = 32;
+            this.tab_timetitle.Text = "COMING UP";
+            this.tab_timetitle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bunifuCustomLabel23
             // 
@@ -1316,24 +1331,24 @@
             this.bunifuCustomLabel23.TabIndex = 31;
             this.bunifuCustomLabel23.Text = "TITLE";
             // 
-            // bunifuMaterialTextbox14
+            // tab_timemess
             // 
-            this.bunifuMaterialTextbox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox14.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox14.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox14.isPassword = false;
-            this.bunifuMaterialTextbox14.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox14.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox14.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox14.LineThickness = 2;
-            this.bunifuMaterialTextbox14.Location = new System.Drawing.Point(124, 54);
-            this.bunifuMaterialTextbox14.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox14.Name = "bunifuMaterialTextbox14";
-            this.bunifuMaterialTextbox14.Size = new System.Drawing.Size(138, 29);
-            this.bunifuMaterialTextbox14.TabIndex = 21;
-            this.bunifuMaterialTextbox14.Text = "SOON";
-            this.bunifuMaterialTextbox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tab_timemess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.tab_timemess.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tab_timemess.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.tab_timemess.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.tab_timemess.isPassword = false;
+            this.tab_timemess.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timemess.LineIdleColor = System.Drawing.Color.Gray;
+            this.tab_timemess.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tab_timemess.LineThickness = 2;
+            this.tab_timemess.Location = new System.Drawing.Point(124, 54);
+            this.tab_timemess.Margin = new System.Windows.Forms.Padding(4);
+            this.tab_timemess.Name = "tab_timemess";
+            this.tab_timemess.Size = new System.Drawing.Size(138, 29);
+            this.tab_timemess.TabIndex = 21;
+            this.tab_timemess.Text = "SOON";
+            this.tab_timemess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // metroButton6
             // 
@@ -1402,38 +1417,39 @@
             this.metroButton4.Text = "5";
             this.metroButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuFlatButton8
+            // tab_timebutt
             // 
-            this.bunifuFlatButton8.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton8.BorderRadius = 0;
-            this.bunifuFlatButton8.ButtonText = "ON";
-            this.bunifuFlatButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton8.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton8.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton8.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton8.Iconimage")));
-            this.bunifuFlatButton8.Iconimage_right = null;
-            this.bunifuFlatButton8.Iconimage_right_Selected = null;
-            this.bunifuFlatButton8.Iconimage_Selected = null;
-            this.bunifuFlatButton8.IconRightVisible = true;
-            this.bunifuFlatButton8.IconRightZoom = 0D;
-            this.bunifuFlatButton8.IconVisible = false;
-            this.bunifuFlatButton8.IconZoom = 90D;
-            this.bunifuFlatButton8.IsTab = false;
-            this.bunifuFlatButton8.Location = new System.Drawing.Point(267, 92);
-            this.bunifuFlatButton8.Name = "bunifuFlatButton8";
-            this.bunifuFlatButton8.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton8.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton8.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton8.selected = false;
-            this.bunifuFlatButton8.Size = new System.Drawing.Size(130, 30);
-            this.bunifuFlatButton8.TabIndex = 8;
-            this.bunifuFlatButton8.Text = "ON";
-            this.bunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton8.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tab_timebutt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.tab_timebutt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.tab_timebutt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.tab_timebutt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.tab_timebutt.BorderRadius = 0;
+            this.tab_timebutt.ButtonText = "ON";
+            this.tab_timebutt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tab_timebutt.DisabledColor = System.Drawing.Color.Gray;
+            this.tab_timebutt.Iconcolor = System.Drawing.Color.Transparent;
+            this.tab_timebutt.Iconimage = ((System.Drawing.Image)(resources.GetObject("tab_timebutt.Iconimage")));
+            this.tab_timebutt.Iconimage_right = null;
+            this.tab_timebutt.Iconimage_right_Selected = null;
+            this.tab_timebutt.Iconimage_Selected = null;
+            this.tab_timebutt.IconRightVisible = true;
+            this.tab_timebutt.IconRightZoom = 0D;
+            this.tab_timebutt.IconVisible = false;
+            this.tab_timebutt.IconZoom = 90D;
+            this.tab_timebutt.IsTab = false;
+            this.tab_timebutt.Location = new System.Drawing.Point(267, 92);
+            this.tab_timebutt.Name = "tab_timebutt";
+            this.tab_timebutt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.tab_timebutt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.tab_timebutt.OnHoverTextColor = System.Drawing.Color.White;
+            this.tab_timebutt.selected = false;
+            this.tab_timebutt.Size = new System.Drawing.Size(130, 30);
+            this.tab_timebutt.TabIndex = 8;
+            this.tab_timebutt.Text = "ON";
+            this.tab_timebutt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.tab_timebutt.Textcolor = System.Drawing.Color.Black;
+            this.tab_timebutt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tab_timebutt.Click += new System.EventHandler(this.bunifuFlatButton8_Click);
             // 
             // bunifuCustomLabel1
             // 
@@ -1448,83 +1464,65 @@
             this.bunifuCustomLabel1.TabIndex = 16;
             this.bunifuCustomLabel1.Text = "COUNTDOWN";
             // 
-            // bunifuMaterialTextbox12
-            // 
-            this.bunifuMaterialTextbox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox12.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox12.isPassword = false;
-            this.bunifuMaterialTextbox12.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox12.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox12.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox12.LineThickness = 2;
-            this.bunifuMaterialTextbox12.Location = new System.Drawing.Point(124, 91);
-            this.bunifuMaterialTextbox12.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox12.Name = "bunifuMaterialTextbox12";
-            this.bunifuMaterialTextbox12.Size = new System.Drawing.Size(138, 29);
-            this.bunifuMaterialTextbox12.TabIndex = 17;
-            this.bunifuMaterialTextbox12.Text = "00:00";
-            this.bunifuMaterialTextbox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel18.Controls.Add(this.metroComboBox18);
-            this.panel18.Controls.Add(this.bunifuFlatButton14);
+            this.panel18.Controls.Add(this.bracket_combo);
+            this.panel18.Controls.Add(this.bracket_butt);
             this.panel18.Controls.Add(this.bunifuCustomLabel14);
             this.panel18.Location = new System.Drawing.Point(848, 13);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(155, 134);
             this.panel18.TabIndex = 45;
             // 
-            // metroComboBox18
+            // bracket_combo
             // 
-            this.metroComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox18.FormattingEnabled = true;
-            this.metroComboBox18.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox18.ItemHeight = 23;
-            this.metroComboBox18.Items.AddRange(new object[] {
+            this.bracket_combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bracket_combo.FormattingEnabled = true;
+            this.bracket_combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.bracket_combo.ItemHeight = 23;
+            this.bracket_combo.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox18.Location = new System.Drawing.Point(12, 43);
-            this.metroComboBox18.Name = "metroComboBox18";
-            this.metroComboBox18.Size = new System.Drawing.Size(130, 29);
-            this.metroComboBox18.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox18.TabIndex = 42;
-            this.metroComboBox18.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.bracket_combo.Location = new System.Drawing.Point(12, 43);
+            this.bracket_combo.Name = "bracket_combo";
+            this.bracket_combo.Size = new System.Drawing.Size(130, 29);
+            this.bracket_combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.bracket_combo.TabIndex = 42;
+            this.bracket_combo.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuFlatButton14
+            // bracket_butt
             // 
-            this.bunifuFlatButton14.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton14.BorderRadius = 0;
-            this.bunifuFlatButton14.ButtonText = "ON";
-            this.bunifuFlatButton14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton14.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton14.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton14.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton14.Iconimage")));
-            this.bunifuFlatButton14.Iconimage_right = null;
-            this.bunifuFlatButton14.Iconimage_right_Selected = null;
-            this.bunifuFlatButton14.Iconimage_Selected = null;
-            this.bunifuFlatButton14.IconRightVisible = true;
-            this.bunifuFlatButton14.IconRightZoom = 0D;
-            this.bunifuFlatButton14.IconVisible = false;
-            this.bunifuFlatButton14.IconZoom = 90D;
-            this.bunifuFlatButton14.IsTab = false;
-            this.bunifuFlatButton14.Location = new System.Drawing.Point(12, 91);
-            this.bunifuFlatButton14.Name = "bunifuFlatButton14";
-            this.bunifuFlatButton14.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton14.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton14.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton14.selected = false;
-            this.bunifuFlatButton14.Size = new System.Drawing.Size(130, 30);
-            this.bunifuFlatButton14.TabIndex = 40;
-            this.bunifuFlatButton14.Text = "ON";
-            this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton14.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bracket_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bracket_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.bracket_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bracket_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bracket_butt.BorderRadius = 0;
+            this.bracket_butt.ButtonText = "ON";
+            this.bracket_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bracket_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.bracket_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.bracket_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("bracket_butt.Iconimage")));
+            this.bracket_butt.Iconimage_right = null;
+            this.bracket_butt.Iconimage_right_Selected = null;
+            this.bracket_butt.Iconimage_Selected = null;
+            this.bracket_butt.IconRightVisible = true;
+            this.bracket_butt.IconRightZoom = 0D;
+            this.bracket_butt.IconVisible = false;
+            this.bracket_butt.IconZoom = 90D;
+            this.bracket_butt.IsTab = false;
+            this.bracket_butt.Location = new System.Drawing.Point(12, 91);
+            this.bracket_butt.Name = "bracket_butt";
+            this.bracket_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bracket_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.bracket_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.bracket_butt.selected = false;
+            this.bracket_butt.Size = new System.Drawing.Size(130, 30);
+            this.bracket_butt.TabIndex = 40;
+            this.bracket_butt.Text = "ON";
+            this.bracket_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bracket_butt.Textcolor = System.Drawing.Color.Black;
+            this.bracket_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bracket_butt.Click += new System.EventHandler(this.bracket_butt_Click);
             // 
             // bunifuCustomLabel14
             // 
@@ -1546,7 +1544,7 @@
             this.panel20.Controls.Add(this.l3_team1);
             this.panel20.Controls.Add(this.l3_team1_butt);
             this.panel20.Controls.Add(this.panel21);
-            this.panel20.Location = new System.Drawing.Point(11, 742);
+            this.panel20.Location = new System.Drawing.Point(11, 572);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(412, 132);
             this.panel20.TabIndex = 47;
@@ -1683,204 +1681,6 @@
             this.bunifuCustomLabel16.TabIndex = 0;
             this.bunifuCustomLabel16.Text = "L3 - TEAM";
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel3.Controls.Add(this.l3_long3);
-            this.panel3.Controls.Add(this.l3_long3_butt);
-            this.panel3.Controls.Add(this.l3_long2);
-            this.panel3.Controls.Add(this.l3_long2_butt);
-            this.panel3.Controls.Add(this.l3_long1);
-            this.panel3.Controls.Add(this.l3_long1_butt);
-            this.panel3.Controls.Add(this.panel11);
-            this.panel3.Location = new System.Drawing.Point(11, 181);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(412, 162);
-            this.panel3.TabIndex = 15;
-            // 
-            // l3_long3
-            // 
-            this.l3_long3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3_long3.FormattingEnabled = true;
-            this.l3_long3.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.l3_long3.ItemHeight = 23;
-            this.l3_long3.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.l3_long3.Location = new System.Drawing.Point(14, 121);
-            this.l3_long3.Name = "l3_long3";
-            this.l3_long3.Size = new System.Drawing.Size(250, 29);
-            this.l3_long3.Style = MetroFramework.MetroColorStyle.Black;
-            this.l3_long3.TabIndex = 14;
-            this.l3_long3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // l3_long3_butt
-            // 
-            this.l3_long3_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.l3_long3_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long3_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long3_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.l3_long3_butt.BorderRadius = 0;
-            this.l3_long3_butt.ButtonText = "ON";
-            this.l3_long3_butt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.l3_long3_butt.DisabledColor = System.Drawing.Color.Gray;
-            this.l3_long3_butt.Iconcolor = System.Drawing.Color.Transparent;
-            this.l3_long3_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("l3_long3_butt.Iconimage")));
-            this.l3_long3_butt.Iconimage_right = null;
-            this.l3_long3_butt.Iconimage_right_Selected = null;
-            this.l3_long3_butt.Iconimage_Selected = null;
-            this.l3_long3_butt.IconRightVisible = true;
-            this.l3_long3_butt.IconRightZoom = 0D;
-            this.l3_long3_butt.IconVisible = false;
-            this.l3_long3_butt.IconZoom = 90D;
-            this.l3_long3_butt.IsTab = false;
-            this.l3_long3_butt.Location = new System.Drawing.Point(270, 121);
-            this.l3_long3_butt.Name = "l3_long3_butt";
-            this.l3_long3_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long3_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.l3_long3_butt.OnHoverTextColor = System.Drawing.Color.White;
-            this.l3_long3_butt.selected = false;
-            this.l3_long3_butt.Size = new System.Drawing.Size(130, 30);
-            this.l3_long3_butt.TabIndex = 7;
-            this.l3_long3_butt.Text = "ON";
-            this.l3_long3_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l3_long3_butt.Textcolor = System.Drawing.Color.Black;
-            this.l3_long3_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l3_long3_butt.Click += new System.EventHandler(this.l3_long3_butt_Click);
-            // 
-            // l3_long2
-            // 
-            this.l3_long2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3_long2.FormattingEnabled = true;
-            this.l3_long2.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.l3_long2.ItemHeight = 23;
-            this.l3_long2.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.l3_long2.Location = new System.Drawing.Point(14, 84);
-            this.l3_long2.Name = "l3_long2";
-            this.l3_long2.Size = new System.Drawing.Size(250, 29);
-            this.l3_long2.Style = MetroFramework.MetroColorStyle.Black;
-            this.l3_long2.TabIndex = 13;
-            this.l3_long2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // l3_long2_butt
-            // 
-            this.l3_long2_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.l3_long2_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long2_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long2_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.l3_long2_butt.BorderRadius = 0;
-            this.l3_long2_butt.ButtonText = "ON";
-            this.l3_long2_butt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.l3_long2_butt.DisabledColor = System.Drawing.Color.Gray;
-            this.l3_long2_butt.Iconcolor = System.Drawing.Color.Transparent;
-            this.l3_long2_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("l3_long2_butt.Iconimage")));
-            this.l3_long2_butt.Iconimage_right = null;
-            this.l3_long2_butt.Iconimage_right_Selected = null;
-            this.l3_long2_butt.Iconimage_Selected = null;
-            this.l3_long2_butt.IconRightVisible = true;
-            this.l3_long2_butt.IconRightZoom = 0D;
-            this.l3_long2_butt.IconVisible = false;
-            this.l3_long2_butt.IconZoom = 90D;
-            this.l3_long2_butt.IsTab = false;
-            this.l3_long2_butt.Location = new System.Drawing.Point(270, 84);
-            this.l3_long2_butt.Name = "l3_long2_butt";
-            this.l3_long2_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long2_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.l3_long2_butt.OnHoverTextColor = System.Drawing.Color.White;
-            this.l3_long2_butt.selected = false;
-            this.l3_long2_butt.Size = new System.Drawing.Size(130, 30);
-            this.l3_long2_butt.TabIndex = 6;
-            this.l3_long2_butt.Text = "ON";
-            this.l3_long2_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l3_long2_butt.Textcolor = System.Drawing.Color.Black;
-            this.l3_long2_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l3_long2_butt.Click += new System.EventHandler(this.l3_long2_butt_Click);
-            // 
-            // l3_long1
-            // 
-            this.l3_long1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.l3_long1.FormattingEnabled = true;
-            this.l3_long1.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.l3_long1.ItemHeight = 23;
-            this.l3_long1.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.l3_long1.Location = new System.Drawing.Point(14, 47);
-            this.l3_long1.Name = "l3_long1";
-            this.l3_long1.Size = new System.Drawing.Size(250, 29);
-            this.l3_long1.Style = MetroFramework.MetroColorStyle.Black;
-            this.l3_long1.TabIndex = 12;
-            this.l3_long1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // l3_long1_butt
-            // 
-            this.l3_long1_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.l3_long1_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.l3_long1_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long1_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.l3_long1_butt.BorderRadius = 0;
-            this.l3_long1_butt.ButtonText = "ON";
-            this.l3_long1_butt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.l3_long1_butt.DisabledColor = System.Drawing.Color.Gray;
-            this.l3_long1_butt.Iconcolor = System.Drawing.Color.Transparent;
-            this.l3_long1_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("l3_long1_butt.Iconimage")));
-            this.l3_long1_butt.Iconimage_right = null;
-            this.l3_long1_butt.Iconimage_right_Selected = null;
-            this.l3_long1_butt.Iconimage_Selected = null;
-            this.l3_long1_butt.IconRightVisible = true;
-            this.l3_long1_butt.IconRightZoom = 0D;
-            this.l3_long1_butt.IconVisible = false;
-            this.l3_long1_butt.IconZoom = 90D;
-            this.l3_long1_butt.IsTab = false;
-            this.l3_long1_butt.Location = new System.Drawing.Point(270, 47);
-            this.l3_long1_butt.Name = "l3_long1_butt";
-            this.l3_long1_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.l3_long1_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.l3_long1_butt.OnHoverTextColor = System.Drawing.Color.White;
-            this.l3_long1_butt.selected = false;
-            this.l3_long1_butt.Size = new System.Drawing.Size(130, 30);
-            this.l3_long1_butt.TabIndex = 3;
-            this.l3_long1_butt.Text = "ON";
-            this.l3_long1_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.l3_long1_butt.Textcolor = System.Drawing.Color.Black;
-            this.l3_long1_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.l3_long1_butt.Click += new System.EventHandler(this.l3_long1_butt_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.panel11.Controls.Add(this.panel23);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(412, 39);
-            this.panel11.TabIndex = 0;
-            // 
-            // panel23
-            // 
-            this.panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.panel23.Controls.Add(this.bunifuCustomLabel6);
-            this.panel23.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel23.Location = new System.Drawing.Point(0, 0);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(412, 39);
-            this.panel23.TabIndex = 1;
-            // 
-            // bunifuCustomLabel6
-            // 
-            this.bunifuCustomLabel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(10, 12);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(69, 16);
-            this.bunifuCustomLabel6.TabIndex = 0;
-            this.bunifuCustomLabel6.Text = "L3 - LONG";
-            // 
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
@@ -1889,7 +1689,7 @@
             this.panel24.Controls.Add(this.tab3_3);
             this.panel24.Controls.Add(this.panel25);
             this.panel24.Controls.Add(this.tab3_2);
-            this.panel24.Location = new System.Drawing.Point(11, 524);
+            this.panel24.Location = new System.Drawing.Point(11, 354);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(412, 212);
             this.panel24.TabIndex = 26;
@@ -2006,7 +1806,7 @@
             this.panel2.Controls.Add(this.interview_butt);
             this.panel2.Controls.Add(this.interview_1);
             this.panel2.Controls.Add(this.panel27);
-            this.panel2.Location = new System.Drawing.Point(11, 880);
+            this.panel2.Location = new System.Drawing.Point(11, 710);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(412, 157);
             this.panel2.TabIndex = 48;
@@ -2329,6 +2129,281 @@
             this.clear_ch3.Textcolor = System.Drawing.Color.White;
             this.clear_ch3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel12.Controls.Add(this.predict_update);
+            this.panel12.Controls.Add(this.predict_team1);
+            this.panel12.Controls.Add(this.predict_team3);
+            this.panel12.Controls.Add(this.predict_team2);
+            this.panel12.Controls.Add(this.predict_1);
+            this.panel12.Controls.Add(this.predict_butt);
+            this.panel12.Controls.Add(this.predict_3);
+            this.panel12.Controls.Add(this.panel15);
+            this.panel12.Controls.Add(this.predict_2);
+            this.panel12.Location = new System.Drawing.Point(429, 781);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(412, 212);
+            this.panel12.TabIndex = 27;
+            // 
+            // predict_update
+            // 
+            this.predict_update.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.predict_update.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.predict_update.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.predict_update.BorderRadius = 0;
+            this.predict_update.ButtonText = "UPDATE";
+            this.predict_update.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.predict_update.DisabledColor = System.Drawing.Color.Gray;
+            this.predict_update.Iconcolor = System.Drawing.Color.Transparent;
+            this.predict_update.Iconimage = ((System.Drawing.Image)(resources.GetObject("predict_update.Iconimage")));
+            this.predict_update.Iconimage_right = null;
+            this.predict_update.Iconimage_right_Selected = null;
+            this.predict_update.Iconimage_Selected = null;
+            this.predict_update.IconRightVisible = true;
+            this.predict_update.IconRightZoom = 0D;
+            this.predict_update.IconVisible = false;
+            this.predict_update.IconZoom = 80D;
+            this.predict_update.IsTab = false;
+            this.predict_update.Location = new System.Drawing.Point(132, 166);
+            this.predict_update.Name = "predict_update";
+            this.predict_update.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.predict_update.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.predict_update.OnHoverTextColor = System.Drawing.Color.White;
+            this.predict_update.selected = false;
+            this.predict_update.Size = new System.Drawing.Size(132, 30);
+            this.predict_update.TabIndex = 39;
+            this.predict_update.Text = "UPDATE";
+            this.predict_update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.predict_update.Textcolor = System.Drawing.Color.White;
+            this.predict_update.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // predict_team1
+            // 
+            this.predict_team1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_team1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_team1.FormattingEnabled = true;
+            this.predict_team1.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_team1.ItemHeight = 23;
+            this.predict_team1.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_team1.Location = new System.Drawing.Point(225, 48);
+            this.predict_team1.Name = "predict_team1";
+            this.predict_team1.Size = new System.Drawing.Size(176, 29);
+            this.predict_team1.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_team1.TabIndex = 14;
+            this.predict_team1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // predict_team3
+            // 
+            this.predict_team3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_team3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_team3.FormattingEnabled = true;
+            this.predict_team3.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_team3.ItemHeight = 23;
+            this.predict_team3.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_team3.Location = new System.Drawing.Point(225, 122);
+            this.predict_team3.Name = "predict_team3";
+            this.predict_team3.Size = new System.Drawing.Size(176, 29);
+            this.predict_team3.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_team3.TabIndex = 13;
+            this.predict_team3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // predict_team2
+            // 
+            this.predict_team2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_team2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_team2.FormattingEnabled = true;
+            this.predict_team2.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_team2.ItemHeight = 23;
+            this.predict_team2.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_team2.Location = new System.Drawing.Point(225, 85);
+            this.predict_team2.Name = "predict_team2";
+            this.predict_team2.Size = new System.Drawing.Size(176, 29);
+            this.predict_team2.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_team2.TabIndex = 12;
+            this.predict_team2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // predict_1
+            // 
+            this.predict_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_1.FormattingEnabled = true;
+            this.predict_1.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_1.ItemHeight = 23;
+            this.predict_1.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_1.Location = new System.Drawing.Point(13, 48);
+            this.predict_1.Name = "predict_1";
+            this.predict_1.Size = new System.Drawing.Size(197, 29);
+            this.predict_1.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_1.TabIndex = 11;
+            this.predict_1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // predict_butt
+            // 
+            this.predict_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.predict_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.predict_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.predict_butt.BorderRadius = 0;
+            this.predict_butt.ButtonText = "ON";
+            this.predict_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.predict_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.predict_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.predict_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("predict_butt.Iconimage")));
+            this.predict_butt.Iconimage_right = null;
+            this.predict_butt.Iconimage_right_Selected = null;
+            this.predict_butt.Iconimage_Selected = null;
+            this.predict_butt.IconRightVisible = true;
+            this.predict_butt.IconRightZoom = 0D;
+            this.predict_butt.IconVisible = false;
+            this.predict_butt.IconZoom = 90D;
+            this.predict_butt.IsTab = false;
+            this.predict_butt.Location = new System.Drawing.Point(270, 166);
+            this.predict_butt.Name = "predict_butt";
+            this.predict_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.predict_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.predict_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.predict_butt.selected = false;
+            this.predict_butt.Size = new System.Drawing.Size(130, 30);
+            this.predict_butt.TabIndex = 10;
+            this.predict_butt.Text = "ON";
+            this.predict_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.predict_butt.Textcolor = System.Drawing.Color.Black;
+            this.predict_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.predict_butt.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            // 
+            // predict_3
+            // 
+            this.predict_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_3.FormattingEnabled = true;
+            this.predict_3.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_3.ItemHeight = 23;
+            this.predict_3.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_3.Location = new System.Drawing.Point(13, 122);
+            this.predict_3.Name = "predict_3";
+            this.predict_3.Size = new System.Drawing.Size(197, 29);
+            this.predict_3.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_3.TabIndex = 9;
+            this.predict_3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.panel15.Controls.Add(this.bunifuCustomLabel8);
+            this.panel15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(412, 39);
+            this.panel15.TabIndex = 2;
+            // 
+            // bunifuCustomLabel8
+            // 
+            this.bunifuCustomLabel8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel8.AutoSize = true;
+            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel8.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(15, 12);
+            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(114, 16);
+            this.bunifuCustomLabel8.TabIndex = 3;
+            this.bunifuCustomLabel8.Text = "L3 - PREDICTION";
+            // 
+            // predict_2
+            // 
+            this.predict_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.predict_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.predict_2.FormattingEnabled = true;
+            this.predict_2.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.predict_2.ItemHeight = 23;
+            this.predict_2.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.predict_2.Location = new System.Drawing.Point(13, 85);
+            this.predict_2.Name = "predict_2";
+            this.predict_2.Size = new System.Drawing.Size(197, 29);
+            this.predict_2.Style = MetroFramework.MetroColorStyle.Black;
+            this.predict_2.TabIndex = 8;
+            this.predict_2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel19.Controls.Add(this.analyzed_combo);
+            this.panel19.Controls.Add(this.analyzed_butt);
+            this.panel19.Controls.Add(this.bunifuCustomLabel13);
+            this.panel19.Location = new System.Drawing.Point(1009, 13);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(155, 134);
+            this.panel19.TabIndex = 46;
+            // 
+            // analyzed_combo
+            // 
+            this.analyzed_combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.analyzed_combo.FormattingEnabled = true;
+            this.analyzed_combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.analyzed_combo.ItemHeight = 23;
+            this.analyzed_combo.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.analyzed_combo.Location = new System.Drawing.Point(12, 43);
+            this.analyzed_combo.Name = "analyzed_combo";
+            this.analyzed_combo.Size = new System.Drawing.Size(130, 29);
+            this.analyzed_combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.analyzed_combo.TabIndex = 42;
+            this.analyzed_combo.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // analyzed_butt
+            // 
+            this.analyzed_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.analyzed_butt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.analyzed_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.analyzed_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.analyzed_butt.BorderRadius = 0;
+            this.analyzed_butt.ButtonText = "ON";
+            this.analyzed_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.analyzed_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.analyzed_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.analyzed_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("analyzed_butt.Iconimage")));
+            this.analyzed_butt.Iconimage_right = null;
+            this.analyzed_butt.Iconimage_right_Selected = null;
+            this.analyzed_butt.Iconimage_Selected = null;
+            this.analyzed_butt.IconRightVisible = true;
+            this.analyzed_butt.IconRightZoom = 0D;
+            this.analyzed_butt.IconVisible = false;
+            this.analyzed_butt.IconZoom = 90D;
+            this.analyzed_butt.IsTab = false;
+            this.analyzed_butt.Location = new System.Drawing.Point(12, 91);
+            this.analyzed_butt.Name = "analyzed_butt";
+            this.analyzed_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.analyzed_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.analyzed_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.analyzed_butt.selected = false;
+            this.analyzed_butt.Size = new System.Drawing.Size(130, 30);
+            this.analyzed_butt.TabIndex = 40;
+            this.analyzed_butt.Text = "ON";
+            this.analyzed_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.analyzed_butt.Textcolor = System.Drawing.Color.Black;
+            this.analyzed_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.analyzed_butt.Click += new System.EventHandler(this.analyzed_butt_Click);
+            // 
+            // bunifuCustomLabel13
+            // 
+            this.bunifuCustomLabel13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel13.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel13.Location = new System.Drawing.Point(0, 14);
+            this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
+            this.bunifuCustomLabel13.Size = new System.Drawing.Size(155, 15);
+            this.bunifuCustomLabel13.TabIndex = 41;
+            this.bunifuCustomLabel13.Text = "ANALYZE";
+            this.bunifuCustomLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // LiveEvent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2336,13 +2411,14 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.panel19);
+            this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel29);
             this.Controls.Add(this.panel30);
             this.Controls.Add(this.panel31);
             this.Controls.Add(this.panel32);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel24);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel20);
             this.Controls.Add(this.panel18);
             this.Controls.Add(this.panel1);
@@ -2381,10 +2457,6 @@
             this.panel21.ResumeLayout(false);
             this.panel22.ResumeLayout(false);
             this.panel22.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
             this.panel24.ResumeLayout(false);
             this.panel25.ResumeLayout(false);
             this.panel25.PerformLayout();
@@ -2396,6 +2468,10 @@
             this.panel30.ResumeLayout(false);
             this.panel31.ResumeLayout(false);
             this.panel32.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.panel19.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2413,19 +2489,14 @@
         private MetroFramework.Controls.MetroComboBox l3_2;
         private MetroFramework.Controls.MetroComboBox l3_1;
         private System.Windows.Forms.Panel panel10;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel9;
         private System.Windows.Forms.Panel panel16;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
-        private MetroFramework.Controls.MetroComboBox metroComboBox9;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox7;
+        private MetroFramework.Controls.MetroComboBox tm_combo;
         private System.Windows.Forms.Panel panel4;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton18;
+        private Bunifu.Framework.UI.BunifuFlatButton tm_butt;
         private System.Windows.Forms.Panel panel5;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton7;
-        private MetroFramework.Controls.MetroComboBox metroComboBox11;
+        private Bunifu.Framework.UI.BunifuFlatButton current_butt;
+        private MetroFramework.Controls.MetroComboBox current_teaml;
         private System.Windows.Forms.Panel panel8;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
@@ -2448,36 +2519,33 @@
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton4;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton8;
+        private Bunifu.Framework.UI.BunifuFlatButton tab_timebutt;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox12;
         private MetroFramework.Controls.MetroButton metroButton7;
         private MetroFramework.Controls.MetroButton metroButton8;
         private MetroFramework.Controls.MetroButton metroButton9;
         private MetroFramework.Controls.MetroButton metroButton10;
         private MetroFramework.Controls.MetroButton metroButton11;
         private MetroFramework.Controls.MetroButton metroButton12;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox13;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tm_min;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel20;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton10;
+        private Bunifu.Framework.UI.BunifuFlatButton tm_time;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox9;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox16;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel24;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox18;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox17;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel25;
         private MetroFramework.Controls.MetroComboBox tab2_1;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton16;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox15;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tab_timetitle;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel23;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox14;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tab_timemess;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel22;
         private System.Windows.Forms.Panel panel18;
-        private MetroFramework.Controls.MetroComboBox metroComboBox18;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton14;
+        private MetroFramework.Controls.MetroComboBox bracket_combo;
+        private Bunifu.Framework.UI.BunifuFlatButton bracket_butt;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel14;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton20;
+        private Bunifu.Framework.UI.BunifuFlatButton tab_timeupdate;
         private System.Windows.Forms.Panel panel20;
         private MetroFramework.Controls.MetroComboBox l3_team2;
         private Bunifu.Framework.UI.BunifuFlatButton l3_team2_butt;
@@ -2486,19 +2554,9 @@
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel22;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox current_mess;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel21;
-        private MetroFramework.Controls.MetroComboBox metroComboBox12;
-        private System.Windows.Forms.Panel panel3;
-        private MetroFramework.Controls.MetroComboBox l3_long3;
-        private Bunifu.Framework.UI.BunifuFlatButton l3_long3_butt;
-        private MetroFramework.Controls.MetroComboBox l3_long2;
-        private Bunifu.Framework.UI.BunifuFlatButton l3_long2_butt;
-        private MetroFramework.Controls.MetroComboBox l3_long1;
-        private Bunifu.Framework.UI.BunifuFlatButton l3_long1_butt;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Panel panel23;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private MetroFramework.Controls.MetroComboBox current_teamr;
         private System.Windows.Forms.Panel panel24;
         private MetroFramework.Controls.MetroComboBox tab3_1;
         private Bunifu.Framework.UI.BunifuFlatButton tab3_butt;
@@ -2526,5 +2584,27 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel33;
         private Bunifu.Framework.UI.BunifuFlatButton clear_ch3;
         private MetroFramework.Controls.MetroButton metroButton13;
+        private System.Windows.Forms.Panel panel12;
+        private MetroFramework.Controls.MetroComboBox predict_1;
+        private Bunifu.Framework.UI.BunifuFlatButton predict_butt;
+        private MetroFramework.Controls.MetroComboBox predict_3;
+        private System.Windows.Forms.Panel panel15;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
+        private MetroFramework.Controls.MetroComboBox predict_2;
+        private MetroFramework.Controls.MetroComboBox predict_team1;
+        private MetroFramework.Controls.MetroComboBox predict_team3;
+        private MetroFramework.Controls.MetroComboBox predict_team2;
+        private Bunifu.Framework.UI.BunifuFlatButton predict_update;
+        private System.Windows.Forms.Panel panel19;
+        private MetroFramework.Controls.MetroComboBox analyzed_combo;
+        private Bunifu.Framework.UI.BunifuFlatButton analyzed_butt;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel13;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel15;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tm_sec;
+        private MetroFramework.Controls.MetroButton metroButton14;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tab_timesec;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox tab_timemin;
+        private Bunifu.Framework.UI.BunifuFlatButton tm_updatetext;
     }
 }

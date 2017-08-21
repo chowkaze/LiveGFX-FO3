@@ -30,95 +30,134 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeamDatabase));
             this.panel11 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.shortname = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel61 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel60 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuFlatButton22 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.logo = new System.Windows.Forms.PictureBox();
+            this.delete = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.teampic = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuMaterialTextbox4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.save = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.teamname_box = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.combo = new MetroFramework.Controls.MetroComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
+            this.playercombo1 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.playerpic1 = new System.Windows.Forms.PictureBox();
+            this.playername1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.tm_pic = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.bracket_pic = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
+            this.playercombo2 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.bunifuMaterialTextbox3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.playerpic2 = new System.Windows.Forms.PictureBox();
+            this.playername2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
+            this.playercombo3 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.bunifuMaterialTextbox5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.playerpic3 = new System.Windows.Forms.PictureBox();
+            this.playername3 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.metroComboBox5 = new MetroFramework.Controls.MetroComboBox();
+            this.playercombo4 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.bunifuMaterialTextbox6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.playerpic4 = new System.Windows.Forms.PictureBox();
+            this.playername4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
+            this.playercombo5 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.bunifuMaterialTextbox7 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.playerpic5 = new System.Windows.Forms.PictureBox();
+            this.playername5 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.playercombo6 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.playerpic6 = new System.Windows.Forms.PictureBox();
+            this.playername6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teampic)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic1)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tm_pic)).BeginInit();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bracket_pic)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic2)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic3)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic4)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic5)).BeginInit();
+            this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel11.Controls.Add(this.bunifuCustomLabel2);
-            this.panel11.Controls.Add(this.bunifuMaterialTextbox1);
+            this.panel11.Controls.Add(this.shortname);
             this.panel11.Controls.Add(this.bunifuCustomLabel61);
             this.panel11.Controls.Add(this.bunifuCustomLabel60);
-            this.panel11.Controls.Add(this.pictureBox2);
-            this.panel11.Controls.Add(this.bunifuFlatButton22);
-            this.panel11.Controls.Add(this.pictureBox1);
+            this.panel11.Controls.Add(this.logo);
+            this.panel11.Controls.Add(this.delete);
+            this.panel11.Controls.Add(this.teampic);
             this.panel11.Controls.Add(this.bunifuCustomLabel8);
-            this.panel11.Controls.Add(this.bunifuFlatButton1);
-            this.panel11.Controls.Add(this.bunifuMaterialTextbox4);
+            this.panel11.Controls.Add(this.save);
+            this.panel11.Controls.Add(this.teamname_box);
             this.panel11.Controls.Add(this.bunifuCustomLabel1);
-            this.panel11.Controls.Add(this.metroComboBox2);
+            this.panel11.Controls.Add(this.combo);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(0, 0);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(1600, 84);
             this.panel11.TabIndex = 9;
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(725, 50);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(95, 16);
+            this.bunifuCustomLabel2.TabIndex = 26;
+            this.bunifuCustomLabel2.Text = "SHORTNAME";
+            // 
+            // shortname
+            // 
+            this.shortname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.shortname.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.shortname.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.shortname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.shortname.isPassword = false;
+            this.shortname.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.shortname.LineIdleColor = System.Drawing.Color.Gray;
+            this.shortname.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.shortname.LineThickness = 2;
+            this.shortname.Location = new System.Drawing.Point(827, 44);
+            this.shortname.Margin = new System.Windows.Forms.Padding(4);
+            this.shortname.Name = "shortname";
+            this.shortname.Size = new System.Drawing.Size(205, 28);
+            this.shortname.TabIndex = 27;
+            this.shortname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bunifuCustomLabel61
             // 
@@ -146,57 +185,58 @@
             this.bunifuCustomLabel60.TabIndex = 24;
             this.bunifuCustomLabel60.Text = "LOGO TEAM";
             // 
-            // pictureBox2
+            // logo
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox2.Location = new System.Drawing.Point(429, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 60);
-            this.pictureBox2.TabIndex = 23;
-            this.pictureBox2.TabStop = false;
+            this.logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.logo.Location = new System.Drawing.Point(429, 11);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(60, 60);
+            this.logo.TabIndex = 23;
+            this.logo.TabStop = false;
             // 
-            // bunifuFlatButton22
+            // delete
             // 
-            this.bunifuFlatButton22.Activecolor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton22.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.delete.Activecolor = System.Drawing.Color.Gray;
+            this.delete.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuFlatButton22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton22.BorderRadius = 0;
-            this.bunifuFlatButton22.ButtonText = "DELETE";
-            this.bunifuFlatButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton22.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton22.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton22.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton22.Iconimage")));
-            this.bunifuFlatButton22.Iconimage_right = null;
-            this.bunifuFlatButton22.Iconimage_right_Selected = null;
-            this.bunifuFlatButton22.Iconimage_Selected = null;
-            this.bunifuFlatButton22.IconRightVisible = true;
-            this.bunifuFlatButton22.IconRightZoom = 0D;
-            this.bunifuFlatButton22.IconVisible = false;
-            this.bunifuFlatButton22.IconZoom = 80D;
-            this.bunifuFlatButton22.IsTab = false;
-            this.bunifuFlatButton22.Location = new System.Drawing.Point(221, 44);
-            this.bunifuFlatButton22.Name = "bunifuFlatButton22";
-            this.bunifuFlatButton22.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton22.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton22.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton22.selected = false;
-            this.bunifuFlatButton22.Size = new System.Drawing.Size(91, 30);
-            this.bunifuFlatButton22.TabIndex = 22;
-            this.bunifuFlatButton22.Text = "DELETE";
-            this.bunifuFlatButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton22.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton22.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.delete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.delete.BorderRadius = 0;
+            this.delete.ButtonText = "DELETE";
+            this.delete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.delete.DisabledColor = System.Drawing.Color.Gray;
+            this.delete.Iconcolor = System.Drawing.Color.Transparent;
+            this.delete.Iconimage = ((System.Drawing.Image)(resources.GetObject("delete.Iconimage")));
+            this.delete.Iconimage_right = null;
+            this.delete.Iconimage_right_Selected = null;
+            this.delete.Iconimage_Selected = null;
+            this.delete.IconRightVisible = true;
+            this.delete.IconRightZoom = 0D;
+            this.delete.IconVisible = false;
+            this.delete.IconZoom = 80D;
+            this.delete.IsTab = false;
+            this.delete.Location = new System.Drawing.Point(221, 44);
+            this.delete.Name = "delete";
+            this.delete.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.delete.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.delete.OnHoverTextColor = System.Drawing.Color.White;
+            this.delete.selected = false;
+            this.delete.Size = new System.Drawing.Size(91, 30);
+            this.delete.TabIndex = 22;
+            this.delete.Text = "DELETE";
+            this.delete.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.delete.Textcolor = System.Drawing.Color.Black;
+            this.delete.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
-            // pictureBox1
+            // teampic
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox1.Location = new System.Drawing.Point(616, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(107, 60);
-            this.pictureBox1.TabIndex = 22;
-            this.pictureBox1.TabStop = false;
+            this.teampic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.teampic.Location = new System.Drawing.Point(616, 11);
+            this.teampic.Name = "teampic";
+            this.teampic.Size = new System.Drawing.Size(107, 60);
+            this.teampic.TabIndex = 22;
+            this.teampic.TabStop = false;
             // 
             // bunifuCustomLabel8
             // 
@@ -211,57 +251,58 @@
             this.bunifuCustomLabel8.TabIndex = 16;
             this.bunifuCustomLabel8.Text = "TEAMNAME";
             // 
-            // bunifuFlatButton1
+            // save
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(19)))), ((int)(((byte)(26)))));
-            this.bunifuFlatButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.save.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(19)))), ((int)(((byte)(26)))));
+            this.save.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(29)))), ((int)(((byte)(34)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "SAVE";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = false;
-            this.bunifuFlatButton1.IconZoom = 80D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(126, 44);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(29)))), ((int)(((byte)(34)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(16)))), ((int)(((byte)(21)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(91, 30);
-            this.bunifuFlatButton1.TabIndex = 21;
-            this.bunifuFlatButton1.Text = "SAVE";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(29)))), ((int)(((byte)(34)))));
+            this.save.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.save.BorderRadius = 0;
+            this.save.ButtonText = "SAVE";
+            this.save.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.save.DisabledColor = System.Drawing.Color.Gray;
+            this.save.Iconcolor = System.Drawing.Color.Transparent;
+            this.save.Iconimage = ((System.Drawing.Image)(resources.GetObject("save.Iconimage")));
+            this.save.Iconimage_right = null;
+            this.save.Iconimage_right_Selected = null;
+            this.save.Iconimage_Selected = null;
+            this.save.IconRightVisible = true;
+            this.save.IconRightZoom = 0D;
+            this.save.IconVisible = false;
+            this.save.IconZoom = 80D;
+            this.save.IsTab = false;
+            this.save.Location = new System.Drawing.Point(126, 44);
+            this.save.Name = "save";
+            this.save.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(29)))), ((int)(((byte)(34)))));
+            this.save.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(16)))), ((int)(((byte)(21)))));
+            this.save.OnHoverTextColor = System.Drawing.Color.White;
+            this.save.selected = false;
+            this.save.Size = new System.Drawing.Size(91, 30);
+            this.save.TabIndex = 21;
+            this.save.Text = "SAVE";
+            this.save.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.save.Textcolor = System.Drawing.Color.White;
+            this.save.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
-            // bunifuMaterialTextbox4
+            // teamname_box
             // 
-            this.bunifuMaterialTextbox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox4.isPassword = false;
-            this.bunifuMaterialTextbox4.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox4.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox4.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox4.LineThickness = 2;
-            this.bunifuMaterialTextbox4.Location = new System.Drawing.Point(827, 6);
-            this.bunifuMaterialTextbox4.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox4.Name = "bunifuMaterialTextbox4";
-            this.bunifuMaterialTextbox4.Size = new System.Drawing.Size(205, 28);
-            this.bunifuMaterialTextbox4.TabIndex = 17;
-            this.bunifuMaterialTextbox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.teamname_box.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.teamname_box.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.teamname_box.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.teamname_box.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.teamname_box.isPassword = false;
+            this.teamname_box.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.teamname_box.LineIdleColor = System.Drawing.Color.Gray;
+            this.teamname_box.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.teamname_box.LineThickness = 2;
+            this.teamname_box.Location = new System.Drawing.Point(827, 6);
+            this.teamname_box.Margin = new System.Windows.Forms.Padding(4);
+            this.teamname_box.Name = "teamname_box";
+            this.teamname_box.Size = new System.Drawing.Size(205, 28);
+            this.teamname_box.TabIndex = 17;
+            this.teamname_box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // bunifuCustomLabel1
             // 
@@ -276,52 +317,60 @@
             this.bunifuCustomLabel1.TabIndex = 19;
             this.bunifuCustomLabel1.Text = "SELECT SAVE";
             // 
-            // metroComboBox2
+            // combo
             // 
-            this.metroComboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.combo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Items.AddRange(new object[] {
+            this.combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.combo.FormattingEnabled = true;
+            this.combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.combo.ItemHeight = 23;
+            this.combo.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox2.Location = new System.Drawing.Point(118, 7);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(194, 29);
-            this.metroComboBox2.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox2.TabIndex = 18;
-            this.metroComboBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.combo.Location = new System.Drawing.Point(118, 7);
+            this.combo.Name = "combo";
+            this.combo.Size = new System.Drawing.Size(194, 29);
+            this.combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.combo.TabIndex = 18;
+            this.combo.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.combo.SelectedIndexChanged += new System.EventHandler(this.combo_SelectedIndexChanged);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel1.Controls.Add(this.metroComboBox1);
+            this.panel1.Controls.Add(this.playercombo1);
             this.panel1.Controls.Add(this.bunifuCustomLabel4);
             this.panel1.Controls.Add(this.bunifuCustomLabel12);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.bunifuMaterialTextbox2);
+            this.panel1.Controls.Add(this.playerpic1);
+            this.panel1.Controls.Add(this.playername1);
             this.panel1.Location = new System.Drawing.Point(369, 90);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(296, 310);
             this.panel1.TabIndex = 20;
             // 
-            // metroComboBox1
+            // playercombo1
             // 
-            this.metroComboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.playercombo1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox1.Location = new System.Drawing.Point(0, 0);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(296, 29);
-            this.metroComboBox1.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox1.TabIndex = 26;
-            this.metroComboBox1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.playercombo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo1.FormattingEnabled = true;
+            this.playercombo1.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo1.ItemHeight = 23;
+            this.playercombo1.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo1.Location = new System.Drawing.Point(0, 0);
+            this.playercombo1.Name = "playercombo1";
+            this.playercombo1.Size = new System.Drawing.Size(296, 29);
+            this.playercombo1.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo1.TabIndex = 26;
+            this.playercombo1.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel4
             // 
@@ -349,32 +398,32 @@
             this.bunifuCustomLabel12.TabIndex = 24;
             this.bunifuCustomLabel12.Text = "PLAYER NAME";
             // 
-            // pictureBox4
+            // playerpic1
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox4.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(190, 190);
-            this.pictureBox4.TabIndex = 23;
-            this.pictureBox4.TabStop = false;
+            this.playerpic1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic1.Location = new System.Drawing.Point(57, 66);
+            this.playerpic1.Name = "playerpic1";
+            this.playerpic1.Size = new System.Drawing.Size(190, 190);
+            this.playerpic1.TabIndex = 23;
+            this.playerpic1.TabStop = false;
             // 
-            // bunifuMaterialTextbox2
+            // playername1
             // 
-            this.bunifuMaterialTextbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox2.isPassword = false;
-            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox2.LineThickness = 2;
-            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(111, 272);
-            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
-            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(171, 24);
-            this.bunifuMaterialTextbox2.TabIndex = 24;
-            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.playername1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername1.isPassword = false;
+            this.playername1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername1.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername1.LineThickness = 2;
+            this.playername1.Location = new System.Drawing.Point(111, 272);
+            this.playername1.Margin = new System.Windows.Forms.Padding(4);
+            this.playername1.Name = "playername1";
+            this.playername1.Size = new System.Drawing.Size(171, 24);
+            this.playername1.TabIndex = 24;
+            this.playername1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel6
             // 
@@ -388,7 +437,7 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.bunifuCustomLabel10);
-            this.panel7.Controls.Add(this.pictureBox7);
+            this.panel7.Controls.Add(this.tm_pic);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
@@ -408,20 +457,20 @@
             this.bunifuCustomLabel10.TabIndex = 25;
             this.bunifuCustomLabel10.Text = "TODAYS MATCHES / TEAM LISTS / SCOREBOARD\r\n";
             // 
-            // pictureBox7
+            // tm_pic
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox7.Location = new System.Drawing.Point(13, 32);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(328, 43);
-            this.pictureBox7.TabIndex = 23;
-            this.pictureBox7.TabStop = false;
+            this.tm_pic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.tm_pic.Location = new System.Drawing.Point(13, 32);
+            this.tm_pic.Name = "tm_pic";
+            this.tm_pic.Size = new System.Drawing.Size(328, 43);
+            this.tm_pic.TabIndex = 23;
+            this.tm_pic.TabStop = false;
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel12.Controls.Add(this.bunifuCustomLabel13);
-            this.panel12.Controls.Add(this.pictureBox9);
+            this.panel12.Controls.Add(this.bracket_pic);
             this.panel12.Location = new System.Drawing.Point(12, 185);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(351, 104);
@@ -440,44 +489,51 @@
             this.bunifuCustomLabel13.TabIndex = 25;
             this.bunifuCustomLabel13.Text = "BRACKET IMAGE";
             // 
-            // pictureBox9
+            // bracket_pic
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox9.Location = new System.Drawing.Point(13, 32);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(328, 55);
-            this.pictureBox9.TabIndex = 23;
-            this.pictureBox9.TabStop = false;
+            this.bracket_pic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.bracket_pic.Location = new System.Drawing.Point(13, 32);
+            this.bracket_pic.Name = "bracket_pic";
+            this.bracket_pic.Size = new System.Drawing.Size(328, 55);
+            this.bracket_pic.TabIndex = 23;
+            this.bracket_pic.TabStop = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel2.Controls.Add(this.metroComboBox3);
+            this.panel2.Controls.Add(this.playercombo2);
             this.panel2.Controls.Add(this.bunifuCustomLabel3);
             this.panel2.Controls.Add(this.bunifuCustomLabel5);
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.bunifuMaterialTextbox3);
+            this.panel2.Controls.Add(this.playerpic2);
+            this.panel2.Controls.Add(this.playername2);
             this.panel2.Location = new System.Drawing.Point(671, 90);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(296, 310);
             this.panel2.TabIndex = 27;
             // 
-            // metroComboBox3
+            // playercombo2
             // 
-            this.metroComboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.playercombo2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox3.FormattingEnabled = true;
-            this.metroComboBox3.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox3.ItemHeight = 23;
-            this.metroComboBox3.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox3.Location = new System.Drawing.Point(0, 0);
-            this.metroComboBox3.Name = "metroComboBox3";
-            this.metroComboBox3.Size = new System.Drawing.Size(296, 29);
-            this.metroComboBox3.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox3.TabIndex = 26;
-            this.metroComboBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.playercombo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo2.FormattingEnabled = true;
+            this.playercombo2.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo2.ItemHeight = 23;
+            this.playercombo2.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo2.Location = new System.Drawing.Point(0, 0);
+            this.playercombo2.Name = "playercombo2";
+            this.playercombo2.Size = new System.Drawing.Size(296, 29);
+            this.playercombo2.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo2.TabIndex = 26;
+            this.playercombo2.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel3
             // 
@@ -505,62 +561,69 @@
             this.bunifuCustomLabel5.TabIndex = 24;
             this.bunifuCustomLabel5.Text = "PLAYER NAME";
             // 
-            // pictureBox3
+            // playerpic2
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox3.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(190, 190);
-            this.pictureBox3.TabIndex = 23;
-            this.pictureBox3.TabStop = false;
+            this.playerpic2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic2.Location = new System.Drawing.Point(57, 66);
+            this.playerpic2.Name = "playerpic2";
+            this.playerpic2.Size = new System.Drawing.Size(190, 190);
+            this.playerpic2.TabIndex = 23;
+            this.playerpic2.TabStop = false;
             // 
-            // bunifuMaterialTextbox3
+            // playername2
             // 
-            this.bunifuMaterialTextbox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox3.isPassword = false;
-            this.bunifuMaterialTextbox3.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox3.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox3.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox3.LineThickness = 2;
-            this.bunifuMaterialTextbox3.Location = new System.Drawing.Point(111, 272);
-            this.bunifuMaterialTextbox3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox3.Name = "bunifuMaterialTextbox3";
-            this.bunifuMaterialTextbox3.Size = new System.Drawing.Size(171, 24);
-            this.bunifuMaterialTextbox3.TabIndex = 24;
-            this.bunifuMaterialTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.playername2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername2.isPassword = false;
+            this.playername2.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername2.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername2.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername2.LineThickness = 2;
+            this.playername2.Location = new System.Drawing.Point(111, 272);
+            this.playername2.Margin = new System.Windows.Forms.Padding(4);
+            this.playername2.Name = "playername2";
+            this.playername2.Size = new System.Drawing.Size(171, 24);
+            this.playername2.TabIndex = 24;
+            this.playername2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel3.Controls.Add(this.metroComboBox4);
+            this.panel3.Controls.Add(this.playercombo3);
             this.panel3.Controls.Add(this.bunifuCustomLabel6);
             this.panel3.Controls.Add(this.bunifuCustomLabel7);
-            this.panel3.Controls.Add(this.pictureBox5);
-            this.panel3.Controls.Add(this.bunifuMaterialTextbox5);
+            this.panel3.Controls.Add(this.playerpic3);
+            this.panel3.Controls.Add(this.playername3);
             this.panel3.Location = new System.Drawing.Point(973, 90);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(296, 310);
             this.panel3.TabIndex = 28;
             // 
-            // metroComboBox4
+            // playercombo3
             // 
-            this.metroComboBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.playercombo3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox4.FormattingEnabled = true;
-            this.metroComboBox4.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox4.ItemHeight = 23;
-            this.metroComboBox4.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox4.Location = new System.Drawing.Point(0, 0);
-            this.metroComboBox4.Name = "metroComboBox4";
-            this.metroComboBox4.Size = new System.Drawing.Size(296, 29);
-            this.metroComboBox4.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox4.TabIndex = 26;
-            this.metroComboBox4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.playercombo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo3.FormattingEnabled = true;
+            this.playercombo3.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo3.ItemHeight = 23;
+            this.playercombo3.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo3.Location = new System.Drawing.Point(0, 0);
+            this.playercombo3.Name = "playercombo3";
+            this.playercombo3.Size = new System.Drawing.Size(296, 29);
+            this.playercombo3.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo3.TabIndex = 26;
+            this.playercombo3.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel6
             // 
@@ -588,62 +651,69 @@
             this.bunifuCustomLabel7.TabIndex = 24;
             this.bunifuCustomLabel7.Text = "PLAYER NAME";
             // 
-            // pictureBox5
+            // playerpic3
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox5.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(190, 190);
-            this.pictureBox5.TabIndex = 23;
-            this.pictureBox5.TabStop = false;
+            this.playerpic3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic3.Location = new System.Drawing.Point(57, 66);
+            this.playerpic3.Name = "playerpic3";
+            this.playerpic3.Size = new System.Drawing.Size(190, 190);
+            this.playerpic3.TabIndex = 23;
+            this.playerpic3.TabStop = false;
             // 
-            // bunifuMaterialTextbox5
+            // playername3
             // 
-            this.bunifuMaterialTextbox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox5.isPassword = false;
-            this.bunifuMaterialTextbox5.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox5.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox5.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox5.LineThickness = 2;
-            this.bunifuMaterialTextbox5.Location = new System.Drawing.Point(111, 272);
-            this.bunifuMaterialTextbox5.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox5.Name = "bunifuMaterialTextbox5";
-            this.bunifuMaterialTextbox5.Size = new System.Drawing.Size(171, 24);
-            this.bunifuMaterialTextbox5.TabIndex = 24;
-            this.bunifuMaterialTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.playername3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername3.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername3.isPassword = false;
+            this.playername3.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername3.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername3.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername3.LineThickness = 2;
+            this.playername3.Location = new System.Drawing.Point(111, 272);
+            this.playername3.Margin = new System.Windows.Forms.Padding(4);
+            this.playername3.Name = "playername3";
+            this.playername3.Size = new System.Drawing.Size(171, 24);
+            this.playername3.TabIndex = 24;
+            this.playername3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel4.Controls.Add(this.metroComboBox5);
+            this.panel4.Controls.Add(this.playercombo4);
             this.panel4.Controls.Add(this.bunifuCustomLabel9);
             this.panel4.Controls.Add(this.bunifuCustomLabel11);
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Controls.Add(this.bunifuMaterialTextbox6);
+            this.panel4.Controls.Add(this.playerpic4);
+            this.panel4.Controls.Add(this.playername4);
             this.panel4.Location = new System.Drawing.Point(1275, 90);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(296, 310);
             this.panel4.TabIndex = 27;
             // 
-            // metroComboBox5
+            // playercombo4
             // 
-            this.metroComboBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.playercombo4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox5.FormattingEnabled = true;
-            this.metroComboBox5.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox5.ItemHeight = 23;
-            this.metroComboBox5.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox5.Location = new System.Drawing.Point(0, 0);
-            this.metroComboBox5.Name = "metroComboBox5";
-            this.metroComboBox5.Size = new System.Drawing.Size(296, 29);
-            this.metroComboBox5.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox5.TabIndex = 26;
-            this.metroComboBox5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.playercombo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo4.FormattingEnabled = true;
+            this.playercombo4.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo4.ItemHeight = 23;
+            this.playercombo4.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo4.Location = new System.Drawing.Point(0, 0);
+            this.playercombo4.Name = "playercombo4";
+            this.playercombo4.Size = new System.Drawing.Size(296, 29);
+            this.playercombo4.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo4.TabIndex = 26;
+            this.playercombo4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel9
             // 
@@ -671,62 +741,69 @@
             this.bunifuCustomLabel11.TabIndex = 24;
             this.bunifuCustomLabel11.Text = "PLAYER NAME";
             // 
-            // pictureBox6
+            // playerpic4
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox6.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(190, 190);
-            this.pictureBox6.TabIndex = 23;
-            this.pictureBox6.TabStop = false;
+            this.playerpic4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic4.Location = new System.Drawing.Point(57, 66);
+            this.playerpic4.Name = "playerpic4";
+            this.playerpic4.Size = new System.Drawing.Size(190, 190);
+            this.playerpic4.TabIndex = 23;
+            this.playerpic4.TabStop = false;
             // 
-            // bunifuMaterialTextbox6
+            // playername4
             // 
-            this.bunifuMaterialTextbox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox6.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox6.isPassword = false;
-            this.bunifuMaterialTextbox6.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox6.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox6.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox6.LineThickness = 2;
-            this.bunifuMaterialTextbox6.Location = new System.Drawing.Point(111, 272);
-            this.bunifuMaterialTextbox6.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox6.Name = "bunifuMaterialTextbox6";
-            this.bunifuMaterialTextbox6.Size = new System.Drawing.Size(171, 24);
-            this.bunifuMaterialTextbox6.TabIndex = 24;
-            this.bunifuMaterialTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.playername4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername4.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername4.isPassword = false;
+            this.playername4.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername4.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername4.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername4.LineThickness = 2;
+            this.playername4.Location = new System.Drawing.Point(111, 272);
+            this.playername4.Margin = new System.Windows.Forms.Padding(4);
+            this.playername4.Name = "playername4";
+            this.playername4.Size = new System.Drawing.Size(171, 24);
+            this.playername4.TabIndex = 24;
+            this.playername4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel5.Controls.Add(this.metroComboBox6);
+            this.panel5.Controls.Add(this.playercombo5);
             this.panel5.Controls.Add(this.bunifuCustomLabel14);
             this.panel5.Controls.Add(this.bunifuCustomLabel15);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Controls.Add(this.bunifuMaterialTextbox7);
+            this.panel5.Controls.Add(this.playerpic5);
+            this.panel5.Controls.Add(this.playername5);
             this.panel5.Location = new System.Drawing.Point(369, 406);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(296, 310);
             this.panel5.TabIndex = 27;
             // 
-            // metroComboBox6
+            // playercombo5
             // 
-            this.metroComboBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.playercombo5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.metroComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox6.FormattingEnabled = true;
-            this.metroComboBox6.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox6.ItemHeight = 23;
-            this.metroComboBox6.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox6.Location = new System.Drawing.Point(0, 0);
-            this.metroComboBox6.Name = "metroComboBox6";
-            this.metroComboBox6.Size = new System.Drawing.Size(296, 29);
-            this.metroComboBox6.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox6.TabIndex = 26;
-            this.metroComboBox6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.playercombo5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo5.FormattingEnabled = true;
+            this.playercombo5.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo5.ItemHeight = 23;
+            this.playercombo5.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo5.Location = new System.Drawing.Point(0, 0);
+            this.playercombo5.Name = "playercombo5";
+            this.playercombo5.Size = new System.Drawing.Size(296, 29);
+            this.playercombo5.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo5.TabIndex = 26;
+            this.playercombo5.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel14
             // 
@@ -754,69 +831,129 @@
             this.bunifuCustomLabel15.TabIndex = 24;
             this.bunifuCustomLabel15.Text = "PLAYER NAME";
             // 
-            // pictureBox8
+            // playerpic5
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox8.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(190, 190);
-            this.pictureBox8.TabIndex = 23;
-            this.pictureBox8.TabStop = false;
+            this.playerpic5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic5.Location = new System.Drawing.Point(57, 66);
+            this.playerpic5.Name = "playerpic5";
+            this.playerpic5.Size = new System.Drawing.Size(190, 190);
+            this.playerpic5.TabIndex = 23;
+            this.playerpic5.TabStop = false;
             // 
-            // bunifuMaterialTextbox7
+            // playername5
             // 
-            this.bunifuMaterialTextbox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox7.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox7.isPassword = false;
-            this.bunifuMaterialTextbox7.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox7.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox7.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox7.LineThickness = 2;
-            this.bunifuMaterialTextbox7.Location = new System.Drawing.Point(111, 272);
-            this.bunifuMaterialTextbox7.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox7.Name = "bunifuMaterialTextbox7";
-            this.bunifuMaterialTextbox7.Size = new System.Drawing.Size(171, 24);
-            this.bunifuMaterialTextbox7.TabIndex = 24;
-            this.bunifuMaterialTextbox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.playername5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername5.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername5.isPassword = false;
+            this.playername5.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername5.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername5.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername5.LineThickness = 2;
+            this.playername5.Location = new System.Drawing.Point(111, 272);
+            this.playername5.Margin = new System.Windows.Forms.Padding(4);
+            this.playername5.Name = "playername5";
+            this.playername5.Size = new System.Drawing.Size(171, 24);
+            this.playername5.TabIndex = 24;
+            this.playername5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // bunifuCustomLabel2
+            // panel8
             // 
-            this.bunifuCustomLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel8.Controls.Add(this.playercombo6);
+            this.panel8.Controls.Add(this.bunifuCustomLabel16);
+            this.panel8.Controls.Add(this.bunifuCustomLabel17);
+            this.panel8.Controls.Add(this.playerpic6);
+            this.panel8.Controls.Add(this.playername6);
+            this.panel8.Location = new System.Drawing.Point(671, 406);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(296, 310);
+            this.panel8.TabIndex = 28;
+            // 
+            // playercombo6
+            // 
+            this.playercombo6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(725, 50);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(95, 16);
-            this.bunifuCustomLabel2.TabIndex = 26;
-            this.bunifuCustomLabel2.Text = "SHORTNAME";
+            this.playercombo6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playercombo6.FormattingEnabled = true;
+            this.playercombo6.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.playercombo6.ItemHeight = 23;
+            this.playercombo6.Items.AddRange(new object[] {
+            "player1",
+            "player2",
+            "player3",
+            "player4",
+            "player5",
+            "player6",
+            "substitute1",
+            " "});
+            this.playercombo6.Location = new System.Drawing.Point(0, 0);
+            this.playercombo6.Name = "playercombo6";
+            this.playercombo6.Size = new System.Drawing.Size(296, 29);
+            this.playercombo6.Style = MetroFramework.MetroColorStyle.Black;
+            this.playercombo6.TabIndex = 26;
+            this.playercombo6.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuMaterialTextbox1
+            // bunifuCustomLabel16
             // 
-            this.bunifuMaterialTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuMaterialTextbox1.isPassword = false;
-            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
-            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuMaterialTextbox1.LineThickness = 2;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(827, 44);
-            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
-            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(205, 28);
-            this.bunifuMaterialTextbox1.TabIndex = 27;
-            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.bunifuCustomLabel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel16.AutoSize = true;
+            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel16.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel16.Location = new System.Drawing.Point(108, 50);
+            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
+            this.bunifuCustomLabel16.Size = new System.Drawing.Size(86, 13);
+            this.bunifuCustomLabel16.TabIndex = 25;
+            this.bunifuCustomLabel16.Text = "PLAYER IMAGE";
+            // 
+            // bunifuCustomLabel17
+            // 
+            this.bunifuCustomLabel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel17.AutoSize = true;
+            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel17.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel17.Location = new System.Drawing.Point(17, 277);
+            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
+            this.bunifuCustomLabel17.Size = new System.Drawing.Size(83, 13);
+            this.bunifuCustomLabel17.TabIndex = 24;
+            this.bunifuCustomLabel17.Text = "PLAYER NAME";
+            // 
+            // playerpic6
+            // 
+            this.playerpic6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.playerpic6.Location = new System.Drawing.Point(57, 66);
+            this.playerpic6.Name = "playerpic6";
+            this.playerpic6.Size = new System.Drawing.Size(190, 190);
+            this.playerpic6.TabIndex = 23;
+            this.playerpic6.TabStop = false;
+            // 
+            // playername6
+            // 
+            this.playername6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.playername6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.playername6.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.playername6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.playername6.isPassword = false;
+            this.playername6.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername6.LineIdleColor = System.Drawing.Color.Gray;
+            this.playername6.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.playername6.LineThickness = 2;
+            this.playername6.Location = new System.Drawing.Point(111, 272);
+            this.playername6.Margin = new System.Windows.Forms.Padding(4);
+            this.playername6.Name = "playername6";
+            this.playername6.Size = new System.Drawing.Size(171, 24);
+            this.playername6.TabIndex = 24;
+            this.playername6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TeamDatabase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -829,30 +966,33 @@
             this.Size = new System.Drawing.Size(1600, 806);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teampic)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tm_pic)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bracket_pic)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic4)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic5)).EndInit();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.playerpic6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -862,52 +1002,58 @@
         private System.Windows.Forms.Panel panel11;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel61;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel60;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton22;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox logo;
+        private Bunifu.Framework.UI.BunifuFlatButton delete;
+        private System.Windows.Forms.PictureBox teampic;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
+        private Bunifu.Framework.UI.BunifuFlatButton save;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox teamname_box;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroComboBox combo;
         private System.Windows.Forms.Panel panel1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel12;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername1;
+        private System.Windows.Forms.PictureBox playerpic1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox tm_pic;
         private System.Windows.Forms.Panel panel12;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
+        private MetroFramework.Controls.MetroComboBox playercombo1;
         private System.Windows.Forms.Panel panel2;
-        private MetroFramework.Controls.MetroComboBox metroComboBox3;
+        private MetroFramework.Controls.MetroComboBox playercombo2;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
+        private System.Windows.Forms.PictureBox playerpic2;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername2;
         private System.Windows.Forms.Panel panel3;
-        private MetroFramework.Controls.MetroComboBox metroComboBox4;
+        private MetroFramework.Controls.MetroComboBox playercombo3;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
+        private System.Windows.Forms.PictureBox playerpic3;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername3;
         private System.Windows.Forms.Panel panel4;
-        private MetroFramework.Controls.MetroComboBox metroComboBox5;
+        private MetroFramework.Controls.MetroComboBox playercombo4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel9;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel11;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
+        private System.Windows.Forms.PictureBox playerpic4;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername4;
         private System.Windows.Forms.Panel panel5;
-        private MetroFramework.Controls.MetroComboBox metroComboBox6;
+        private MetroFramework.Controls.MetroComboBox playercombo5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel14;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel15;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox7;
+        private System.Windows.Forms.PictureBox playerpic5;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel13;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox bracket_pic;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox shortname;
+        private System.Windows.Forms.Panel panel8;
+        private MetroFramework.Controls.MetroComboBox playercombo6;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel17;
+        private System.Windows.Forms.PictureBox playerpic6;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox playername6;
     }
 }

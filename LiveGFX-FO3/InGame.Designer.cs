@@ -38,12 +38,14 @@
             this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bo1_checkbox = new Bunifu.Framework.UI.BunifuCheckbox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.teamr_combo = new MetroFramework.Controls.MetroComboBox();
+            this.teaml_combo = new MetroFramework.Controls.MetroComboBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.metroComboBox25 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox24 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -55,6 +57,28 @@
             this.bunifuFlatButton38 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel54 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel68 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel69 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox46 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox47 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox48 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox49 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox50 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox51 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel70 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox52 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel71 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox53 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel72 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox54 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel73 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox55 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel74 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel75 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel76 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel77 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel78 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel79 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuFlatButton37 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel53 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -137,44 +161,9 @@
             this.panel21 = new System.Windows.Forms.Panel();
             this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox24 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox25 = new MetroFramework.Controls.MetroComboBox();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel42 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox26 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox27 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox28 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox29 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox30 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox31 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox32 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox33 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox34 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox35 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox36 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox37 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox38 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox39 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox40 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuCustomLabel52 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel55 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel56 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel57 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel58 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.metroComboBox41 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox42 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox43 = new MetroFramework.Controls.MetroComboBox();
@@ -185,8 +174,41 @@
             this.bunifuCustomLabel61 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel62 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel63 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.metroComboBox36 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox37 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox38 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox39 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox40 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel52 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel55 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel56 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel57 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel58 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox31 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox32 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox33 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox34 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox35 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox26 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox27 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox28 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox29 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.metroComboBox30 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel42 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel64 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.clear_ch2 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -347,45 +369,47 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel7.Controls.Add(this.metroComboBox3);
-            this.panel7.Controls.Add(this.metroComboBox2);
+            this.panel7.Controls.Add(this.teamr_combo);
+            this.panel7.Controls.Add(this.teaml_combo);
             this.panel7.Controls.Add(this.panel13);
             this.panel7.Location = new System.Drawing.Point(12, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(287, 176);
             this.panel7.TabIndex = 19;
             // 
-            // metroComboBox3
+            // teamr_combo
             // 
-            this.metroComboBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox3.FormattingEnabled = true;
-            this.metroComboBox3.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox3.ItemHeight = 23;
-            this.metroComboBox3.Items.AddRange(new object[] {
+            this.teamr_combo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.teamr_combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.teamr_combo.FormattingEnabled = true;
+            this.teamr_combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.teamr_combo.ItemHeight = 23;
+            this.teamr_combo.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox3.Location = new System.Drawing.Point(13, 91);
-            this.metroComboBox3.Name = "metroComboBox3";
-            this.metroComboBox3.Size = new System.Drawing.Size(261, 29);
-            this.metroComboBox3.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox3.TabIndex = 4;
-            this.metroComboBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.teamr_combo.Location = new System.Drawing.Point(13, 91);
+            this.teamr_combo.Name = "teamr_combo";
+            this.teamr_combo.Size = new System.Drawing.Size(261, 29);
+            this.teamr_combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.teamr_combo.TabIndex = 4;
+            this.teamr_combo.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.teamr_combo.SelectedIndexChanged += new System.EventHandler(this.teamr_combo_SelectedIndexChanged);
             // 
-            // metroComboBox2
+            // teaml_combo
             // 
-            this.metroComboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.metroComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox2.FormattingEnabled = true;
-            this.metroComboBox2.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox2.ItemHeight = 23;
-            this.metroComboBox2.Items.AddRange(new object[] {
+            this.teaml_combo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.teaml_combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.teaml_combo.FormattingEnabled = true;
+            this.teaml_combo.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.teaml_combo.ItemHeight = 23;
+            this.teaml_combo.Items.AddRange(new object[] {
             "Select Template..."});
-            this.metroComboBox2.Location = new System.Drawing.Point(13, 54);
-            this.metroComboBox2.Name = "metroComboBox2";
-            this.metroComboBox2.Size = new System.Drawing.Size(261, 29);
-            this.metroComboBox2.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox2.TabIndex = 3;
-            this.metroComboBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.teaml_combo.Location = new System.Drawing.Point(13, 54);
+            this.teaml_combo.Name = "teaml_combo";
+            this.teaml_combo.Size = new System.Drawing.Size(261, 29);
+            this.teaml_combo.Style = MetroFramework.MetroColorStyle.Black;
+            this.teaml_combo.TabIndex = 3;
+            this.teaml_combo.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.teaml_combo.SelectedIndexChanged += new System.EventHandler(this.teaml_combo_SelectedIndexChanged);
             // 
             // panel13
             // 
@@ -435,6 +459,36 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(410, 176);
             this.panel10.TabIndex = 21;
+            // 
+            // metroComboBox25
+            // 
+            this.metroComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox25.FormattingEnabled = true;
+            this.metroComboBox25.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox25.ItemHeight = 23;
+            this.metroComboBox25.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox25.Location = new System.Drawing.Point(282, 88);
+            this.metroComboBox25.Name = "metroComboBox25";
+            this.metroComboBox25.Size = new System.Drawing.Size(72, 29);
+            this.metroComboBox25.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox25.TabIndex = 45;
+            this.metroComboBox25.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox24
+            // 
+            this.metroComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox24.FormattingEnabled = true;
+            this.metroComboBox24.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox24.ItemHeight = 23;
+            this.metroComboBox24.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox24.Location = new System.Drawing.Point(55, 86);
+            this.metroComboBox24.Name = "metroComboBox24";
+            this.metroComboBox24.Size = new System.Drawing.Size(72, 29);
+            this.metroComboBox24.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox24.TabIndex = 44;
+            this.metroComboBox24.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuFlatButton1
             // 
@@ -541,7 +595,7 @@
             this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel19.Controls.Add(this.bunifuFlatButton38);
             this.panel19.Controls.Add(this.bunifuCustomLabel54);
-            this.panel19.Location = new System.Drawing.Point(1115, 415);
+            this.panel19.Location = new System.Drawing.Point(594, 764);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(188, 104);
             this.panel19.TabIndex = 52;
@@ -594,12 +648,330 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel18.Controls.Add(this.bunifuCustomLabel68);
+            this.panel18.Controls.Add(this.bunifuCustomLabel69);
+            this.panel18.Controls.Add(this.metroComboBox46);
+            this.panel18.Controls.Add(this.metroComboBox47);
+            this.panel18.Controls.Add(this.metroComboBox48);
+            this.panel18.Controls.Add(this.metroComboBox49);
+            this.panel18.Controls.Add(this.metroComboBox50);
+            this.panel18.Controls.Add(this.metroComboBox51);
+            this.panel18.Controls.Add(this.bunifuCustomLabel70);
+            this.panel18.Controls.Add(this.metroComboBox52);
+            this.panel18.Controls.Add(this.bunifuCustomLabel71);
+            this.panel18.Controls.Add(this.metroComboBox53);
+            this.panel18.Controls.Add(this.bunifuCustomLabel72);
+            this.panel18.Controls.Add(this.metroComboBox54);
+            this.panel18.Controls.Add(this.bunifuCustomLabel73);
+            this.panel18.Controls.Add(this.metroComboBox55);
+            this.panel18.Controls.Add(this.bunifuCustomLabel74);
+            this.panel18.Controls.Add(this.bunifuCustomLabel75);
+            this.panel18.Controls.Add(this.bunifuCustomLabel76);
+            this.panel18.Controls.Add(this.bunifuCustomLabel77);
+            this.panel18.Controls.Add(this.bunifuCustomLabel78);
+            this.panel18.Controls.Add(this.bunifuCustomLabel79);
             this.panel18.Controls.Add(this.bunifuFlatButton37);
             this.panel18.Controls.Add(this.bunifuCustomLabel53);
-            this.panel18.Location = new System.Drawing.Point(920, 415);
+            this.panel18.Location = new System.Drawing.Point(920, 195);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(188, 104);
+            this.panel18.Size = new System.Drawing.Size(490, 317);
             this.panel18.TabIndex = 51;
+            // 
+            // bunifuCustomLabel68
+            // 
+            this.bunifuCustomLabel68.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel68.AutoSize = true;
+            this.bunifuCustomLabel68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel68.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel68.Location = new System.Drawing.Point(297, 47);
+            this.bunifuCustomLabel68.Name = "bunifuCustomLabel68";
+            this.bunifuCustomLabel68.Size = new System.Drawing.Size(59, 16);
+            this.bunifuCustomLabel68.TabIndex = 94;
+            this.bunifuCustomLabel68.Text = "TEAM R";
+            // 
+            // bunifuCustomLabel69
+            // 
+            this.bunifuCustomLabel69.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel69.AutoSize = true;
+            this.bunifuCustomLabel69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel69.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel69.Location = new System.Drawing.Point(108, 46);
+            this.bunifuCustomLabel69.Name = "bunifuCustomLabel69";
+            this.bunifuCustomLabel69.Size = new System.Drawing.Size(56, 16);
+            this.bunifuCustomLabel69.TabIndex = 93;
+            this.bunifuCustomLabel69.Text = "TEAM L";
+            // 
+            // metroComboBox46
+            // 
+            this.metroComboBox46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox46.FormattingEnabled = true;
+            this.metroComboBox46.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox46.ItemHeight = 23;
+            this.metroComboBox46.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox46.Location = new System.Drawing.Point(362, 226);
+            this.metroComboBox46.Name = "metroComboBox46";
+            this.metroComboBox46.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox46.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox46.TabIndex = 92;
+            this.metroComboBox46.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox47
+            // 
+            this.metroComboBox47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox47.FormattingEnabled = true;
+            this.metroComboBox47.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox47.ItemHeight = 23;
+            this.metroComboBox47.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox47.Location = new System.Drawing.Point(362, 191);
+            this.metroComboBox47.Name = "metroComboBox47";
+            this.metroComboBox47.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox47.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox47.TabIndex = 91;
+            this.metroComboBox47.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox48
+            // 
+            this.metroComboBox48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox48.FormattingEnabled = true;
+            this.metroComboBox48.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox48.ItemHeight = 23;
+            this.metroComboBox48.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox48.Location = new System.Drawing.Point(362, 156);
+            this.metroComboBox48.Name = "metroComboBox48";
+            this.metroComboBox48.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox48.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox48.TabIndex = 90;
+            this.metroComboBox48.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox49
+            // 
+            this.metroComboBox49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox49.FormattingEnabled = true;
+            this.metroComboBox49.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox49.ItemHeight = 23;
+            this.metroComboBox49.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox49.Location = new System.Drawing.Point(362, 121);
+            this.metroComboBox49.Name = "metroComboBox49";
+            this.metroComboBox49.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox49.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox49.TabIndex = 89;
+            this.metroComboBox49.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox50
+            // 
+            this.metroComboBox50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox50.FormattingEnabled = true;
+            this.metroComboBox50.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox50.ItemHeight = 23;
+            this.metroComboBox50.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox50.Location = new System.Drawing.Point(362, 86);
+            this.metroComboBox50.Name = "metroComboBox50";
+            this.metroComboBox50.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox50.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox50.TabIndex = 88;
+            this.metroComboBox50.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox51
+            // 
+            this.metroComboBox51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox51.FormattingEnabled = true;
+            this.metroComboBox51.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox51.ItemHeight = 23;
+            this.metroComboBox51.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox51.Location = new System.Drawing.Point(3, 225);
+            this.metroComboBox51.Name = "metroComboBox51";
+            this.metroComboBox51.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox51.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox51.TabIndex = 84;
+            this.metroComboBox51.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel70
+            // 
+            this.bunifuCustomLabel70.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel70.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel70.Location = new System.Drawing.Point(247, 235);
+            this.bunifuCustomLabel70.Name = "bunifuCustomLabel70";
+            this.bunifuCustomLabel70.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel70.TabIndex = 87;
+            this.bunifuCustomLabel70.Text = "5";
+            this.bunifuCustomLabel70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox52
+            // 
+            this.metroComboBox52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox52.FormattingEnabled = true;
+            this.metroComboBox52.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox52.ItemHeight = 23;
+            this.metroComboBox52.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox52.Location = new System.Drawing.Point(3, 190);
+            this.metroComboBox52.Name = "metroComboBox52";
+            this.metroComboBox52.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox52.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox52.TabIndex = 83;
+            this.metroComboBox52.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel71
+            // 
+            this.bunifuCustomLabel71.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel71.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel71.Location = new System.Drawing.Point(247, 196);
+            this.bunifuCustomLabel71.Name = "bunifuCustomLabel71";
+            this.bunifuCustomLabel71.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel71.TabIndex = 86;
+            this.bunifuCustomLabel71.Text = "4";
+            this.bunifuCustomLabel71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox53
+            // 
+            this.metroComboBox53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox53.FormattingEnabled = true;
+            this.metroComboBox53.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox53.ItemHeight = 23;
+            this.metroComboBox53.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox53.Location = new System.Drawing.Point(3, 155);
+            this.metroComboBox53.Name = "metroComboBox53";
+            this.metroComboBox53.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox53.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox53.TabIndex = 81;
+            this.metroComboBox53.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel72
+            // 
+            this.bunifuCustomLabel72.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel72.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel72.Location = new System.Drawing.Point(246, 161);
+            this.bunifuCustomLabel72.Name = "bunifuCustomLabel72";
+            this.bunifuCustomLabel72.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel72.TabIndex = 85;
+            this.bunifuCustomLabel72.Text = "3";
+            this.bunifuCustomLabel72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox54
+            // 
+            this.metroComboBox54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox54.FormattingEnabled = true;
+            this.metroComboBox54.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox54.ItemHeight = 23;
+            this.metroComboBox54.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox54.Location = new System.Drawing.Point(3, 120);
+            this.metroComboBox54.Name = "metroComboBox54";
+            this.metroComboBox54.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox54.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox54.TabIndex = 79;
+            this.metroComboBox54.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel73
+            // 
+            this.bunifuCustomLabel73.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel73.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel73.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel73.Location = new System.Drawing.Point(246, 128);
+            this.bunifuCustomLabel73.Name = "bunifuCustomLabel73";
+            this.bunifuCustomLabel73.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel73.TabIndex = 82;
+            this.bunifuCustomLabel73.Text = "2";
+            this.bunifuCustomLabel73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox55
+            // 
+            this.metroComboBox55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox55.FormattingEnabled = true;
+            this.metroComboBox55.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox55.ItemHeight = 23;
+            this.metroComboBox55.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox55.Location = new System.Drawing.Point(3, 85);
+            this.metroComboBox55.Name = "metroComboBox55";
+            this.metroComboBox55.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox55.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox55.TabIndex = 77;
+            this.metroComboBox55.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel74
+            // 
+            this.bunifuCustomLabel74.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel74.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel74.Location = new System.Drawing.Point(247, 92);
+            this.bunifuCustomLabel74.Name = "bunifuCustomLabel74";
+            this.bunifuCustomLabel74.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel74.TabIndex = 80;
+            this.bunifuCustomLabel74.Text = "1";
+            this.bunifuCustomLabel74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel75
+            // 
+            this.bunifuCustomLabel75.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel75.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel75.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel75.Location = new System.Drawing.Point(124, 232);
+            this.bunifuCustomLabel75.Name = "bunifuCustomLabel75";
+            this.bunifuCustomLabel75.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel75.TabIndex = 78;
+            this.bunifuCustomLabel75.Text = "5";
+            this.bunifuCustomLabel75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel76
+            // 
+            this.bunifuCustomLabel76.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel76.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel76.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel76.Location = new System.Drawing.Point(125, 197);
+            this.bunifuCustomLabel76.Name = "bunifuCustomLabel76";
+            this.bunifuCustomLabel76.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel76.TabIndex = 76;
+            this.bunifuCustomLabel76.Text = "4";
+            this.bunifuCustomLabel76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel77
+            // 
+            this.bunifuCustomLabel77.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel77.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel77.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel77.Location = new System.Drawing.Point(125, 163);
+            this.bunifuCustomLabel77.Name = "bunifuCustomLabel77";
+            this.bunifuCustomLabel77.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel77.TabIndex = 75;
+            this.bunifuCustomLabel77.Text = "3";
+            this.bunifuCustomLabel77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel78
+            // 
+            this.bunifuCustomLabel78.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel78.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel78.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel78.Location = new System.Drawing.Point(124, 127);
+            this.bunifuCustomLabel78.Name = "bunifuCustomLabel78";
+            this.bunifuCustomLabel78.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel78.TabIndex = 74;
+            this.bunifuCustomLabel78.Text = "2";
+            this.bunifuCustomLabel78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel79
+            // 
+            this.bunifuCustomLabel79.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel79.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel79.Location = new System.Drawing.Point(126, 91);
+            this.bunifuCustomLabel79.Name = "bunifuCustomLabel79";
+            this.bunifuCustomLabel79.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel79.TabIndex = 73;
+            this.bunifuCustomLabel79.Text = "1";
+            this.bunifuCustomLabel79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuFlatButton37
             // 
@@ -621,7 +993,7 @@
             this.bunifuFlatButton37.IconVisible = false;
             this.bunifuFlatButton37.IconZoom = 90D;
             this.bunifuFlatButton37.IsTab = false;
-            this.bunifuFlatButton37.Location = new System.Drawing.Point(35, 49);
+            this.bunifuFlatButton37.Location = new System.Drawing.Point(186, 273);
             this.bunifuFlatButton37.Name = "bunifuFlatButton37";
             this.bunifuFlatButton37.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
             this.bunifuFlatButton37.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
@@ -639,7 +1011,7 @@
             this.bunifuCustomLabel53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel53.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel53.Location = new System.Drawing.Point(33, 24);
+            this.bunifuCustomLabel53.Location = new System.Drawing.Point(174, 13);
             this.bunifuCustomLabel53.Name = "bunifuCustomLabel53";
             this.bunifuCustomLabel53.Size = new System.Drawing.Size(126, 15);
             this.bunifuCustomLabel53.TabIndex = 20;
@@ -652,7 +1024,7 @@
             this.panel2.Controls.Add(this.metroComboBox20);
             this.panel2.Controls.Add(this.bunifuFlatButton16);
             this.panel2.Controls.Add(this.bunifuCustomLabel14);
-            this.panel2.Location = new System.Drawing.Point(921, 525);
+            this.panel2.Location = new System.Drawing.Point(982, 752);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(202, 133);
             this.panel2.TabIndex = 43;
@@ -838,7 +1210,7 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel3.Controls.Add(this.bunifuFlatButton3);
             this.panel3.Controls.Add(this.bunifuCustomLabel3);
-            this.panel3.Location = new System.Drawing.Point(920, 195);
+            this.panel3.Location = new System.Drawing.Point(12, 764);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 104);
             this.panel3.TabIndex = 61;
@@ -893,7 +1265,7 @@
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel9.Controls.Add(this.bunifuFlatButton5);
             this.panel9.Controls.Add(this.bunifuCustomLabel5);
-            this.panel9.Location = new System.Drawing.Point(921, 305);
+            this.panel9.Location = new System.Drawing.Point(788, 764);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(188, 104);
             this.panel9.TabIndex = 63;
@@ -1665,7 +2037,7 @@
             this.panel15.Controls.Add(this.metroComboBox21);
             this.panel15.Controls.Add(this.bunifuFlatButton11);
             this.panel15.Controls.Add(this.bunifuCustomLabel36);
-            this.panel15.Location = new System.Drawing.Point(1129, 525);
+            this.panel15.Location = new System.Drawing.Point(1190, 752);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(202, 133);
             this.panel15.TabIndex = 44;
@@ -1877,7 +2249,7 @@
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel11.Controls.Add(this.bunifuFlatButton8);
             this.panel11.Controls.Add(this.bunifuCustomLabel6);
-            this.panel11.Location = new System.Drawing.Point(1115, 305);
+            this.panel11.Location = new System.Drawing.Point(400, 764);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(188, 104);
             this.panel11.TabIndex = 53;
@@ -1932,7 +2304,7 @@
             this.panel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
             this.panel21.Controls.Add(this.bunifuFlatButton14);
             this.panel21.Controls.Add(this.bunifuCustomLabel22);
-            this.panel21.Location = new System.Drawing.Point(1115, 195);
+            this.panel21.Location = new System.Drawing.Point(206, 764);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(188, 104);
             this.panel21.TabIndex = 64;
@@ -1979,38 +2351,8 @@
             this.bunifuCustomLabel22.Name = "bunifuCustomLabel22";
             this.bunifuCustomLabel22.Size = new System.Drawing.Size(126, 15);
             this.bunifuCustomLabel22.TabIndex = 20;
-            this.bunifuCustomLabel22.Text = "1 MIN TO BARON";
+            this.bunifuCustomLabel22.Text = "DRAFT";
             this.bunifuCustomLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // metroComboBox24
-            // 
-            this.metroComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox24.FormattingEnabled = true;
-            this.metroComboBox24.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox24.ItemHeight = 23;
-            this.metroComboBox24.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox24.Location = new System.Drawing.Point(55, 86);
-            this.metroComboBox24.Name = "metroComboBox24";
-            this.metroComboBox24.Size = new System.Drawing.Size(72, 29);
-            this.metroComboBox24.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox24.TabIndex = 44;
-            this.metroComboBox24.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox25
-            // 
-            this.metroComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox25.FormattingEnabled = true;
-            this.metroComboBox25.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox25.ItemHeight = 23;
-            this.metroComboBox25.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox25.Location = new System.Drawing.Point(282, 88);
-            this.metroComboBox25.Name = "metroComboBox25";
-            this.metroComboBox25.Size = new System.Drawing.Size(72, 29);
-            this.metroComboBox25.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox25.TabIndex = 45;
-            this.metroComboBox25.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // panel23
             // 
@@ -2066,472 +2408,71 @@
             this.panel23.Size = new System.Drawing.Size(487, 564);
             this.panel23.TabIndex = 65;
             // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.panel24.Controls.Add(this.bunifuCustomLabel40);
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel24.Location = new System.Drawing.Point(0, 0);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(487, 39);
-            this.panel24.TabIndex = 3;
-            // 
-            // bunifuCustomLabel40
-            // 
-            this.bunifuCustomLabel40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel40.AutoSize = true;
-            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(14, 12);
-            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
-            this.bunifuCustomLabel40.Size = new System.Drawing.Size(86, 16);
-            this.bunifuCustomLabel40.TabIndex = 2;
-            this.bunifuCustomLabel40.Text = "LOAD GAME";
-            // 
-            // bunifuCustomLabel39
-            // 
-            this.bunifuCustomLabel39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(126, 239);
-            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
-            this.bunifuCustomLabel39.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel39.TabIndex = 60;
-            this.bunifuCustomLabel39.Text = "5";
-            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel41
-            // 
-            this.bunifuCustomLabel41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(127, 204);
-            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel41.TabIndex = 59;
-            this.bunifuCustomLabel41.Text = "4";
-            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel42
-            // 
-            this.bunifuCustomLabel42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel42.Location = new System.Drawing.Point(127, 170);
-            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
-            this.bunifuCustomLabel42.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel42.TabIndex = 58;
-            this.bunifuCustomLabel42.Text = "3";
-            this.bunifuCustomLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel43
-            // 
-            this.bunifuCustomLabel43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel43.Location = new System.Drawing.Point(126, 134);
-            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
-            this.bunifuCustomLabel43.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel43.TabIndex = 57;
-            this.bunifuCustomLabel43.Text = "2";
-            this.bunifuCustomLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel44
-            // 
-            this.bunifuCustomLabel44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel44.Location = new System.Drawing.Point(128, 98);
-            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
-            this.bunifuCustomLabel44.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel44.TabIndex = 56;
-            this.bunifuCustomLabel44.Text = "1";
-            this.bunifuCustomLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel45
-            // 
-            this.bunifuCustomLabel45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel45.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel45.Location = new System.Drawing.Point(266, 241);
-            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
-            this.bunifuCustomLabel45.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel45.TabIndex = 65;
-            this.bunifuCustomLabel45.Text = "5";
-            this.bunifuCustomLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel46
-            // 
-            this.bunifuCustomLabel46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel46.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel46.Location = new System.Drawing.Point(266, 202);
-            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
-            this.bunifuCustomLabel46.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel46.TabIndex = 64;
-            this.bunifuCustomLabel46.Text = "4";
-            this.bunifuCustomLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel47
-            // 
-            this.bunifuCustomLabel47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel47.Location = new System.Drawing.Point(265, 167);
-            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
-            this.bunifuCustomLabel47.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel47.TabIndex = 63;
-            this.bunifuCustomLabel47.Text = "3";
-            this.bunifuCustomLabel47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel48
-            // 
-            this.bunifuCustomLabel48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel48.Location = new System.Drawing.Point(265, 134);
-            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
-            this.bunifuCustomLabel48.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel48.TabIndex = 62;
-            this.bunifuCustomLabel48.Text = "2";
-            this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel49
-            // 
-            this.bunifuCustomLabel49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel49.Location = new System.Drawing.Point(266, 98);
-            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
-            this.bunifuCustomLabel49.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel49.TabIndex = 61;
-            this.bunifuCustomLabel49.Text = "1";
-            this.bunifuCustomLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // metroComboBox26
-            // 
-            this.metroComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox26.FormattingEnabled = true;
-            this.metroComboBox26.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox26.ItemHeight = 23;
-            this.metroComboBox26.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox26.Location = new System.Drawing.Point(4, 232);
-            this.metroComboBox26.Name = "metroComboBox26";
-            this.metroComboBox26.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox26.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox26.TabIndex = 63;
-            this.metroComboBox26.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox27
-            // 
-            this.metroComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox27.FormattingEnabled = true;
-            this.metroComboBox27.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox27.ItemHeight = 23;
-            this.metroComboBox27.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox27.Location = new System.Drawing.Point(4, 197);
-            this.metroComboBox27.Name = "metroComboBox27";
-            this.metroComboBox27.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox27.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox27.TabIndex = 62;
-            this.metroComboBox27.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox28
-            // 
-            this.metroComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox28.FormattingEnabled = true;
-            this.metroComboBox28.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox28.ItemHeight = 23;
-            this.metroComboBox28.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox28.Location = new System.Drawing.Point(4, 162);
-            this.metroComboBox28.Name = "metroComboBox28";
-            this.metroComboBox28.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox28.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox28.TabIndex = 61;
-            this.metroComboBox28.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox29
-            // 
-            this.metroComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox29.FormattingEnabled = true;
-            this.metroComboBox29.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox29.ItemHeight = 23;
-            this.metroComboBox29.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox29.Location = new System.Drawing.Point(4, 127);
-            this.metroComboBox29.Name = "metroComboBox29";
-            this.metroComboBox29.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox29.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox29.TabIndex = 60;
-            this.metroComboBox29.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox30
-            // 
-            this.metroComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox30.FormattingEnabled = true;
-            this.metroComboBox30.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox30.ItemHeight = 23;
-            this.metroComboBox30.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox30.Location = new System.Drawing.Point(4, 92);
-            this.metroComboBox30.Name = "metroComboBox30";
-            this.metroComboBox30.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox30.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox30.TabIndex = 59;
-            this.metroComboBox30.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox31
-            // 
-            this.metroComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox31.FormattingEnabled = true;
-            this.metroComboBox31.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox31.ItemHeight = 23;
-            this.metroComboBox31.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox31.Location = new System.Drawing.Point(364, 232);
-            this.metroComboBox31.Name = "metroComboBox31";
-            this.metroComboBox31.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox31.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox31.TabIndex = 70;
-            this.metroComboBox31.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox32
-            // 
-            this.metroComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox32.FormattingEnabled = true;
-            this.metroComboBox32.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox32.ItemHeight = 23;
-            this.metroComboBox32.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox32.Location = new System.Drawing.Point(364, 197);
-            this.metroComboBox32.Name = "metroComboBox32";
-            this.metroComboBox32.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox32.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox32.TabIndex = 69;
-            this.metroComboBox32.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox33
-            // 
-            this.metroComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox33.FormattingEnabled = true;
-            this.metroComboBox33.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox33.ItemHeight = 23;
-            this.metroComboBox33.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox33.Location = new System.Drawing.Point(364, 162);
-            this.metroComboBox33.Name = "metroComboBox33";
-            this.metroComboBox33.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox33.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox33.TabIndex = 68;
-            this.metroComboBox33.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox34
-            // 
-            this.metroComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox34.FormattingEnabled = true;
-            this.metroComboBox34.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox34.ItemHeight = 23;
-            this.metroComboBox34.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox34.Location = new System.Drawing.Point(364, 127);
-            this.metroComboBox34.Name = "metroComboBox34";
-            this.metroComboBox34.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox34.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox34.TabIndex = 67;
-            this.metroComboBox34.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox35
-            // 
-            this.metroComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox35.FormattingEnabled = true;
-            this.metroComboBox35.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox35.ItemHeight = 23;
-            this.metroComboBox35.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox35.Location = new System.Drawing.Point(364, 92);
-            this.metroComboBox35.Name = "metroComboBox35";
-            this.metroComboBox35.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox35.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox35.TabIndex = 66;
-            this.metroComboBox35.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // bunifuCustomLabel23
-            // 
-            this.bunifuCustomLabel23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel23.AutoSize = true;
-            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel23.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel23.Location = new System.Drawing.Point(89, 52);
-            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
-            this.bunifuCustomLabel23.Size = new System.Drawing.Size(56, 16);
-            this.bunifuCustomLabel23.TabIndex = 71;
-            this.bunifuCustomLabel23.Text = "TEAM L";
-            // 
-            // bunifuCustomLabel50
-            // 
-            this.bunifuCustomLabel50.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel50.AutoSize = true;
-            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(299, 53);
-            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
-            this.bunifuCustomLabel50.Size = new System.Drawing.Size(59, 16);
-            this.bunifuCustomLabel50.TabIndex = 72;
-            this.bunifuCustomLabel50.Text = "TEAM R";
-            // 
-            // bunifuCustomLabel51
-            // 
-            this.bunifuCustomLabel51.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel51.AutoSize = true;
-            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel51.Location = new System.Drawing.Point(216, 284);
-            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
-            this.bunifuCustomLabel51.Size = new System.Drawing.Size(45, 16);
-            this.bunifuCustomLabel51.TabIndex = 73;
-            this.bunifuCustomLabel51.Text = "BANS";
-            // 
-            // metroComboBox36
-            // 
-            this.metroComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox36.FormattingEnabled = true;
-            this.metroComboBox36.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox36.ItemHeight = 23;
-            this.metroComboBox36.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox36.Location = new System.Drawing.Point(4, 477);
-            this.metroComboBox36.Name = "metroComboBox36";
-            this.metroComboBox36.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox36.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox36.TabIndex = 83;
-            this.metroComboBox36.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox37
-            // 
-            this.metroComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox37.FormattingEnabled = true;
-            this.metroComboBox37.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox37.ItemHeight = 23;
-            this.metroComboBox37.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox37.Location = new System.Drawing.Point(4, 442);
-            this.metroComboBox37.Name = "metroComboBox37";
-            this.metroComboBox37.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox37.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox37.TabIndex = 82;
-            this.metroComboBox37.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox38
-            // 
-            this.metroComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox38.FormattingEnabled = true;
-            this.metroComboBox38.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox38.ItemHeight = 23;
-            this.metroComboBox38.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox38.Location = new System.Drawing.Point(4, 407);
-            this.metroComboBox38.Name = "metroComboBox38";
-            this.metroComboBox38.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox38.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox38.TabIndex = 81;
-            this.metroComboBox38.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox39
-            // 
-            this.metroComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox39.FormattingEnabled = true;
-            this.metroComboBox39.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox39.ItemHeight = 23;
-            this.metroComboBox39.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox39.Location = new System.Drawing.Point(4, 372);
-            this.metroComboBox39.Name = "metroComboBox39";
-            this.metroComboBox39.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox39.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox39.TabIndex = 79;
-            this.metroComboBox39.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox40
-            // 
-            this.metroComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox40.FormattingEnabled = true;
-            this.metroComboBox40.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox40.ItemHeight = 23;
-            this.metroComboBox40.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox40.Location = new System.Drawing.Point(4, 337);
-            this.metroComboBox40.Name = "metroComboBox40";
-            this.metroComboBox40.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox40.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox40.TabIndex = 77;
-            this.metroComboBox40.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // bunifuCustomLabel52
-            // 
-            this.bunifuCustomLabel52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel52.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel52.Location = new System.Drawing.Point(126, 484);
-            this.bunifuCustomLabel52.Name = "bunifuCustomLabel52";
-            this.bunifuCustomLabel52.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel52.TabIndex = 80;
-            this.bunifuCustomLabel52.Text = "5";
-            this.bunifuCustomLabel52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel55
-            // 
-            this.bunifuCustomLabel55.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel55.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel55.Location = new System.Drawing.Point(127, 449);
-            this.bunifuCustomLabel55.Name = "bunifuCustomLabel55";
-            this.bunifuCustomLabel55.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel55.TabIndex = 78;
-            this.bunifuCustomLabel55.Text = "4";
-            this.bunifuCustomLabel55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel56
-            // 
-            this.bunifuCustomLabel56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel56.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel56.Location = new System.Drawing.Point(127, 415);
-            this.bunifuCustomLabel56.Name = "bunifuCustomLabel56";
-            this.bunifuCustomLabel56.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel56.TabIndex = 76;
-            this.bunifuCustomLabel56.Text = "3";
-            this.bunifuCustomLabel56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel57
-            // 
-            this.bunifuCustomLabel57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel57.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel57.Location = new System.Drawing.Point(126, 379);
-            this.bunifuCustomLabel57.Name = "bunifuCustomLabel57";
-            this.bunifuCustomLabel57.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel57.TabIndex = 75;
-            this.bunifuCustomLabel57.Text = "2";
-            this.bunifuCustomLabel57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel58
-            // 
-            this.bunifuCustomLabel58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel58.Location = new System.Drawing.Point(128, 343);
-            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
-            this.bunifuCustomLabel58.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel58.TabIndex = 74;
-            this.bunifuCustomLabel58.Text = "1";
-            this.bunifuCustomLabel58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // bunifuFlatButton15
+            // 
+            this.bunifuFlatButton15.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.bunifuFlatButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFlatButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton15.BorderRadius = 0;
+            this.bunifuFlatButton15.ButtonText = "UPDATE";
+            this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton15.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton15.Iconimage")));
+            this.bunifuFlatButton15.Iconimage_right = null;
+            this.bunifuFlatButton15.Iconimage_right_Selected = null;
+            this.bunifuFlatButton15.Iconimage_Selected = null;
+            this.bunifuFlatButton15.IconRightVisible = true;
+            this.bunifuFlatButton15.IconRightZoom = 0D;
+            this.bunifuFlatButton15.IconVisible = false;
+            this.bunifuFlatButton15.IconZoom = 80D;
+            this.bunifuFlatButton15.IsTab = false;
+            this.bunifuFlatButton15.Location = new System.Drawing.Point(225, 521);
+            this.bunifuFlatButton15.Name = "bunifuFlatButton15";
+            this.bunifuFlatButton15.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton15.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.bunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton15.selected = false;
+            this.bunifuFlatButton15.Size = new System.Drawing.Size(129, 30);
+            this.bunifuFlatButton15.TabIndex = 94;
+            this.bunifuFlatButton15.Text = "UPDATE";
+            this.bunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton4
+            // 
+            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton4.BorderRadius = 0;
+            this.bunifuFlatButton4.ButtonText = "ON";
+            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
+            this.bunifuFlatButton4.Iconimage_right = null;
+            this.bunifuFlatButton4.Iconimage_right_Selected = null;
+            this.bunifuFlatButton4.Iconimage_Selected = null;
+            this.bunifuFlatButton4.IconRightVisible = true;
+            this.bunifuFlatButton4.IconRightZoom = 0D;
+            this.bunifuFlatButton4.IconVisible = false;
+            this.bunifuFlatButton4.IconZoom = 90D;
+            this.bunifuFlatButton4.IsTab = false;
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(360, 521);
+            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
+            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton4.selected = false;
+            this.bunifuFlatButton4.Size = new System.Drawing.Size(123, 30);
+            this.bunifuFlatButton4.TabIndex = 44;
+            this.bunifuFlatButton4.Text = "ON";
+            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Black;
+            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // metroComboBox41
             // 
@@ -2668,71 +2609,472 @@
             this.bunifuCustomLabel63.Text = "1";
             this.bunifuCustomLabel63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bunifuFlatButton4
+            // metroComboBox36
             // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "ON";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = false;
-            this.bunifuFlatButton4.IconZoom = 90D;
-            this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(360, 521);
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(123, 30);
-            this.bunifuFlatButton4.TabIndex = 44;
-            this.bunifuFlatButton4.Text = "ON";
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox36.FormattingEnabled = true;
+            this.metroComboBox36.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox36.ItemHeight = 23;
+            this.metroComboBox36.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox36.Location = new System.Drawing.Point(4, 477);
+            this.metroComboBox36.Name = "metroComboBox36";
+            this.metroComboBox36.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox36.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox36.TabIndex = 83;
+            this.metroComboBox36.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // bunifuFlatButton15
+            // metroComboBox37
             // 
-            this.bunifuFlatButton15.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
-            this.bunifuFlatButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton15.BorderRadius = 0;
-            this.bunifuFlatButton15.ButtonText = "UPDATE";
-            this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton15.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton15.Iconimage")));
-            this.bunifuFlatButton15.Iconimage_right = null;
-            this.bunifuFlatButton15.Iconimage_right_Selected = null;
-            this.bunifuFlatButton15.Iconimage_Selected = null;
-            this.bunifuFlatButton15.IconRightVisible = true;
-            this.bunifuFlatButton15.IconRightZoom = 0D;
-            this.bunifuFlatButton15.IconVisible = false;
-            this.bunifuFlatButton15.IconZoom = 80D;
-            this.bunifuFlatButton15.IsTab = false;
-            this.bunifuFlatButton15.Location = new System.Drawing.Point(225, 521);
-            this.bunifuFlatButton15.Name = "bunifuFlatButton15";
-            this.bunifuFlatButton15.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton15.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
-            this.bunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.selected = false;
-            this.bunifuFlatButton15.Size = new System.Drawing.Size(129, 30);
-            this.bunifuFlatButton15.TabIndex = 94;
-            this.bunifuFlatButton15.Text = "UPDATE";
-            this.bunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.metroComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox37.FormattingEnabled = true;
+            this.metroComboBox37.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox37.ItemHeight = 23;
+            this.metroComboBox37.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox37.Location = new System.Drawing.Point(4, 442);
+            this.metroComboBox37.Name = "metroComboBox37";
+            this.metroComboBox37.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox37.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox37.TabIndex = 82;
+            this.metroComboBox37.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox38
+            // 
+            this.metroComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox38.FormattingEnabled = true;
+            this.metroComboBox38.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox38.ItemHeight = 23;
+            this.metroComboBox38.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox38.Location = new System.Drawing.Point(4, 407);
+            this.metroComboBox38.Name = "metroComboBox38";
+            this.metroComboBox38.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox38.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox38.TabIndex = 81;
+            this.metroComboBox38.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox39
+            // 
+            this.metroComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox39.FormattingEnabled = true;
+            this.metroComboBox39.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox39.ItemHeight = 23;
+            this.metroComboBox39.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox39.Location = new System.Drawing.Point(4, 372);
+            this.metroComboBox39.Name = "metroComboBox39";
+            this.metroComboBox39.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox39.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox39.TabIndex = 79;
+            this.metroComboBox39.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox40
+            // 
+            this.metroComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox40.FormattingEnabled = true;
+            this.metroComboBox40.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox40.ItemHeight = 23;
+            this.metroComboBox40.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox40.Location = new System.Drawing.Point(4, 337);
+            this.metroComboBox40.Name = "metroComboBox40";
+            this.metroComboBox40.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox40.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox40.TabIndex = 77;
+            this.metroComboBox40.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel52
+            // 
+            this.bunifuCustomLabel52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel52.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel52.Location = new System.Drawing.Point(126, 484);
+            this.bunifuCustomLabel52.Name = "bunifuCustomLabel52";
+            this.bunifuCustomLabel52.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel52.TabIndex = 80;
+            this.bunifuCustomLabel52.Text = "5";
+            this.bunifuCustomLabel52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel55
+            // 
+            this.bunifuCustomLabel55.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel55.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel55.Location = new System.Drawing.Point(127, 449);
+            this.bunifuCustomLabel55.Name = "bunifuCustomLabel55";
+            this.bunifuCustomLabel55.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel55.TabIndex = 78;
+            this.bunifuCustomLabel55.Text = "4";
+            this.bunifuCustomLabel55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel56
+            // 
+            this.bunifuCustomLabel56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel56.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel56.Location = new System.Drawing.Point(127, 415);
+            this.bunifuCustomLabel56.Name = "bunifuCustomLabel56";
+            this.bunifuCustomLabel56.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel56.TabIndex = 76;
+            this.bunifuCustomLabel56.Text = "3";
+            this.bunifuCustomLabel56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel57
+            // 
+            this.bunifuCustomLabel57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel57.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel57.Location = new System.Drawing.Point(126, 379);
+            this.bunifuCustomLabel57.Name = "bunifuCustomLabel57";
+            this.bunifuCustomLabel57.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel57.TabIndex = 75;
+            this.bunifuCustomLabel57.Text = "2";
+            this.bunifuCustomLabel57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel58
+            // 
+            this.bunifuCustomLabel58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel58.Location = new System.Drawing.Point(128, 343);
+            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
+            this.bunifuCustomLabel58.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel58.TabIndex = 74;
+            this.bunifuCustomLabel58.Text = "1";
+            this.bunifuCustomLabel58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel51
+            // 
+            this.bunifuCustomLabel51.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel51.AutoSize = true;
+            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel51.Location = new System.Drawing.Point(216, 284);
+            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
+            this.bunifuCustomLabel51.Size = new System.Drawing.Size(45, 16);
+            this.bunifuCustomLabel51.TabIndex = 73;
+            this.bunifuCustomLabel51.Text = "BANS";
+            // 
+            // bunifuCustomLabel50
+            // 
+            this.bunifuCustomLabel50.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel50.AutoSize = true;
+            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(299, 53);
+            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
+            this.bunifuCustomLabel50.Size = new System.Drawing.Size(59, 16);
+            this.bunifuCustomLabel50.TabIndex = 72;
+            this.bunifuCustomLabel50.Text = "TEAM R";
+            // 
+            // bunifuCustomLabel23
+            // 
+            this.bunifuCustomLabel23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel23.AutoSize = true;
+            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel23.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel23.Location = new System.Drawing.Point(89, 52);
+            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
+            this.bunifuCustomLabel23.Size = new System.Drawing.Size(56, 16);
+            this.bunifuCustomLabel23.TabIndex = 71;
+            this.bunifuCustomLabel23.Text = "TEAM L";
+            // 
+            // metroComboBox31
+            // 
+            this.metroComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox31.FormattingEnabled = true;
+            this.metroComboBox31.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox31.ItemHeight = 23;
+            this.metroComboBox31.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox31.Location = new System.Drawing.Point(364, 232);
+            this.metroComboBox31.Name = "metroComboBox31";
+            this.metroComboBox31.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox31.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox31.TabIndex = 70;
+            this.metroComboBox31.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox32
+            // 
+            this.metroComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox32.FormattingEnabled = true;
+            this.metroComboBox32.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox32.ItemHeight = 23;
+            this.metroComboBox32.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox32.Location = new System.Drawing.Point(364, 197);
+            this.metroComboBox32.Name = "metroComboBox32";
+            this.metroComboBox32.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox32.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox32.TabIndex = 69;
+            this.metroComboBox32.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox33
+            // 
+            this.metroComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox33.FormattingEnabled = true;
+            this.metroComboBox33.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox33.ItemHeight = 23;
+            this.metroComboBox33.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox33.Location = new System.Drawing.Point(364, 162);
+            this.metroComboBox33.Name = "metroComboBox33";
+            this.metroComboBox33.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox33.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox33.TabIndex = 68;
+            this.metroComboBox33.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox34
+            // 
+            this.metroComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox34.FormattingEnabled = true;
+            this.metroComboBox34.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox34.ItemHeight = 23;
+            this.metroComboBox34.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox34.Location = new System.Drawing.Point(364, 127);
+            this.metroComboBox34.Name = "metroComboBox34";
+            this.metroComboBox34.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox34.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox34.TabIndex = 67;
+            this.metroComboBox34.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox35
+            // 
+            this.metroComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox35.FormattingEnabled = true;
+            this.metroComboBox35.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox35.ItemHeight = 23;
+            this.metroComboBox35.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox35.Location = new System.Drawing.Point(364, 92);
+            this.metroComboBox35.Name = "metroComboBox35";
+            this.metroComboBox35.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox35.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox35.TabIndex = 66;
+            this.metroComboBox35.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox26
+            // 
+            this.metroComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox26.FormattingEnabled = true;
+            this.metroComboBox26.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox26.ItemHeight = 23;
+            this.metroComboBox26.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox26.Location = new System.Drawing.Point(4, 232);
+            this.metroComboBox26.Name = "metroComboBox26";
+            this.metroComboBox26.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox26.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox26.TabIndex = 63;
+            this.metroComboBox26.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel45
+            // 
+            this.bunifuCustomLabel45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel45.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel45.Location = new System.Drawing.Point(266, 241);
+            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
+            this.bunifuCustomLabel45.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel45.TabIndex = 65;
+            this.bunifuCustomLabel45.Text = "5";
+            this.bunifuCustomLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox27
+            // 
+            this.metroComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox27.FormattingEnabled = true;
+            this.metroComboBox27.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox27.ItemHeight = 23;
+            this.metroComboBox27.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox27.Location = new System.Drawing.Point(4, 197);
+            this.metroComboBox27.Name = "metroComboBox27";
+            this.metroComboBox27.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox27.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox27.TabIndex = 62;
+            this.metroComboBox27.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel46
+            // 
+            this.bunifuCustomLabel46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel46.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel46.Location = new System.Drawing.Point(266, 202);
+            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
+            this.bunifuCustomLabel46.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel46.TabIndex = 64;
+            this.bunifuCustomLabel46.Text = "4";
+            this.bunifuCustomLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox28
+            // 
+            this.metroComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox28.FormattingEnabled = true;
+            this.metroComboBox28.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox28.ItemHeight = 23;
+            this.metroComboBox28.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox28.Location = new System.Drawing.Point(4, 162);
+            this.metroComboBox28.Name = "metroComboBox28";
+            this.metroComboBox28.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox28.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox28.TabIndex = 61;
+            this.metroComboBox28.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel47
+            // 
+            this.bunifuCustomLabel47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(265, 167);
+            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
+            this.bunifuCustomLabel47.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel47.TabIndex = 63;
+            this.bunifuCustomLabel47.Text = "3";
+            this.bunifuCustomLabel47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox29
+            // 
+            this.metroComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox29.FormattingEnabled = true;
+            this.metroComboBox29.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox29.ItemHeight = 23;
+            this.metroComboBox29.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox29.Location = new System.Drawing.Point(4, 127);
+            this.metroComboBox29.Name = "metroComboBox29";
+            this.metroComboBox29.Size = new System.Drawing.Size(120, 29);
+            this.metroComboBox29.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox29.TabIndex = 60;
+            this.metroComboBox29.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel48
+            // 
+            this.bunifuCustomLabel48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel48.Location = new System.Drawing.Point(265, 134);
+            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
+            this.bunifuCustomLabel48.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel48.TabIndex = 62;
+            this.bunifuCustomLabel48.Text = "2";
+            this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // metroComboBox30
+            // 
+            this.metroComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox30.FormattingEnabled = true;
+            this.metroComboBox30.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox30.ItemHeight = 23;
+            this.metroComboBox30.Items.AddRange(new object[] {
+            "Select Template..."});
+            this.metroComboBox30.Location = new System.Drawing.Point(4, 92);
+            this.metroComboBox30.Name = "metroComboBox30";
+            this.metroComboBox30.Size = new System.Drawing.Size(121, 29);
+            this.metroComboBox30.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox30.TabIndex = 59;
+            this.metroComboBox30.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuCustomLabel49
+            // 
+            this.bunifuCustomLabel49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel49.Location = new System.Drawing.Point(266, 98);
+            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
+            this.bunifuCustomLabel49.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel49.TabIndex = 61;
+            this.bunifuCustomLabel49.Text = "1";
+            this.bunifuCustomLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel39
+            // 
+            this.bunifuCustomLabel39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel39.Location = new System.Drawing.Point(126, 239);
+            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
+            this.bunifuCustomLabel39.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel39.TabIndex = 60;
+            this.bunifuCustomLabel39.Text = "5";
+            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel41
+            // 
+            this.bunifuCustomLabel41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel41.Location = new System.Drawing.Point(127, 204);
+            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
+            this.bunifuCustomLabel41.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel41.TabIndex = 59;
+            this.bunifuCustomLabel41.Text = "4";
+            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel42
+            // 
+            this.bunifuCustomLabel42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel42.Location = new System.Drawing.Point(127, 170);
+            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
+            this.bunifuCustomLabel42.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel42.TabIndex = 58;
+            this.bunifuCustomLabel42.Text = "3";
+            this.bunifuCustomLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel43
+            // 
+            this.bunifuCustomLabel43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel43.Location = new System.Drawing.Point(126, 134);
+            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
+            this.bunifuCustomLabel43.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel43.TabIndex = 57;
+            this.bunifuCustomLabel43.Text = "2";
+            this.bunifuCustomLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(128, 98);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel44.TabIndex = 56;
+            this.bunifuCustomLabel44.Text = "1";
+            this.bunifuCustomLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.panel24.Controls.Add(this.bunifuCustomLabel40);
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel24.Location = new System.Drawing.Point(0, 0);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(487, 39);
+            this.panel24.TabIndex = 3;
+            // 
+            // bunifuCustomLabel40
+            // 
+            this.bunifuCustomLabel40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel40.AutoSize = true;
+            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(14, 12);
+            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
+            this.bunifuCustomLabel40.Size = new System.Drawing.Size(86, 16);
+            this.bunifuCustomLabel40.TabIndex = 2;
+            this.bunifuCustomLabel40.Text = "LOAD GAME";
             // 
             // panel28
             // 
@@ -2983,7 +3325,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel7);
             this.Name = "InGame";
-            this.Size = new System.Drawing.Size(1600, 806);
+            this.Size = new System.Drawing.Size(1600, 1080);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -2997,6 +3339,7 @@
             this.panel16.PerformLayout();
             this.panel19.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel26.ResumeLayout(false);
@@ -3034,8 +3377,8 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
         private Bunifu.Framework.UI.BunifuCheckbox bo1_checkbox;
         private System.Windows.Forms.Panel panel7;
-        private MetroFramework.Controls.MetroComboBox metroComboBox3;
-        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private MetroFramework.Controls.MetroComboBox teamr_combo;
+        private MetroFramework.Controls.MetroComboBox teaml_combo;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Panel panel14;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
@@ -3196,5 +3539,27 @@
         private System.Windows.Forms.Panel panel27;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel67;
         private Bunifu.Framework.UI.BunifuFlatButton clear_ch3;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel68;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel69;
+        private MetroFramework.Controls.MetroComboBox metroComboBox46;
+        private MetroFramework.Controls.MetroComboBox metroComboBox47;
+        private MetroFramework.Controls.MetroComboBox metroComboBox48;
+        private MetroFramework.Controls.MetroComboBox metroComboBox49;
+        private MetroFramework.Controls.MetroComboBox metroComboBox50;
+        private MetroFramework.Controls.MetroComboBox metroComboBox51;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel70;
+        private MetroFramework.Controls.MetroComboBox metroComboBox52;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel71;
+        private MetroFramework.Controls.MetroComboBox metroComboBox53;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel72;
+        private MetroFramework.Controls.MetroComboBox metroComboBox54;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel73;
+        private MetroFramework.Controls.MetroComboBox metroComboBox55;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel74;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel75;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel76;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel77;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel78;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel79;
     }
 }

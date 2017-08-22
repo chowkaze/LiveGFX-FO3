@@ -613,7 +613,7 @@ namespace LiveGFX_FO3
                         string select = this.metroComboBox5.GetItemText(this.metroComboBox5.SelectedItem);
                         if (select != " ")
                         {
-                            inputsource[0] = @"\\"+select+".png";
+                            inputsource[0] = @"\\Casparcgserver\assets\Dragon\" + select+".png";
                         }
                         else
                         {

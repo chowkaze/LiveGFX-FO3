@@ -105,7 +105,6 @@
             this.bunifuFlatButton9 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton7 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.metroComboBox4 = new MetroFramework.Controls.MetroComboBox();
-            this.panel12 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel26 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel24 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -122,9 +121,9 @@
             this.metroComboBox7 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox6 = new MetroFramework.Controls.MetroComboBox();
             this.metroComboBox5 = new MetroFramework.Controls.MetroComboBox();
-            this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton17 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel28 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -162,23 +161,14 @@
             this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel23 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.metroComboBox41 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox42 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox43 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox44 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox45 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel59 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel60 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel61 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel62 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel63 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox36 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox37 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox38 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox39 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox40 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel52 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel55 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel56 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -187,20 +177,10 @@
             this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox31 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox32 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox33 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox34 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox35 = new MetroFramework.Controls.MetroComboBox();
-            this.metroComboBox26 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox27 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox28 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox29 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.metroComboBox30 = new MetroFramework.Controls.MetroComboBox();
             this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -221,6 +201,25 @@
             this.panel27 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel67 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.clear_ch3 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -238,7 +237,6 @@
             this.panel9.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel12.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel15.SuspendLayout();
             this.panel17.SuspendLayout();
@@ -467,7 +465,11 @@
             this.metroComboBox25.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox25.ItemHeight = 23;
             this.metroComboBox25.Items.AddRange(new object[] {
-            "Select Template..."});
+            "0",
+            "1",
+            "2",
+            "3",
+            " "});
             this.metroComboBox25.Location = new System.Drawing.Point(282, 88);
             this.metroComboBox25.Name = "metroComboBox25";
             this.metroComboBox25.Size = new System.Drawing.Size(72, 29);
@@ -482,7 +484,11 @@
             this.metroComboBox24.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox24.ItemHeight = 23;
             this.metroComboBox24.Items.AddRange(new object[] {
-            "Select Template..."});
+            "0",
+            "1",
+            "2",
+            "3",
+            " "});
             this.metroComboBox24.Location = new System.Drawing.Point(55, 86);
             this.metroComboBox24.Name = "metroComboBox24";
             this.metroComboBox24.Size = new System.Drawing.Size(72, 29);
@@ -522,6 +528,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
             // 
             // bunifuCustomLabel9
             // 
@@ -632,6 +639,7 @@
             this.bunifuFlatButton38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton38.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton38.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton38.Click += new System.EventHandler(this.bunifuFlatButton38_Click);
             // 
             // bunifuCustomLabel54
             // 
@@ -710,7 +718,16 @@
             this.metroComboBox46.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox46.ItemHeight = 23;
             this.metroComboBox46.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox46.Location = new System.Drawing.Point(362, 226);
             this.metroComboBox46.Name = "metroComboBox46";
             this.metroComboBox46.Size = new System.Drawing.Size(120, 29);
@@ -725,7 +742,16 @@
             this.metroComboBox47.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox47.ItemHeight = 23;
             this.metroComboBox47.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox47.Location = new System.Drawing.Point(362, 191);
             this.metroComboBox47.Name = "metroComboBox47";
             this.metroComboBox47.Size = new System.Drawing.Size(121, 29);
@@ -740,7 +766,16 @@
             this.metroComboBox48.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox48.ItemHeight = 23;
             this.metroComboBox48.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox48.Location = new System.Drawing.Point(362, 156);
             this.metroComboBox48.Name = "metroComboBox48";
             this.metroComboBox48.Size = new System.Drawing.Size(121, 29);
@@ -755,7 +790,16 @@
             this.metroComboBox49.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox49.ItemHeight = 23;
             this.metroComboBox49.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox49.Location = new System.Drawing.Point(362, 121);
             this.metroComboBox49.Name = "metroComboBox49";
             this.metroComboBox49.Size = new System.Drawing.Size(120, 29);
@@ -770,7 +814,16 @@
             this.metroComboBox50.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox50.ItemHeight = 23;
             this.metroComboBox50.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox50.Location = new System.Drawing.Point(362, 86);
             this.metroComboBox50.Name = "metroComboBox50";
             this.metroComboBox50.Size = new System.Drawing.Size(121, 29);
@@ -785,7 +838,16 @@
             this.metroComboBox51.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox51.ItemHeight = 23;
             this.metroComboBox51.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox51.Location = new System.Drawing.Point(3, 225);
             this.metroComboBox51.Name = "metroComboBox51";
             this.metroComboBox51.Size = new System.Drawing.Size(120, 29);
@@ -812,7 +874,16 @@
             this.metroComboBox52.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox52.ItemHeight = 23;
             this.metroComboBox52.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox52.Location = new System.Drawing.Point(3, 190);
             this.metroComboBox52.Name = "metroComboBox52";
             this.metroComboBox52.Size = new System.Drawing.Size(121, 29);
@@ -839,7 +910,16 @@
             this.metroComboBox53.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox53.ItemHeight = 23;
             this.metroComboBox53.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox53.Location = new System.Drawing.Point(3, 155);
             this.metroComboBox53.Name = "metroComboBox53";
             this.metroComboBox53.Size = new System.Drawing.Size(121, 29);
@@ -866,7 +946,16 @@
             this.metroComboBox54.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox54.ItemHeight = 23;
             this.metroComboBox54.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox54.Location = new System.Drawing.Point(3, 120);
             this.metroComboBox54.Name = "metroComboBox54";
             this.metroComboBox54.Size = new System.Drawing.Size(120, 29);
@@ -893,7 +982,16 @@
             this.metroComboBox55.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox55.ItemHeight = 23;
             this.metroComboBox55.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Bond of Stone",
+            "Courage of the Colossus",
+            "Deathfire Touch",
+            "Fervor of Battle",
+            "Grasp of the Undying",
+            "Stormraider\'s Surge",
+            "Thunderlord\'s Decree",
+            "Warlord\'s Bloodlust",
+            "Windspeaker\'s Blessing",
+            " "});
             this.metroComboBox55.Location = new System.Drawing.Point(3, 85);
             this.metroComboBox55.Name = "metroComboBox55";
             this.metroComboBox55.Size = new System.Drawing.Size(121, 29);
@@ -1005,6 +1103,7 @@
             this.bunifuFlatButton37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton37.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton37.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton37.Click += new System.EventHandler(this.bunifuFlatButton37_Click);
             // 
             // bunifuCustomLabel53
             // 
@@ -1024,7 +1123,7 @@
             this.panel2.Controls.Add(this.metroComboBox20);
             this.panel2.Controls.Add(this.bunifuFlatButton16);
             this.panel2.Controls.Add(this.bunifuCustomLabel14);
-            this.panel2.Location = new System.Drawing.Point(982, 752);
+            this.panel2.Location = new System.Drawing.Point(918, 519);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(202, 133);
             this.panel2.TabIndex = 43;
@@ -1408,6 +1507,7 @@
             this.bunifuFlatButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton9.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton9.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton9.Click += new System.EventHandler(this.bunifuFlatButton9_Click);
             // 
             // bunifuFlatButton7
             // 
@@ -1441,6 +1541,7 @@
             this.bunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton7.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton7.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton7.Click += new System.EventHandler(this.bunifuFlatButton7_Click);
             // 
             // metroComboBox4
             // 
@@ -1449,7 +1550,12 @@
             this.metroComboBox4.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox4.ItemHeight = 23;
             this.metroComboBox4.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
             this.metroComboBox4.Location = new System.Drawing.Point(33, 83);
             this.metroComboBox4.Name = "metroComboBox4";
             this.metroComboBox4.Size = new System.Drawing.Size(171, 29);
@@ -1457,38 +1563,12 @@
             this.metroComboBox4.TabIndex = 21;
             this.metroComboBox4.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel12.Controls.Add(this.bunifuCustomLabel26);
-            this.panel12.Controls.Add(this.bunifuCustomLabel25);
-            this.panel12.Controls.Add(this.bunifuCustomLabel24);
-            this.panel12.Controls.Add(this.bunifuCustomLabel21);
-            this.panel12.Controls.Add(this.bunifuCustomLabel20);
-            this.panel12.Controls.Add(this.bunifuCustomLabel19);
-            this.panel12.Controls.Add(this.bunifuCustomLabel17);
-            this.panel12.Controls.Add(this.bunifuCustomLabel11);
-            this.panel12.Controls.Add(this.metroComboBox12);
-            this.panel12.Controls.Add(this.metroComboBox11);
-            this.panel12.Controls.Add(this.metroComboBox10);
-            this.panel12.Controls.Add(this.metroComboBox9);
-            this.panel12.Controls.Add(this.metroComboBox8);
-            this.panel12.Controls.Add(this.metroComboBox7);
-            this.panel12.Controls.Add(this.metroComboBox6);
-            this.panel12.Controls.Add(this.metroComboBox5);
-            this.panel12.Controls.Add(this.bunifuFlatButton10);
-            this.panel12.Controls.Add(this.bunifuCustomLabel16);
-            this.panel12.Location = new System.Drawing.Point(504, 194);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(202, 379);
-            this.panel12.TabIndex = 44;
-            // 
             // bunifuCustomLabel26
             // 
             this.bunifuCustomLabel26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel26.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel26.Location = new System.Drawing.Point(16, 295);
+            this.bunifuCustomLabel26.Location = new System.Drawing.Point(14, 295);
             this.bunifuCustomLabel26.Name = "bunifuCustomLabel26";
             this.bunifuCustomLabel26.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel26.TabIndex = 58;
@@ -1500,7 +1580,7 @@
             this.bunifuCustomLabel25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel25.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel25.Location = new System.Drawing.Point(16, 261);
+            this.bunifuCustomLabel25.Location = new System.Drawing.Point(14, 261);
             this.bunifuCustomLabel25.Name = "bunifuCustomLabel25";
             this.bunifuCustomLabel25.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel25.TabIndex = 57;
@@ -1512,7 +1592,7 @@
             this.bunifuCustomLabel24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel24.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel24.Location = new System.Drawing.Point(16, 225);
+            this.bunifuCustomLabel24.Location = new System.Drawing.Point(14, 225);
             this.bunifuCustomLabel24.Name = "bunifuCustomLabel24";
             this.bunifuCustomLabel24.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel24.TabIndex = 56;
@@ -1524,7 +1604,7 @@
             this.bunifuCustomLabel21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel21.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel21.Location = new System.Drawing.Point(16, 189);
+            this.bunifuCustomLabel21.Location = new System.Drawing.Point(14, 189);
             this.bunifuCustomLabel21.Name = "bunifuCustomLabel21";
             this.bunifuCustomLabel21.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel21.TabIndex = 55;
@@ -1536,7 +1616,7 @@
             this.bunifuCustomLabel20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel20.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel20.Location = new System.Drawing.Point(16, 155);
+            this.bunifuCustomLabel20.Location = new System.Drawing.Point(14, 155);
             this.bunifuCustomLabel20.Name = "bunifuCustomLabel20";
             this.bunifuCustomLabel20.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel20.TabIndex = 54;
@@ -1548,7 +1628,7 @@
             this.bunifuCustomLabel19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel19.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel19.Location = new System.Drawing.Point(15, 120);
+            this.bunifuCustomLabel19.Location = new System.Drawing.Point(13, 120);
             this.bunifuCustomLabel19.Name = "bunifuCustomLabel19";
             this.bunifuCustomLabel19.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel19.TabIndex = 53;
@@ -1560,7 +1640,7 @@
             this.bunifuCustomLabel17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel17.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel17.Location = new System.Drawing.Point(15, 87);
+            this.bunifuCustomLabel17.Location = new System.Drawing.Point(13, 87);
             this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
             this.bunifuCustomLabel17.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel17.TabIndex = 52;
@@ -1572,7 +1652,7 @@
             this.bunifuCustomLabel11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel11.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel11.Location = new System.Drawing.Point(16, 51);
+            this.bunifuCustomLabel11.Location = new System.Drawing.Point(14, 51);
             this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
             this.bunifuCustomLabel11.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel11.TabIndex = 51;
@@ -1586,8 +1666,13 @@
             this.metroComboBox12.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox12.ItemHeight = 23;
             this.metroComboBox12.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox12.Location = new System.Drawing.Point(68, 289);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox12.Location = new System.Drawing.Point(66, 289);
             this.metroComboBox12.Name = "metroComboBox12";
             this.metroComboBox12.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox12.Style = MetroFramework.MetroColorStyle.Black;
@@ -1601,8 +1686,13 @@
             this.metroComboBox11.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox11.ItemHeight = 23;
             this.metroComboBox11.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox11.Location = new System.Drawing.Point(68, 254);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox11.Location = new System.Drawing.Point(66, 254);
             this.metroComboBox11.Name = "metroComboBox11";
             this.metroComboBox11.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox11.Style = MetroFramework.MetroColorStyle.Black;
@@ -1616,8 +1706,13 @@
             this.metroComboBox10.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox10.ItemHeight = 23;
             this.metroComboBox10.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox10.Location = new System.Drawing.Point(68, 219);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox10.Location = new System.Drawing.Point(66, 219);
             this.metroComboBox10.Name = "metroComboBox10";
             this.metroComboBox10.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox10.Style = MetroFramework.MetroColorStyle.Black;
@@ -1631,8 +1726,13 @@
             this.metroComboBox9.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox9.ItemHeight = 23;
             this.metroComboBox9.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox9.Location = new System.Drawing.Point(68, 184);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox9.Location = new System.Drawing.Point(66, 184);
             this.metroComboBox9.Name = "metroComboBox9";
             this.metroComboBox9.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox9.Style = MetroFramework.MetroColorStyle.Black;
@@ -1646,8 +1746,13 @@
             this.metroComboBox8.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox8.ItemHeight = 23;
             this.metroComboBox8.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox8.Location = new System.Drawing.Point(68, 149);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox8.Location = new System.Drawing.Point(66, 149);
             this.metroComboBox8.Name = "metroComboBox8";
             this.metroComboBox8.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox8.Style = MetroFramework.MetroColorStyle.Black;
@@ -1661,8 +1766,13 @@
             this.metroComboBox7.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox7.ItemHeight = 23;
             this.metroComboBox7.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox7.Location = new System.Drawing.Point(68, 114);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox7.Location = new System.Drawing.Point(66, 114);
             this.metroComboBox7.Name = "metroComboBox7";
             this.metroComboBox7.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox7.Style = MetroFramework.MetroColorStyle.Black;
@@ -1676,8 +1786,13 @@
             this.metroComboBox6.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox6.ItemHeight = 23;
             this.metroComboBox6.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox6.Location = new System.Drawing.Point(68, 79);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox6.Location = new System.Drawing.Point(66, 79);
             this.metroComboBox6.Name = "metroComboBox6";
             this.metroComboBox6.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox6.Style = MetroFramework.MetroColorStyle.Black;
@@ -1691,46 +1806,18 @@
             this.metroComboBox5.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox5.ItemHeight = 23;
             this.metroComboBox5.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox5.Location = new System.Drawing.Point(68, 44);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox5.Location = new System.Drawing.Point(66, 44);
             this.metroComboBox5.Name = "metroComboBox5";
             this.metroComboBox5.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox5.Style = MetroFramework.MetroColorStyle.Black;
             this.metroComboBox5.TabIndex = 21;
             this.metroComboBox5.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // bunifuFlatButton10
-            // 
-            this.bunifuFlatButton10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton10.BorderRadius = 0;
-            this.bunifuFlatButton10.ButtonText = "ON";
-            this.bunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton10.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton10.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton10.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton10.Iconimage")));
-            this.bunifuFlatButton10.Iconimage_right = null;
-            this.bunifuFlatButton10.Iconimage_right_Selected = null;
-            this.bunifuFlatButton10.Iconimage_Selected = null;
-            this.bunifuFlatButton10.IconRightVisible = true;
-            this.bunifuFlatButton10.IconRightZoom = 0D;
-            this.bunifuFlatButton10.IconVisible = false;
-            this.bunifuFlatButton10.IconZoom = 90D;
-            this.bunifuFlatButton10.IsTab = false;
-            this.bunifuFlatButton10.Location = new System.Drawing.Point(18, 336);
-            this.bunifuFlatButton10.Name = "bunifuFlatButton10";
-            this.bunifuFlatButton10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton10.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton10.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton10.selected = false;
-            this.bunifuFlatButton10.Size = new System.Drawing.Size(171, 30);
-            this.bunifuFlatButton10.TabIndex = 42;
-            this.bunifuFlatButton10.Text = "ON";
-            this.bunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton10.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuCustomLabel16
             // 
@@ -1747,35 +1834,86 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel5.Controls.Add(this.bunifuCustomLabel26);
+            this.panel5.Controls.Add(this.bunifuCustomLabel16);
+            this.panel5.Controls.Add(this.bunifuFlatButton17);
+            this.panel5.Controls.Add(this.bunifuCustomLabel25);
             this.panel5.Controls.Add(this.bunifuCustomLabel27);
             this.panel5.Controls.Add(this.bunifuCustomLabel28);
+            this.panel5.Controls.Add(this.bunifuCustomLabel24);
             this.panel5.Controls.Add(this.bunifuCustomLabel29);
             this.panel5.Controls.Add(this.bunifuCustomLabel30);
+            this.panel5.Controls.Add(this.bunifuCustomLabel21);
             this.panel5.Controls.Add(this.bunifuCustomLabel31);
             this.panel5.Controls.Add(this.bunifuCustomLabel32);
+            this.panel5.Controls.Add(this.bunifuCustomLabel20);
             this.panel5.Controls.Add(this.bunifuCustomLabel33);
             this.panel5.Controls.Add(this.bunifuCustomLabel34);
+            this.panel5.Controls.Add(this.bunifuCustomLabel19);
             this.panel5.Controls.Add(this.metroComboBox1);
             this.panel5.Controls.Add(this.metroComboBox13);
+            this.panel5.Controls.Add(this.bunifuCustomLabel17);
             this.panel5.Controls.Add(this.metroComboBox14);
             this.panel5.Controls.Add(this.metroComboBox15);
+            this.panel5.Controls.Add(this.bunifuCustomLabel11);
             this.panel5.Controls.Add(this.metroComboBox16);
             this.panel5.Controls.Add(this.metroComboBox17);
+            this.panel5.Controls.Add(this.metroComboBox12);
             this.panel5.Controls.Add(this.metroComboBox18);
+            this.panel5.Controls.Add(this.metroComboBox11);
             this.panel5.Controls.Add(this.metroComboBox19);
             this.panel5.Controls.Add(this.bunifuFlatButton6);
+            this.panel5.Controls.Add(this.metroComboBox10);
             this.panel5.Controls.Add(this.bunifuCustomLabel35);
-            this.panel5.Location = new System.Drawing.Point(712, 194);
+            this.panel5.Controls.Add(this.metroComboBox5);
+            this.panel5.Controls.Add(this.metroComboBox9);
+            this.panel5.Controls.Add(this.metroComboBox6);
+            this.panel5.Controls.Add(this.metroComboBox7);
+            this.panel5.Controls.Add(this.metroComboBox8);
+            this.panel5.Location = new System.Drawing.Point(504, 194);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(202, 379);
+            this.panel5.Size = new System.Drawing.Size(410, 425);
             this.panel5.TabIndex = 59;
+            // 
+            // bunifuFlatButton17
+            // 
+            this.bunifuFlatButton17.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.bunifuFlatButton17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFlatButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton17.BorderRadius = 0;
+            this.bunifuFlatButton17.ButtonText = "UPDATE";
+            this.bunifuFlatButton17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton17.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton17.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton17.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton17.Iconimage")));
+            this.bunifuFlatButton17.Iconimage_right = null;
+            this.bunifuFlatButton17.Iconimage_right_Selected = null;
+            this.bunifuFlatButton17.Iconimage_Selected = null;
+            this.bunifuFlatButton17.IconRightVisible = true;
+            this.bunifuFlatButton17.IconRightZoom = 0D;
+            this.bunifuFlatButton17.IconVisible = false;
+            this.bunifuFlatButton17.IconZoom = 80D;
+            this.bunifuFlatButton17.IsTab = false;
+            this.bunifuFlatButton17.Location = new System.Drawing.Point(226, 346);
+            this.bunifuFlatButton17.Name = "bunifuFlatButton17";
+            this.bunifuFlatButton17.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton17.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.bunifuFlatButton17.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton17.selected = false;
+            this.bunifuFlatButton17.Size = new System.Drawing.Size(171, 30);
+            this.bunifuFlatButton17.TabIndex = 136;
+            this.bunifuFlatButton17.Text = "UPDATE";
+            this.bunifuFlatButton17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton17.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton17.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuCustomLabel27
             // 
             this.bunifuCustomLabel27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel27.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel27.Location = new System.Drawing.Point(16, 295);
+            this.bunifuCustomLabel27.Location = new System.Drawing.Point(224, 295);
             this.bunifuCustomLabel27.Name = "bunifuCustomLabel27";
             this.bunifuCustomLabel27.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel27.TabIndex = 58;
@@ -1787,7 +1925,7 @@
             this.bunifuCustomLabel28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel28.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel28.Location = new System.Drawing.Point(16, 261);
+            this.bunifuCustomLabel28.Location = new System.Drawing.Point(224, 261);
             this.bunifuCustomLabel28.Name = "bunifuCustomLabel28";
             this.bunifuCustomLabel28.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel28.TabIndex = 57;
@@ -1799,7 +1937,7 @@
             this.bunifuCustomLabel29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel29.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel29.Location = new System.Drawing.Point(16, 225);
+            this.bunifuCustomLabel29.Location = new System.Drawing.Point(224, 225);
             this.bunifuCustomLabel29.Name = "bunifuCustomLabel29";
             this.bunifuCustomLabel29.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel29.TabIndex = 56;
@@ -1811,7 +1949,7 @@
             this.bunifuCustomLabel30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel30.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel30.Location = new System.Drawing.Point(16, 189);
+            this.bunifuCustomLabel30.Location = new System.Drawing.Point(224, 189);
             this.bunifuCustomLabel30.Name = "bunifuCustomLabel30";
             this.bunifuCustomLabel30.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel30.TabIndex = 55;
@@ -1823,7 +1961,7 @@
             this.bunifuCustomLabel31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel31.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel31.Location = new System.Drawing.Point(16, 155);
+            this.bunifuCustomLabel31.Location = new System.Drawing.Point(224, 155);
             this.bunifuCustomLabel31.Name = "bunifuCustomLabel31";
             this.bunifuCustomLabel31.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel31.TabIndex = 54;
@@ -1835,7 +1973,7 @@
             this.bunifuCustomLabel32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel32.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel32.Location = new System.Drawing.Point(15, 120);
+            this.bunifuCustomLabel32.Location = new System.Drawing.Point(223, 120);
             this.bunifuCustomLabel32.Name = "bunifuCustomLabel32";
             this.bunifuCustomLabel32.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel32.TabIndex = 53;
@@ -1847,7 +1985,7 @@
             this.bunifuCustomLabel33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel33.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel33.Location = new System.Drawing.Point(15, 87);
+            this.bunifuCustomLabel33.Location = new System.Drawing.Point(223, 87);
             this.bunifuCustomLabel33.Name = "bunifuCustomLabel33";
             this.bunifuCustomLabel33.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel33.TabIndex = 52;
@@ -1859,7 +1997,7 @@
             this.bunifuCustomLabel34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel34.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel34.Location = new System.Drawing.Point(16, 51);
+            this.bunifuCustomLabel34.Location = new System.Drawing.Point(224, 51);
             this.bunifuCustomLabel34.Name = "bunifuCustomLabel34";
             this.bunifuCustomLabel34.Size = new System.Drawing.Size(41, 15);
             this.bunifuCustomLabel34.TabIndex = 51;
@@ -1873,8 +2011,13 @@
             this.metroComboBox1.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox1.ItemHeight = 23;
             this.metroComboBox1.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox1.Location = new System.Drawing.Point(68, 289);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox1.Location = new System.Drawing.Point(271, 289);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox1.Style = MetroFramework.MetroColorStyle.Black;
@@ -1888,8 +2031,13 @@
             this.metroComboBox13.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox13.ItemHeight = 23;
             this.metroComboBox13.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox13.Location = new System.Drawing.Point(68, 254);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox13.Location = new System.Drawing.Point(271, 254);
             this.metroComboBox13.Name = "metroComboBox13";
             this.metroComboBox13.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox13.Style = MetroFramework.MetroColorStyle.Black;
@@ -1903,8 +2051,13 @@
             this.metroComboBox14.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox14.ItemHeight = 23;
             this.metroComboBox14.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox14.Location = new System.Drawing.Point(68, 219);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox14.Location = new System.Drawing.Point(271, 219);
             this.metroComboBox14.Name = "metroComboBox14";
             this.metroComboBox14.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox14.Style = MetroFramework.MetroColorStyle.Black;
@@ -1918,8 +2071,13 @@
             this.metroComboBox15.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox15.ItemHeight = 23;
             this.metroComboBox15.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox15.Location = new System.Drawing.Point(68, 184);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox15.Location = new System.Drawing.Point(271, 184);
             this.metroComboBox15.Name = "metroComboBox15";
             this.metroComboBox15.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox15.Style = MetroFramework.MetroColorStyle.Black;
@@ -1933,8 +2091,13 @@
             this.metroComboBox16.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox16.ItemHeight = 23;
             this.metroComboBox16.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox16.Location = new System.Drawing.Point(68, 149);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox16.Location = new System.Drawing.Point(271, 149);
             this.metroComboBox16.Name = "metroComboBox16";
             this.metroComboBox16.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox16.Style = MetroFramework.MetroColorStyle.Black;
@@ -1948,8 +2111,13 @@
             this.metroComboBox17.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox17.ItemHeight = 23;
             this.metroComboBox17.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox17.Location = new System.Drawing.Point(68, 114);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox17.Location = new System.Drawing.Point(271, 114);
             this.metroComboBox17.Name = "metroComboBox17";
             this.metroComboBox17.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox17.Style = MetroFramework.MetroColorStyle.Black;
@@ -1963,8 +2131,13 @@
             this.metroComboBox18.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox18.ItemHeight = 23;
             this.metroComboBox18.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox18.Location = new System.Drawing.Point(68, 79);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox18.Location = new System.Drawing.Point(271, 79);
             this.metroComboBox18.Name = "metroComboBox18";
             this.metroComboBox18.Size = new System.Drawing.Size(120, 29);
             this.metroComboBox18.Style = MetroFramework.MetroColorStyle.Black;
@@ -1978,8 +2151,13 @@
             this.metroComboBox19.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox19.ItemHeight = 23;
             this.metroComboBox19.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox19.Location = new System.Drawing.Point(68, 44);
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
+            this.metroComboBox19.Location = new System.Drawing.Point(271, 44);
             this.metroComboBox19.Name = "metroComboBox19";
             this.metroComboBox19.Size = new System.Drawing.Size(121, 29);
             this.metroComboBox19.Style = MetroFramework.MetroColorStyle.Black;
@@ -2006,7 +2184,7 @@
             this.bunifuFlatButton6.IconVisible = false;
             this.bunifuFlatButton6.IconZoom = 90D;
             this.bunifuFlatButton6.IsTab = false;
-            this.bunifuFlatButton6.Location = new System.Drawing.Point(18, 336);
+            this.bunifuFlatButton6.Location = new System.Drawing.Point(226, 382);
             this.bunifuFlatButton6.Name = "bunifuFlatButton6";
             this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
             this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
@@ -2018,13 +2196,14 @@
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton6.Click += new System.EventHandler(this.bunifuFlatButton6_Click);
             // 
             // bunifuCustomLabel35
             // 
             this.bunifuCustomLabel35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bunifuCustomLabel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel35.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel35.Location = new System.Drawing.Point(3, 14);
+            this.bunifuCustomLabel35.Location = new System.Drawing.Point(211, 14);
             this.bunifuCustomLabel35.Name = "bunifuCustomLabel35";
             this.bunifuCustomLabel35.Size = new System.Drawing.Size(197, 15);
             this.bunifuCustomLabel35.TabIndex = 43;
@@ -2037,7 +2216,7 @@
             this.panel15.Controls.Add(this.metroComboBox21);
             this.panel15.Controls.Add(this.bunifuFlatButton11);
             this.panel15.Controls.Add(this.bunifuCustomLabel36);
-            this.panel15.Location = new System.Drawing.Point(1190, 752);
+            this.panel15.Location = new System.Drawing.Point(1126, 519);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(202, 133);
             this.panel15.TabIndex = 44;
@@ -2108,7 +2287,7 @@
             this.panel17.Controls.Add(this.metroComboBox22);
             this.panel17.Controls.Add(this.bunifuFlatButton12);
             this.panel17.Controls.Add(this.bunifuCustomLabel37);
-            this.panel17.Location = new System.Drawing.Point(504, 579);
+            this.panel17.Location = new System.Drawing.Point(502, 625);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(202, 133);
             this.panel17.TabIndex = 44;
@@ -2120,7 +2299,12 @@
             this.metroComboBox22.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox22.ItemHeight = 23;
             this.metroComboBox22.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
             this.metroComboBox22.Location = new System.Drawing.Point(18, 44);
             this.metroComboBox22.Name = "metroComboBox22";
             this.metroComboBox22.Size = new System.Drawing.Size(171, 29);
@@ -2160,6 +2344,7 @@
             this.bunifuFlatButton12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton12.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton12.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton12.Click += new System.EventHandler(this.bunifuFlatButton12_Click);
             // 
             // bunifuCustomLabel37
             // 
@@ -2179,7 +2364,7 @@
             this.panel20.Controls.Add(this.metroComboBox23);
             this.panel20.Controls.Add(this.bunifuFlatButton13);
             this.panel20.Controls.Add(this.bunifuCustomLabel38);
-            this.panel20.Location = new System.Drawing.Point(712, 579);
+            this.panel20.Location = new System.Drawing.Point(710, 625);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(202, 133);
             this.panel20.TabIndex = 45;
@@ -2191,7 +2376,12 @@
             this.metroComboBox23.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.metroComboBox23.ItemHeight = 23;
             this.metroComboBox23.Items.AddRange(new object[] {
-            "Select Template..."});
+            "Cloud",
+            "Infernal",
+            "Mountain",
+            "Ocean",
+            "Elder",
+            " "});
             this.metroComboBox23.Location = new System.Drawing.Point(18, 44);
             this.metroComboBox23.Name = "metroComboBox23";
             this.metroComboBox23.Size = new System.Drawing.Size(171, 29);
@@ -2231,6 +2421,7 @@
             this.bunifuFlatButton13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton13.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton13.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton13.Click += new System.EventHandler(this.bunifuFlatButton13_Click);
             // 
             // bunifuCustomLabel38
             // 
@@ -2286,6 +2477,7 @@
             this.bunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton8.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton8.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton8.Click += new System.EventHandler(this.bunifuFlatButton8_Click);
             // 
             // bunifuCustomLabel6
             // 
@@ -2341,6 +2533,7 @@
             this.bunifuFlatButton14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton14.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton14.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton14.Click += new System.EventHandler(this.bunifuFlatButton14_Click);
             // 
             // bunifuCustomLabel22
             // 
@@ -2357,23 +2550,33 @@
             // panel23
             // 
             this.panel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel23.Controls.Add(this.comboBox11);
+            this.panel23.Controls.Add(this.comboBox12);
+            this.panel23.Controls.Add(this.comboBox13);
+            this.panel23.Controls.Add(this.comboBox14);
+            this.panel23.Controls.Add(this.comboBox15);
+            this.panel23.Controls.Add(this.comboBox16);
+            this.panel23.Controls.Add(this.comboBox17);
+            this.panel23.Controls.Add(this.comboBox18);
+            this.panel23.Controls.Add(this.comboBox19);
+            this.panel23.Controls.Add(this.comboBox20);
+            this.panel23.Controls.Add(this.comboBox6);
+            this.panel23.Controls.Add(this.comboBox7);
+            this.panel23.Controls.Add(this.comboBox8);
+            this.panel23.Controls.Add(this.comboBox9);
+            this.panel23.Controls.Add(this.comboBox10);
+            this.panel23.Controls.Add(this.comboBox5);
+            this.panel23.Controls.Add(this.comboBox4);
+            this.panel23.Controls.Add(this.comboBox3);
+            this.panel23.Controls.Add(this.comboBox2);
+            this.panel23.Controls.Add(this.comboBox1);
             this.panel23.Controls.Add(this.bunifuFlatButton15);
             this.panel23.Controls.Add(this.bunifuFlatButton4);
-            this.panel23.Controls.Add(this.metroComboBox41);
-            this.panel23.Controls.Add(this.metroComboBox42);
-            this.panel23.Controls.Add(this.metroComboBox43);
-            this.panel23.Controls.Add(this.metroComboBox44);
-            this.panel23.Controls.Add(this.metroComboBox45);
             this.panel23.Controls.Add(this.bunifuCustomLabel59);
             this.panel23.Controls.Add(this.bunifuCustomLabel60);
             this.panel23.Controls.Add(this.bunifuCustomLabel61);
             this.panel23.Controls.Add(this.bunifuCustomLabel62);
             this.panel23.Controls.Add(this.bunifuCustomLabel63);
-            this.panel23.Controls.Add(this.metroComboBox36);
-            this.panel23.Controls.Add(this.metroComboBox37);
-            this.panel23.Controls.Add(this.metroComboBox38);
-            this.panel23.Controls.Add(this.metroComboBox39);
-            this.panel23.Controls.Add(this.metroComboBox40);
             this.panel23.Controls.Add(this.bunifuCustomLabel52);
             this.panel23.Controls.Add(this.bunifuCustomLabel55);
             this.panel23.Controls.Add(this.bunifuCustomLabel56);
@@ -2382,20 +2585,10 @@
             this.panel23.Controls.Add(this.bunifuCustomLabel51);
             this.panel23.Controls.Add(this.bunifuCustomLabel50);
             this.panel23.Controls.Add(this.bunifuCustomLabel23);
-            this.panel23.Controls.Add(this.metroComboBox31);
-            this.panel23.Controls.Add(this.metroComboBox32);
-            this.panel23.Controls.Add(this.metroComboBox33);
-            this.panel23.Controls.Add(this.metroComboBox34);
-            this.panel23.Controls.Add(this.metroComboBox35);
-            this.panel23.Controls.Add(this.metroComboBox26);
             this.panel23.Controls.Add(this.bunifuCustomLabel45);
-            this.panel23.Controls.Add(this.metroComboBox27);
             this.panel23.Controls.Add(this.bunifuCustomLabel46);
-            this.panel23.Controls.Add(this.metroComboBox28);
             this.panel23.Controls.Add(this.bunifuCustomLabel47);
-            this.panel23.Controls.Add(this.metroComboBox29);
             this.panel23.Controls.Add(this.bunifuCustomLabel48);
-            this.panel23.Controls.Add(this.metroComboBox30);
             this.panel23.Controls.Add(this.bunifuCustomLabel49);
             this.panel23.Controls.Add(this.bunifuCustomLabel39);
             this.panel23.Controls.Add(this.bunifuCustomLabel41);
@@ -2407,6 +2600,159 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(487, 564);
             this.panel23.TabIndex = 65;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox1.Location = new System.Drawing.Point(365, 95);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 95;
             // 
             // bunifuFlatButton15
             // 
@@ -2473,81 +2819,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // metroComboBox41
-            // 
-            this.metroComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox41.FormattingEnabled = true;
-            this.metroComboBox41.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox41.ItemHeight = 23;
-            this.metroComboBox41.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox41.Location = new System.Drawing.Point(363, 477);
-            this.metroComboBox41.Name = "metroComboBox41";
-            this.metroComboBox41.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox41.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox41.TabIndex = 93;
-            this.metroComboBox41.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox42
-            // 
-            this.metroComboBox42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox42.FormattingEnabled = true;
-            this.metroComboBox42.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox42.ItemHeight = 23;
-            this.metroComboBox42.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox42.Location = new System.Drawing.Point(363, 442);
-            this.metroComboBox42.Name = "metroComboBox42";
-            this.metroComboBox42.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox42.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox42.TabIndex = 92;
-            this.metroComboBox42.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox43
-            // 
-            this.metroComboBox43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox43.FormattingEnabled = true;
-            this.metroComboBox43.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox43.ItemHeight = 23;
-            this.metroComboBox43.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox43.Location = new System.Drawing.Point(363, 407);
-            this.metroComboBox43.Name = "metroComboBox43";
-            this.metroComboBox43.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox43.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox43.TabIndex = 91;
-            this.metroComboBox43.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox44
-            // 
-            this.metroComboBox44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox44.FormattingEnabled = true;
-            this.metroComboBox44.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox44.ItemHeight = 23;
-            this.metroComboBox44.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox44.Location = new System.Drawing.Point(363, 372);
-            this.metroComboBox44.Name = "metroComboBox44";
-            this.metroComboBox44.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox44.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox44.TabIndex = 90;
-            this.metroComboBox44.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox45
-            // 
-            this.metroComboBox45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox45.FormattingEnabled = true;
-            this.metroComboBox45.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox45.ItemHeight = 23;
-            this.metroComboBox45.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox45.Location = new System.Drawing.Point(363, 337);
-            this.metroComboBox45.Name = "metroComboBox45";
-            this.metroComboBox45.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox45.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox45.TabIndex = 89;
-            this.metroComboBox45.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
             // 
             // bunifuCustomLabel59
             // 
@@ -2608,81 +2880,6 @@
             this.bunifuCustomLabel63.TabIndex = 84;
             this.bunifuCustomLabel63.Text = "1";
             this.bunifuCustomLabel63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // metroComboBox36
-            // 
-            this.metroComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox36.FormattingEnabled = true;
-            this.metroComboBox36.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox36.ItemHeight = 23;
-            this.metroComboBox36.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox36.Location = new System.Drawing.Point(4, 477);
-            this.metroComboBox36.Name = "metroComboBox36";
-            this.metroComboBox36.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox36.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox36.TabIndex = 83;
-            this.metroComboBox36.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox37
-            // 
-            this.metroComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox37.FormattingEnabled = true;
-            this.metroComboBox37.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox37.ItemHeight = 23;
-            this.metroComboBox37.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox37.Location = new System.Drawing.Point(4, 442);
-            this.metroComboBox37.Name = "metroComboBox37";
-            this.metroComboBox37.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox37.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox37.TabIndex = 82;
-            this.metroComboBox37.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox38
-            // 
-            this.metroComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox38.FormattingEnabled = true;
-            this.metroComboBox38.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox38.ItemHeight = 23;
-            this.metroComboBox38.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox38.Location = new System.Drawing.Point(4, 407);
-            this.metroComboBox38.Name = "metroComboBox38";
-            this.metroComboBox38.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox38.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox38.TabIndex = 81;
-            this.metroComboBox38.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox39
-            // 
-            this.metroComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox39.FormattingEnabled = true;
-            this.metroComboBox39.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox39.ItemHeight = 23;
-            this.metroComboBox39.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox39.Location = new System.Drawing.Point(4, 372);
-            this.metroComboBox39.Name = "metroComboBox39";
-            this.metroComboBox39.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox39.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox39.TabIndex = 79;
-            this.metroComboBox39.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox40
-            // 
-            this.metroComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox40.FormattingEnabled = true;
-            this.metroComboBox40.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox40.ItemHeight = 23;
-            this.metroComboBox40.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox40.Location = new System.Drawing.Point(4, 337);
-            this.metroComboBox40.Name = "metroComboBox40";
-            this.metroComboBox40.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox40.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox40.TabIndex = 77;
-            this.metroComboBox40.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel52
             // 
@@ -2764,7 +2961,7 @@
             this.bunifuCustomLabel50.AutoSize = true;
             this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(299, 53);
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(284, 51);
             this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
             this.bunifuCustomLabel50.Size = new System.Drawing.Size(59, 16);
             this.bunifuCustomLabel50.TabIndex = 72;
@@ -2777,101 +2974,11 @@
             this.bunifuCustomLabel23.AutoSize = true;
             this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.bunifuCustomLabel23.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel23.Location = new System.Drawing.Point(89, 52);
+            this.bunifuCustomLabel23.Location = new System.Drawing.Point(149, 51);
             this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
             this.bunifuCustomLabel23.Size = new System.Drawing.Size(56, 16);
             this.bunifuCustomLabel23.TabIndex = 71;
             this.bunifuCustomLabel23.Text = "TEAM L";
-            // 
-            // metroComboBox31
-            // 
-            this.metroComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox31.FormattingEnabled = true;
-            this.metroComboBox31.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox31.ItemHeight = 23;
-            this.metroComboBox31.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox31.Location = new System.Drawing.Point(364, 232);
-            this.metroComboBox31.Name = "metroComboBox31";
-            this.metroComboBox31.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox31.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox31.TabIndex = 70;
-            this.metroComboBox31.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox32
-            // 
-            this.metroComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox32.FormattingEnabled = true;
-            this.metroComboBox32.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox32.ItemHeight = 23;
-            this.metroComboBox32.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox32.Location = new System.Drawing.Point(364, 197);
-            this.metroComboBox32.Name = "metroComboBox32";
-            this.metroComboBox32.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox32.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox32.TabIndex = 69;
-            this.metroComboBox32.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox33
-            // 
-            this.metroComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox33.FormattingEnabled = true;
-            this.metroComboBox33.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox33.ItemHeight = 23;
-            this.metroComboBox33.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox33.Location = new System.Drawing.Point(364, 162);
-            this.metroComboBox33.Name = "metroComboBox33";
-            this.metroComboBox33.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox33.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox33.TabIndex = 68;
-            this.metroComboBox33.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox34
-            // 
-            this.metroComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox34.FormattingEnabled = true;
-            this.metroComboBox34.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox34.ItemHeight = 23;
-            this.metroComboBox34.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox34.Location = new System.Drawing.Point(364, 127);
-            this.metroComboBox34.Name = "metroComboBox34";
-            this.metroComboBox34.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox34.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox34.TabIndex = 67;
-            this.metroComboBox34.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox35
-            // 
-            this.metroComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox35.FormattingEnabled = true;
-            this.metroComboBox35.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox35.ItemHeight = 23;
-            this.metroComboBox35.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox35.Location = new System.Drawing.Point(364, 92);
-            this.metroComboBox35.Name = "metroComboBox35";
-            this.metroComboBox35.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox35.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox35.TabIndex = 66;
-            this.metroComboBox35.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroComboBox26
-            // 
-            this.metroComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox26.FormattingEnabled = true;
-            this.metroComboBox26.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox26.ItemHeight = 23;
-            this.metroComboBox26.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox26.Location = new System.Drawing.Point(4, 232);
-            this.metroComboBox26.Name = "metroComboBox26";
-            this.metroComboBox26.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox26.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox26.TabIndex = 63;
-            this.metroComboBox26.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel45
             // 
@@ -2885,21 +2992,6 @@
             this.bunifuCustomLabel45.Text = "5";
             this.bunifuCustomLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // metroComboBox27
-            // 
-            this.metroComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox27.FormattingEnabled = true;
-            this.metroComboBox27.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox27.ItemHeight = 23;
-            this.metroComboBox27.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox27.Location = new System.Drawing.Point(4, 197);
-            this.metroComboBox27.Name = "metroComboBox27";
-            this.metroComboBox27.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox27.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox27.TabIndex = 62;
-            this.metroComboBox27.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
             // bunifuCustomLabel46
             // 
             this.bunifuCustomLabel46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2911,21 +3003,6 @@
             this.bunifuCustomLabel46.TabIndex = 64;
             this.bunifuCustomLabel46.Text = "4";
             this.bunifuCustomLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // metroComboBox28
-            // 
-            this.metroComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox28.FormattingEnabled = true;
-            this.metroComboBox28.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox28.ItemHeight = 23;
-            this.metroComboBox28.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox28.Location = new System.Drawing.Point(4, 162);
-            this.metroComboBox28.Name = "metroComboBox28";
-            this.metroComboBox28.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox28.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox28.TabIndex = 61;
-            this.metroComboBox28.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel47
             // 
@@ -2939,21 +3016,6 @@
             this.bunifuCustomLabel47.Text = "3";
             this.bunifuCustomLabel47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // metroComboBox29
-            // 
-            this.metroComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox29.FormattingEnabled = true;
-            this.metroComboBox29.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox29.ItemHeight = 23;
-            this.metroComboBox29.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox29.Location = new System.Drawing.Point(4, 127);
-            this.metroComboBox29.Name = "metroComboBox29";
-            this.metroComboBox29.Size = new System.Drawing.Size(120, 29);
-            this.metroComboBox29.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox29.TabIndex = 60;
-            this.metroComboBox29.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
             // bunifuCustomLabel48
             // 
             this.bunifuCustomLabel48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2965,21 +3027,6 @@
             this.bunifuCustomLabel48.TabIndex = 62;
             this.bunifuCustomLabel48.Text = "2";
             this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // metroComboBox30
-            // 
-            this.metroComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox30.FormattingEnabled = true;
-            this.metroComboBox30.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.metroComboBox30.ItemHeight = 23;
-            this.metroComboBox30.Items.AddRange(new object[] {
-            "Select Template..."});
-            this.metroComboBox30.Location = new System.Drawing.Point(4, 92);
-            this.metroComboBox30.Name = "metroComboBox30";
-            this.metroComboBox30.Size = new System.Drawing.Size(121, 29);
-            this.metroComboBox30.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroComboBox30.TabIndex = 59;
-            this.metroComboBox30.Theme = MetroFramework.MetroThemeStyle.Dark;
             // 
             // bunifuCustomLabel49
             // 
@@ -3296,6 +3343,2913 @@
             this.clear_ch3.Textcolor = System.Drawing.Color.White;
             this.clear_ch3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox2.Location = new System.Drawing.Point(365, 130);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 96;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox3.Location = new System.Drawing.Point(364, 165);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 97;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox4.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox4.Location = new System.Drawing.Point(364, 199);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 21);
+            this.comboBox4.TabIndex = 98;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox5.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox5.Location = new System.Drawing.Point(364, 238);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(121, 21);
+            this.comboBox5.TabIndex = 99;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox6.Location = new System.Drawing.Point(1, 238);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(121, 21);
+            this.comboBox6.TabIndex = 104;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox7.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox7.Location = new System.Drawing.Point(1, 199);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(121, 21);
+            this.comboBox7.TabIndex = 103;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox8.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox8.Location = new System.Drawing.Point(1, 165);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(121, 21);
+            this.comboBox8.TabIndex = 102;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox9.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox9.Location = new System.Drawing.Point(2, 130);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(121, 21);
+            this.comboBox9.TabIndex = 101;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox10.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox10.Location = new System.Drawing.Point(2, 95);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(121, 21);
+            this.comboBox10.TabIndex = 100;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox11.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox11.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox11.Location = new System.Drawing.Point(1, 484);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(121, 21);
+            this.comboBox11.TabIndex = 114;
+            // 
+            // comboBox12
+            // 
+            this.comboBox12.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox12.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox12.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox12.Location = new System.Drawing.Point(1, 445);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(121, 21);
+            this.comboBox12.TabIndex = 113;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox13.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox13.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox13.Location = new System.Drawing.Point(1, 411);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(121, 21);
+            this.comboBox13.TabIndex = 112;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox14.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox14.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox14.Location = new System.Drawing.Point(2, 376);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(121, 21);
+            this.comboBox14.TabIndex = 111;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox15.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox15.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox15.Location = new System.Drawing.Point(2, 341);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(121, 21);
+            this.comboBox15.TabIndex = 110;
+            // 
+            // comboBox16
+            // 
+            this.comboBox16.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox16.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox16.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox16.Location = new System.Drawing.Point(364, 484);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(121, 21);
+            this.comboBox16.TabIndex = 109;
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox17.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox17.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox17.Location = new System.Drawing.Point(364, 445);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(121, 21);
+            this.comboBox17.TabIndex = 108;
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox18.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox18.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox18.Location = new System.Drawing.Point(364, 411);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(121, 21);
+            this.comboBox18.TabIndex = 107;
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox19.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox19.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox19.Location = new System.Drawing.Point(365, 376);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(121, 21);
+            this.comboBox19.TabIndex = 106;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox20.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox20.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox20.Location = new System.Drawing.Point(365, 341);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(121, 21);
+            this.comboBox20.TabIndex = 105;
+            // 
             // InGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3312,7 +6266,6 @@
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel3);
@@ -3348,7 +6301,6 @@
             this.panel4.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.panel12.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel15.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
@@ -3421,9 +6373,7 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel15;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton9;
-        private System.Windows.Forms.Panel panel12;
         private MetroFramework.Controls.MetroComboBox metroComboBox5;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton10;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
         private MetroFramework.Controls.MetroComboBox metroComboBox12;
         private MetroFramework.Controls.MetroComboBox metroComboBox11;
@@ -3492,34 +6442,14 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel42;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel43;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel44;
-        private MetroFramework.Controls.MetroComboBox metroComboBox31;
-        private MetroFramework.Controls.MetroComboBox metroComboBox32;
-        private MetroFramework.Controls.MetroComboBox metroComboBox33;
-        private MetroFramework.Controls.MetroComboBox metroComboBox34;
-        private MetroFramework.Controls.MetroComboBox metroComboBox35;
-        private MetroFramework.Controls.MetroComboBox metroComboBox26;
-        private MetroFramework.Controls.MetroComboBox metroComboBox27;
-        private MetroFramework.Controls.MetroComboBox metroComboBox28;
-        private MetroFramework.Controls.MetroComboBox metroComboBox29;
-        private MetroFramework.Controls.MetroComboBox metroComboBox30;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel50;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel23;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel51;
-        private MetroFramework.Controls.MetroComboBox metroComboBox41;
-        private MetroFramework.Controls.MetroComboBox metroComboBox42;
-        private MetroFramework.Controls.MetroComboBox metroComboBox43;
-        private MetroFramework.Controls.MetroComboBox metroComboBox44;
-        private MetroFramework.Controls.MetroComboBox metroComboBox45;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel59;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel60;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel61;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel62;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel63;
-        private MetroFramework.Controls.MetroComboBox metroComboBox36;
-        private MetroFramework.Controls.MetroComboBox metroComboBox37;
-        private MetroFramework.Controls.MetroComboBox metroComboBox38;
-        private MetroFramework.Controls.MetroComboBox metroComboBox39;
-        private MetroFramework.Controls.MetroComboBox metroComboBox40;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel52;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel55;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel56;
@@ -3561,5 +6491,26 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel77;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel78;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel79;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton17;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox20;
     }
 }

@@ -477,11 +477,11 @@ namespace LiveGFX_FO3
             type[15] = "pickr3";
             type[16] = "pickr4";
             type[17] = "pickr5";
-            type[18] = "banl1";
-            type[19] = "banl2";
-            type[20] = "banl3";
-            type[21] = "banl4";
-            type[22] = "banl5";
+            type[18] = "banr1";
+            type[19] = "banr2";
+            type[20] = "banr3";
+            type[21] = "banr4";
+            type[22] = "banr5";
             type[23] = "winl";
             type[24] = "winr";
             info[0] = analyzed_title.Text;

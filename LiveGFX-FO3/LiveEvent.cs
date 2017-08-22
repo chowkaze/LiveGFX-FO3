@@ -225,7 +225,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[0];
                 List<string> info = new List<string>();
@@ -270,7 +270,7 @@ namespace LiveGFX_FO3
                             l3_1_butt.Textcolor = Color.White;
                             button_on[0] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
                     }
                     catch (Exception d)
                     {
@@ -293,7 +293,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[1];
                 List<string> info = new List<string>();
@@ -338,7 +338,7 @@ namespace LiveGFX_FO3
                             l3_2_butt.Textcolor = Color.White;
                             button_on[1] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
                     }
                     catch (Exception d)
                     {
@@ -361,7 +361,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[2];
                 List<string> info = new List<string>();
@@ -406,7 +406,7 @@ namespace LiveGFX_FO3
                             l3_3_butt.Textcolor = Color.White;
                             button_on[2] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
                     }
                     catch (Exception d)
                     {
@@ -429,7 +429,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[6];
                 List<string> info = new List<string>();
@@ -481,7 +481,7 @@ namespace LiveGFX_FO3
                             tab2_butt.Textcolor = Color.White;
                             button_on[6] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/tab_2");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TABNAME_2");
                     }
                     catch (Exception d)
                     {
@@ -503,7 +503,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[7];
                 List<string> info = new List<string>();
@@ -561,7 +561,7 @@ namespace LiveGFX_FO3
                             tab3_butt.Textcolor = Color.White;
                             button_on[7] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/tab_2");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TABNAME_3");
                     }
                     catch (Exception d)
                     {
@@ -583,7 +583,7 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
                 bool check_on = button_on[8];
                 List<string> info = new List<string>();
@@ -628,7 +628,7 @@ namespace LiveGFX_FO3
                             l3_team1_butt.Textcolor = Color.White;
                             button_on[8] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
                     }
                     catch (Exception d)
                     {
@@ -839,7 +839,7 @@ namespace LiveGFX_FO3
                         tm_butt.Textcolor = Color.White;
                         button_on[6] = true;
                     }
-                    runcg(ty1, inputsource1, layer1, channal1, "INFESTPRO2017/ro_today_matches");
+                    runcg(ty1, inputsource1, layer1, channal1, "GPL2017/GPL_STANDBY_2");
 
                     nextmatchtick = true;
                     nextmatchtimechannal = channal;
@@ -848,12 +848,12 @@ namespace LiveGFX_FO3
                     {
                         stopcg(nextmatchtimelayer, nextmatchtimechannal);
                         await Task.Delay(2000);
-                        runcg(ty, inputsource, nextmatchtimelayer, nextmatchtimechannal, "INFESTPRO2017/today_match_message");
+                        runcg(ty, inputsource, nextmatchtimelayer, nextmatchtimechannal, "GPL2017/STANBY_SOON");
                         nextmatchtimes.Stop();
                     }
                     else
                     {
-                        runcg(ty, inputsource, layer, channal, "INFESTPRO2017/today_match_time");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/STANBY_TIME");
                         nextmatchtimes = new System.Windows.Forms.Timer();
                         nextmatchtimes.Interval = (((mintimer * 60) + sectimer + 2) * 1000);
                         nextmatchtimes.Tick += new EventHandler(timer_Tick2);
@@ -894,9 +894,9 @@ namespace LiveGFX_FO3
             string[] inputsource = new string[20];
             string[] ty1 = new string[20];
             string[] inputsource1 = new string[20];
-            int layer = 15;
+            int layer = 20;
             int channal = 1;
-            int layer1 = 14;
+            int layer1 = 19;
             int channal1 = 1;
             bool check_on = button_on[6];
             if (test_channel)

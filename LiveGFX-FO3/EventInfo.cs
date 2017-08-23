@@ -33,6 +33,7 @@ namespace LiveGFX_FO3
                 caster = sqldb.getdata("name", "caster_lowerthird");
                 interview = sqldb.getdata("name", "interviewer");
                 analyzer = sqldb.getdata("name", "analyzer");
+                analyzed = sqldb.getdata("title","analyzed_tab");
             }
             catch(Exception d)
             {
@@ -67,6 +68,12 @@ namespace LiveGFX_FO3
                     tm_teaml2.Items.Add(i);
                     tm_teamr1.Items.Add(i);
                     tm_teamr2.Items.Add(i);
+                    analyzed_teaml.Items.Add(i);
+                    analyzed_teamr.Items.Add(i);
+                }
+                foreach(string i in analyzed)
+                {
+                    analyzed_combo.Items.Add(i);
                 }
             }
         }
@@ -487,26 +494,26 @@ namespace LiveGFX_FO3
             info[0] = analyzed_title.Text;
             info[1] = this.analyzed_teaml.GetItemText(this.analyzed_teaml.SelectedItem);
             info[2] = this.analyzed_teamr.GetItemText(this.analyzed_teamr.SelectedItem);
-            info[3] = this.analyzed_pickl1.GetItemText(this.analyzed_pickl1.SelectedItem);
-            info[4] = this.analyzed_pickl2.GetItemText(this.analyzed_pickl2.SelectedItem);
-            info[5] = this.analyzed_pickl3.GetItemText(this.analyzed_pickl3.SelectedItem);
-            info[6] = this.analyzed_pickl4.GetItemText(this.analyzed_pickl4.SelectedItem);
-            info[7] = this.analyzed_pickl5.GetItemText(this.analyzed_pickl5.SelectedItem);
-            info[8] = this.analyzed_banl1.GetItemText(this.analyzed_banl1.SelectedItem);
-            info[9] = this.analyzed_banl2.GetItemText(this.analyzed_banl2.SelectedItem);
-            info[10] = this.analyzed_banl3.GetItemText(this.analyzed_banl3.SelectedItem);
-            info[11] = this.analyzed_banl4.GetItemText(this.analyzed_banl4.SelectedItem);
-            info[12] = this.analyzed_banl5.GetItemText(this.analyzed_banl5.SelectedItem);
-            info[13] = this.analyzed_pickr1.GetItemText(this.analyzed_pickr1.SelectedItem);
-            info[14] = this.analyzed_pickr2.GetItemText(this.analyzed_pickr2.SelectedItem);
-            info[15] = this.analyzed_pickr3.GetItemText(this.analyzed_pickr3.SelectedItem);
-            info[16] = this.analyzed_pickr4.GetItemText(this.analyzed_pickr4.SelectedItem);
-            info[17] = this.analyzed_pickr5.GetItemText(this.analyzed_pickr5.SelectedItem);
-            info[18] = this.analyzed_banr1.GetItemText(this.analyzed_banr1.SelectedItem);
-            info[19] = this.analyzed_banr2.GetItemText(this.analyzed_banr2.SelectedItem);
-            info[20] = this.analyzed_banr3.GetItemText(this.analyzed_banr3.SelectedItem);
-            info[21] = this.analyzed_banr4.GetItemText(this.analyzed_banr4.SelectedItem);
-            info[22] = this.analyzed_banr5.GetItemText(this.analyzed_banr5.SelectedItem);
+            info[3] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickl1.GetItemText(this.analyzed_pickl1.SelectedItem) + "Square.png";
+            info[4] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickl2.GetItemText(this.analyzed_pickl2.SelectedItem) + "Square.png";
+            info[5] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickl3.GetItemText(this.analyzed_pickl3.SelectedItem) + "Square.png";
+            info[6] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickl4.GetItemText(this.analyzed_pickl4.SelectedItem) + "Square.png";
+            info[7] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickl5.GetItemText(this.analyzed_pickl5.SelectedItem) + "Square.png";
+            info[8] = @"\\Casparcgserver\assets\character\bw\"+this.analyzed_banl1.GetItemText(this.analyzed_banl1.SelectedItem) + "Square.png";
+            info[9] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banl2.GetItemText(this.analyzed_banl2.SelectedItem) + "Square.png";
+            info[10] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banl3.GetItemText(this.analyzed_banl3.SelectedItem) + "Square.png";
+            info[11] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banl4.GetItemText(this.analyzed_banl4.SelectedItem) + "Square.png";
+            info[12] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banl5.GetItemText(this.analyzed_banl5.SelectedItem) + "Square.png";
+            info[13] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickr1.GetItemText(this.analyzed_pickr1.SelectedItem) + "Square.png";
+            info[14] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickr2.GetItemText(this.analyzed_pickr2.SelectedItem) + "Square.png";
+            info[15] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickr3.GetItemText(this.analyzed_pickr3.SelectedItem) + "Square.png";
+            info[16] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickr4.GetItemText(this.analyzed_pickr4.SelectedItem) + "Square.png";
+            info[17] = @"\\Casparcgserver\assets\Champion Icon\" + this.analyzed_pickr5.GetItemText(this.analyzed_pickr5.SelectedItem) + "Square.png";
+            info[18] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banr1.GetItemText(this.analyzed_banr1.SelectedItem) + "Square.png";
+            info[19] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banr2.GetItemText(this.analyzed_banr2.SelectedItem) + "Square.png";
+            info[20] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banr3.GetItemText(this.analyzed_banr3.SelectedItem) + "Square.png";
+            info[21] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banr4.GetItemText(this.analyzed_banr4.SelectedItem) + "Square.png";
+            info[22] = @"\\Casparcgserver\assets\character\bw\" + this.analyzed_banr5.GetItemText(this.analyzed_banr5.SelectedItem) + "Square.png";
             if (analyzed_winl.Checked)
             {
                 info[23] = "win";
@@ -585,26 +592,26 @@ namespace LiveGFX_FO3
             analyzed_title.Text = info[0];
             this.analyzed_teaml.SelectedItem = info[1];
             this.analyzed_teamr.SelectedItem = info[2];
-            this.analyzed_pickl1.SelectedItem = info[3];
-            this.analyzed_pickl2.SelectedItem = info[4];
-            this.analyzed_pickl3.SelectedItem = info[5];
-            this.analyzed_pickl4.SelectedItem = info[6];
-            this.analyzed_pickl5.SelectedItem = info[7];
-            this.analyzed_banl1.SelectedItem = info[8];
-            this.analyzed_banl2.SelectedItem = info[9];
-            this.analyzed_banl3.SelectedItem = info[10];
-            this.analyzed_banl4.SelectedItem = info[11];
-            this.analyzed_banl5.SelectedItem = info[12];
-            this.analyzed_pickr1.SelectedItem = info[13];
-            this.analyzed_pickr2.SelectedItem = info[14];
-            this.analyzed_pickr3.SelectedItem = info[15];
-            this.analyzed_pickr4.SelectedItem = info[16];
-            this.analyzed_pickr5.SelectedItem = info[17];
-            this.analyzed_banr1.SelectedItem = info[18];
-            this.analyzed_banr2.SelectedItem = info[19];
-            this.analyzed_banr3.SelectedItem = info[20];
-            this.analyzed_banr4.SelectedItem = info[21];
-            this.analyzed_banr5.SelectedItem = info[22];
+            this.analyzed_pickl1.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[3]);
+            this.analyzed_pickl2.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[4]);
+            this.analyzed_pickl3.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[5]);
+            this.analyzed_pickl4.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[6]);
+            this.analyzed_pickl5.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[7]);
+            this.analyzed_banl1.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[8]);
+            this.analyzed_banl2.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[9]);
+            this.analyzed_banl3.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[10]);
+            this.analyzed_banl4.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[11]);
+            this.analyzed_banl5.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[12]);
+            this.analyzed_pickr1.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[13]);
+            this.analyzed_pickr2.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[14]);
+            this.analyzed_pickr3.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[15]);
+            this.analyzed_pickr4.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[16]);
+            this.analyzed_pickr5.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[17]);
+            this.analyzed_banr1.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[18]);
+            this.analyzed_banr2.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[19]);
+            this.analyzed_banr3.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[20]);
+            this.analyzed_banr4.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[21]);
+            this.analyzed_banr5.SelectedItem = System.IO.Path.GetFileNameWithoutExtension(info[22]);
             if(info[23] == "win")
             {
                 analyzed_winl.Checked = true;

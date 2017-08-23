@@ -1963,6 +1963,7 @@
             this.clear_ch2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.clear_ch2.Textcolor = System.Drawing.Color.White;
             this.clear_ch2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch2.Click += new System.EventHandler(this.clear_ch2_Click);
             // 
             // panel30
             // 
@@ -2018,6 +2019,7 @@
             this.clear_ch1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.clear_ch1.Textcolor = System.Drawing.Color.White;
             this.clear_ch1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch1.Click += new System.EventHandler(this.clear_ch1_Click);
             // 
             // panel31
             // 
@@ -2128,6 +2130,7 @@
             this.clear_ch3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.clear_ch3.Textcolor = System.Drawing.Color.White;
             this.clear_ch3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch3.Click += new System.EventHandler(this.clear_ch3_Click);
             // 
             // panel12
             // 
@@ -2178,6 +2181,7 @@
             this.predict_update.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.predict_update.Textcolor = System.Drawing.Color.White;
             this.predict_update.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.predict_update.Click += new System.EventHandler(this.predict_update_Click);
             // 
             // predict_team1
             // 

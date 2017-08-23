@@ -34,6 +34,7 @@ namespace LiveGFX_FO3
         List<string> l3_long = new List<string>();
         List<string> bracket = new List<string>();
         List<string> tm = new List<string>();
+        List<string> analyzed= new List<string>();
         int countdowntimelayer = 0;
         int countdowntimechannal = 0;
         bool countdowntick = false;
@@ -45,6 +46,66 @@ namespace LiveGFX_FO3
         public LiveEvent()
         {
             InitializeComponent();
+            try
+            {
+                teamname = sqldb.getdata("teamname", "teamdatabase");
+                l3 = sqldb.getdata("title", "lowerthird");
+                tm = sqldb.getdata("sname", "today_matches");
+                caster = sqldb.getdata("name", "caster_lowerthird");
+                analyzer = sqldb.getdata("name", "analyzer");
+                analyzed = sqldb.getdata("title", "analyzed_tab");
+                bracket = sqldb.getdata("title", "bracket");
+            }
+            catch (Exception d)
+            {
+
+            }
+            finally
+            {
+
+                foreach (string i in l3)
+                {
+                    l3_1.Items.Add(i);
+                    l3_2.Items.Add(i);
+                    l3_3.Items.Add(i);
+                }
+                foreach (string i in tm)
+                {
+                    tm_combo.Items.Add(i);
+                }
+                foreach (string i in caster)
+                {
+                    tab2_1.Items.Add(i);
+                    tab2_2.Items.Add(i);
+                }
+                foreach (string i in analyzer)
+                {
+                    tab3_1.Items.Add(i);
+                    tab3_2.Items.Add(i);
+                    tab3_3.Items.Add(i);
+                    predict_1.Items.Add(i);
+                    predict_2.Items.Add(i);
+                    predict_3.Items.Add(i);
+                }
+                foreach (string i in teamname)
+                {
+                    predict_team1.Items.Add(i);
+                    predict_team2.Items.Add(i);
+                    predict_team3.Items.Add(i);
+                    current_teaml.Items.Add(i);
+                    current_teamr.Items.Add(i);
+                    l3_team1.Items.Add(i);
+                    l3_team2.Items.Add(i);
+                }
+                foreach (string i in analyzed)
+                {
+                    analyzed_combo.Items.Add(i);
+                }
+                foreach (string i in bracket)
+                {
+                    bracket_combo.Items.Add(i);
+                }
+            }
         }
         #region caspar connection
 
@@ -254,8 +315,8 @@ namespace LiveGFX_FO3
                     try
                     {
                         info = sqldb.getdata("description", "lowerthird", "title", select);
-                        ty[0] = "title";
-                        ty[1] = "desc";
+                        ty[0] = "Title";
+                        ty[1] = "Desc";
                         inputsource[0] = select;
                         inputsource[1] = info[0];
                         if (test_channel)
@@ -322,8 +383,8 @@ namespace LiveGFX_FO3
                     try
                     {
                         info = sqldb.getdata("description", "lowerthird", "title", select);
-                        ty[0] = "title";
-                        ty[1] = "desc";
+                        ty[0] = "Title";
+                        ty[1] = "Desc";
                         inputsource[0] = select;
                         inputsource[1] = info[0];
                         if (test_channel)
@@ -390,8 +451,8 @@ namespace LiveGFX_FO3
                     try
                     {
                         info = sqldb.getdata("description", "lowerthird", "title", select);
-                        ty[0] = "title";
-                        ty[1] = "desc";
+                        ty[0] = "Title";
+                        ty[1] = "Desc";
                         inputsource[0] = select;
                         inputsource[1] = info[0];
                         if (test_channel)
@@ -431,12 +492,12 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 18;
                 int channal = 1;
-                bool check_on = button_on[6];
+                bool check_on = button_on[3];
                 List<string> info = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[6];
+                    check_on = test_on[3];
                 }
                 if (check_on)
                 {
@@ -445,11 +506,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[6] = false;
+                        test_on[3] = false;
                     }
                     else
                     {
-                        button_on[6] = false;
+                        button_on[3] = false;
                     }
                 }
                 else
@@ -459,10 +520,10 @@ namespace LiveGFX_FO3
 
                     try
                     {
-                        ty[0] = "title1";
-                        ty[1] = "desc1";
-                        ty[2] = "title2";
-                        ty[3] = "desc2";
+                        ty[0] = "Title1";
+                        ty[1] = "Desc1";
+                        ty[2] = "Title2";
+                        ty[3] = "Desc2";
                         info = sqldb.getdata("description", "caster_lowerthird", "name", select);
                         inputsource[0] = select;
                         inputsource[1] = info[0];
@@ -473,13 +534,13 @@ namespace LiveGFX_FO3
                         {
                             tab2_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             tab2_butt.Textcolor = Color.White;
-                            test_on[6] = true;
+                            test_on[3] = true;
                         }
                         else
                         {
                             tab2_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             tab2_butt.Textcolor = Color.White;
-                            button_on[6] = true;
+                            button_on[3] = true;
                         }
                         runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TABNAME_2");
                     }
@@ -505,12 +566,12 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 18;
                 int channal = 1;
-                bool check_on = button_on[7];
+                bool check_on = button_on[4];
                 List<string> info = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[7];
+                    check_on = test_on[4];
                 }
                 if (check_on)
                 {
@@ -519,11 +580,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[7] = false;
+                        test_on[4] = false;
                     }
                     else
                     {
-                        button_on[7] = false;
+                        button_on[4] = false;
                     }
                 }
                 else
@@ -534,12 +595,12 @@ namespace LiveGFX_FO3
 
                     try
                     {
-                        ty[0] = "title1";
-                        ty[1] = "desc1";
-                        ty[2] = "title2";
-                        ty[3] = "desc2";
-                        ty[4] = "title3";
-                        ty[5] = "desc3";
+                        ty[0] = "Title1";
+                        ty[1] = "Desc1";
+                        ty[2] = "Title2";
+                        ty[3] = "Desc2";
+                        ty[4] = "Title3";
+                        ty[5] = "Desc3";
                         info = sqldb.getdata("description", "analyzer_lowerthird", "name", select);
                         inputsource[0] = select;
                         inputsource[1] = info[0];
@@ -553,13 +614,13 @@ namespace LiveGFX_FO3
                         {
                             tab3_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             tab3_butt.Textcolor = Color.White;
-                            test_on[7] = true;
+                            test_on[4] = true;
                         }
                         else
                         {
                             tab3_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             tab3_butt.Textcolor = Color.White;
-                            button_on[7] = true;
+                            button_on[4] = true;
                         }
                         runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TABNAME_3");
                     }
@@ -585,12 +646,12 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 18;
                 int channal = 1;
-                bool check_on = button_on[8];
+                bool check_on = button_on[5];
                 List<string> info = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[8];
+                    check_on = test_on[5];
                 }
                 if (check_on)
                 {
@@ -599,11 +660,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[8] = false;
+                        test_on[5] = false;
                     }
                     else
                     {
-                        button_on[8] = false;
+                        button_on[5] = false;
                     }
                 }
                 else
@@ -612,21 +673,21 @@ namespace LiveGFX_FO3
                     try
                     {
                         info = sqldb.getdata("*", "teamdatabase", "teamname", select);
-                        ty[0] = "title";
-                        ty[1] = "desc";
+                        ty[0] = "Title";
+                        ty[1] = "Desc";
                         inputsource[0] = select;
                         inputsource[1] = info[0];
                         if (test_channel)
                         {
                             l3_team1_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             l3_team1_butt.Textcolor = Color.White;
-                            test_on[8] = true;
+                            test_on[5] = true;
                         }
                         else
                         {
                             l3_team1_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             l3_team1_butt.Textcolor = Color.White;
-                            button_on[8] = true;
+                            button_on[5] = true;
                         }
                         runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
                     }
@@ -875,7 +936,7 @@ namespace LiveGFX_FO3
                 string[] ty = new string[1];
                 string[] inputsource = new string[1];
                 stopcg(nextmatchtimelayer, nextmatchtimechannal);
-                runcg(ty, inputsource, nextmatchtimelayer, nextmatchtimechannal, "INFESTPRO2017/today_match_message");
+                runcg(ty, inputsource, nextmatchtimelayer, nextmatchtimechannal, "GPL2017/STANBY_SOON");
                 nextmatchtimes.Stop();
             }
 
@@ -898,12 +959,12 @@ namespace LiveGFX_FO3
             int channal = 1;
             int layer1 = 19;
             int channal1 = 1;
-            bool check_on = button_on[6];
+            bool check_on = button_on[7];
             if (test_channel)
             {
                 channal = 2;
                 channal1 = 2;
-                check_on = test_on[6];
+                check_on = test_on[7];
             }
             if (check_on)
             {
@@ -911,11 +972,11 @@ namespace LiveGFX_FO3
                 tab_timebutt.Textcolor = Color.Black;
                 if (test_channel)
                 {
-                    test_on[6] = false;
+                    test_on[7] = false;
                 }
                 else
                 {
-                    button_on[6] = false;
+                    button_on[7] = false;
                 }
                 stopcg(layer, channal);
                 stopcg(layer1, channal1);
@@ -995,16 +1056,16 @@ namespace LiveGFX_FO3
                 {
                     tab_timebutt.Normalcolor = Color.FromArgb(65, 211, 253);
                     tab_timebutt.Textcolor = Color.White;
-                    test_on[6] = true;
+                    test_on[7] = true;
                 }
                 else
                 {
                     tab_timebutt.Normalcolor = Color.FromArgb(57, 181, 74);
                     tab_timebutt.Textcolor = Color.White;
-                    button_on[6] = true;
+                    button_on[7] = true;
                 }
-                runcg(ty1, inputsource1, layer1, channal1, "FO3INTERCON/L3_Countdown_Title");
-                runcg(ty, inputsource, layer, channal, "FO3INTERCON/L3_Countdown_Time");
+                runcg(ty1, inputsource1, layer1, channal1, "GPL2017/tab");
+                runcg(ty, inputsource, layer, channal, "GPL2017/tab_time");
                 countdowntick = true;
                 countdowntimechannal = channal;
                 countdowntimelayer = layer;
@@ -1023,7 +1084,7 @@ namespace LiveGFX_FO3
                 ty[0] = "message";
                 inputsource[0] = tab_timemess.Text;
                 stopcg(countdowntimelayer, countdowntimechannal);
-                runcg(ty, inputsource, countdowntimelayer, countdowntimechannal, "FO3INTERCON/L3_Countdown_Message");
+                runcg(ty, inputsource, countdowntimelayer, countdowntimechannal, "GPL2017/tab_soon");
                 times.Stop();
             }
 
@@ -1037,14 +1098,14 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 15;
                 int channal = 1;
-                bool check_on = button_on[0];
+                bool check_on = button_on[8];
                 List<string> teaml = new List<string>();
                 List<string> teamr = new List<string>();
                 List<string> info = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[0];
+                    check_on = test_on[8];
                 }
                 if (check_on)
                 {
@@ -1053,11 +1114,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[0] = false;
+                        test_on[8] = false;
                     }
                     else
                     {
-                        button_on[0] = false;
+                        button_on[8] = false;
                     }
                 }
                 else
@@ -1082,15 +1143,15 @@ namespace LiveGFX_FO3
                         {
                             current_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             current_butt.Textcolor = Color.White;
-                            test_on[0] = true;
+                            test_on[8] = true;
                         }
                         else
                         {
                             current_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             current_butt.Textcolor = Color.White;
-                            button_on[0] = true;
+                            button_on[8] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_tab_Coming up");
                     }
                     catch (Exception d)
                     {
@@ -1113,14 +1174,14 @@ namespace LiveGFX_FO3
             {
                 string[] ty = new string[20];
                 string[] inputsource = new string[20];
-                int layer = 15;
+                int layer = 18;
                 int channal = 1;
-                bool check_on = button_on[7];
+                bool check_on = button_on[9];
                 List<string> info = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[7];
+                    check_on = test_on[9];
                 }
                 if (check_on)
                 {
@@ -1129,11 +1190,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[7] = false;
+                        test_on[9] = false;
                     }
                     else
                     {
-                        button_on[7] = false;
+                        button_on[9] = false;
                     }
                 }
                 else
@@ -1155,27 +1216,27 @@ namespace LiveGFX_FO3
                         inputsource[1] = selected;
                         inputsource[2] = selected1;
                         select = this.predict_team1.GetItemText(this.predict_team1.SelectedItem);
-                        info = sqldb.getdata("logo", "teamdatabase", "teamname", select);
+                        info = sqldb.getdata("tm_pic", "teamdatabase", "teamname", select);
                         inputsource[3] = info[0];
                         select = this.predict_team2.GetItemText(this.predict_team2.SelectedItem);
-                        info = sqldb.getdata("logo", "teamdatabase", "teamname", select);
+                        info = sqldb.getdata("tm_pic", "teamdatabase", "teamname", select);
                         inputsource[4] = info[0];
                         select = this.predict_team3.GetItemText(this.predict_team3.SelectedItem);
-                        info = sqldb.getdata("logo", "teamdatabase", "teamname", select);
+                        info = sqldb.getdata("tm_pic", "teamdatabase", "teamname", select);
                         inputsource[5] = info[0];
                         if (test_channel)
                         {
                             predict_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             predict_butt.Textcolor = Color.White;
-                            test_on[7] = true;
+                            test_on[9] = true;
                         }
                         else
                         {
                             predict_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             predict_butt.Textcolor = Color.White;
-                            button_on[7] = true;
+                            button_on[9] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/tab_2");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/Prediction");
                     }
                     catch (Exception d)
                     {
@@ -1199,13 +1260,13 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 15;
                 int channal = 1;
-                bool check_on = button_on[0];
+                bool check_on = button_on[10];
                 List<string> info = new List<string>();
                 List<string> teamm = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[0];
+                    check_on = test_on[10];
                 }
                 if (check_on)
                 {
@@ -1214,11 +1275,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[0] = false;
+                        test_on[10] = false;
                     }
                     else
                     {
-                        button_on[0] = false;
+                        button_on[10] = false;
                     }
                 }
                 else
@@ -1239,15 +1300,15 @@ namespace LiveGFX_FO3
                         {
                             bracket_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             bracket_butt.Textcolor = Color.White;
-                            test_on[0] = true;
+                            test_on[10] = true;
                         }
                         else
                         {
                             bracket_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             bracket_butt.Textcolor = Color.White;
-                            button_on[0] = true;
+                            button_on[10] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/bracket");
                     }
                     catch (Exception d)
                     {
@@ -1272,14 +1333,14 @@ namespace LiveGFX_FO3
                 string[] inputsource = new string[20];
                 int layer = 15;
                 int channal = 1;
-                bool check_on = button_on[0];
+                bool check_on = button_on[11];
                 List<string> info = new List<string>();
                 List<string> teaml = new List<string>();
                 List<string> teamr = new List<string>();
                 if (test_channel)
                 {
                     channal = 2;
-                    check_on = test_on[0];
+                    check_on = test_on[11];
                 }
                 if (check_on)
                 {
@@ -1288,11 +1349,11 @@ namespace LiveGFX_FO3
                     stopcg(layer, channal);
                     if (test_channel)
                     {
-                        test_on[0] = false;
+                        test_on[11] = false;
                     }
                     else
                     {
-                        button_on[0] = false;
+                        button_on[11] = false;
                     }
                 }
                 else
@@ -1337,15 +1398,15 @@ namespace LiveGFX_FO3
                         {
                             analyzed_butt.Normalcolor = Color.FromArgb(65, 211, 253);
                             analyzed_butt.Textcolor = Color.White;
-                            test_on[0] = true;
+                            test_on[11] = true;
                         }
                         else
                         {
                             analyzed_butt.Normalcolor = Color.FromArgb(57, 181, 74);
                             analyzed_butt.Textcolor = Color.White;
-                            button_on[0] = true;
+                            button_on[11] = true;
                         }
-                        runcg(ty, inputsource, layer, channal, "GPL/l3");
+                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_Analyze");
                     }
                     catch (Exception d)
                     {
@@ -1359,6 +1420,53 @@ namespace LiveGFX_FO3
             {
                 MessageBox.Show("You forget to connected server", "INVLIVE-GFX",
                     MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+        }
+
+        private void predict_update_Click(object sender, EventArgs e)
+        {
+            caspar_.Channels[1].CG.Next(18);
+        }
+
+        private void clear_ch1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.caspar_.Channels[0].CG.Clear();
+                this.caspar_.Channels[0].Clear();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.ToString());
+                throw;
+            }
+        }
+
+        private void clear_ch2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.caspar_.Channels[1].CG.Clear();
+                this.caspar_.Channels[1].Clear();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.ToString());
+                throw;
+            }
+        }
+
+        private void clear_ch3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.caspar_.Channels[2].CG.Clear();
+                this.caspar_.Channels[2].Clear();
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine(ex.ToString());
+                throw;
             }
         }
     }

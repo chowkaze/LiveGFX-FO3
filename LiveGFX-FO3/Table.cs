@@ -18,6 +18,19 @@ namespace LiveGFX_FO3
         public Table()
         {
             InitializeComponent();
+            try
+            {
+                bracket = sqldb.getdata("title", "bracket");
+            }
+            catch(Exception d)
+            {
+
+            }
+            
+            foreach (string i in bracket)
+            {
+                bracket_combo.Items.Add(i);
+            }
         }
 
         private void bracket_save_Click(object sender, EventArgs e)

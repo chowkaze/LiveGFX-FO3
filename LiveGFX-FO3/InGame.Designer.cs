@@ -161,6 +161,25 @@
             this.bunifuFlatButton14 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel23 = new System.Windows.Forms.Panel();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.bunifuFlatButton15 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -201,25 +220,13 @@
             this.panel27 = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel67 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.clear_ch3 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.analyzer_name = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.metroComboBox3 = new MetroFramework.Controls.MetroComboBox();
+            this.metroComboBox2 = new MetroFramework.Controls.MetroComboBox();
+            this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuCustomLabel80 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel13.SuspendLayout();
@@ -249,6 +256,7 @@
             this.panel30.SuspendLayout();
             this.panel29.SuspendLayout();
             this.panel27.SuspendLayout();
+            this.panel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -1175,6 +1183,7 @@
             this.bunifuFlatButton16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton16.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton16.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton16.Click += new System.EventHandler(this.bunifuFlatButton16_Click);
             // 
             // bunifuCustomLabel14
             // 
@@ -1346,6 +1355,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
             // 
             // bunifuCustomLabel3
             // 
@@ -1401,6 +1411,7 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton5_Click);
             // 
             // bunifuCustomLabel5
             // 
@@ -1907,6 +1918,7 @@
             this.bunifuFlatButton17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton17.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton17.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton17.Click += new System.EventHandler(this.bunifuFlatButton17_Click);
             // 
             // bunifuCustomLabel27
             // 
@@ -2268,6 +2280,7 @@
             this.bunifuFlatButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuFlatButton11.Textcolor = System.Drawing.Color.Black;
             this.bunifuFlatButton11.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton11.Click += new System.EventHandler(this.bunifuFlatButton11_Click);
             // 
             // bunifuCustomLabel36
             // 
@@ -2600,2125 +2613,6 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(487, 564);
             this.panel23.TabIndex = 65;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox1.Location = new System.Drawing.Point(365, 95);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 95;
-            // 
-            // bunifuFlatButton15
-            // 
-            this.bunifuFlatButton15.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
-            this.bunifuFlatButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuFlatButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton15.BorderRadius = 0;
-            this.bunifuFlatButton15.ButtonText = "UPDATE";
-            this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton15.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton15.Iconimage")));
-            this.bunifuFlatButton15.Iconimage_right = null;
-            this.bunifuFlatButton15.Iconimage_right_Selected = null;
-            this.bunifuFlatButton15.Iconimage_Selected = null;
-            this.bunifuFlatButton15.IconRightVisible = true;
-            this.bunifuFlatButton15.IconRightZoom = 0D;
-            this.bunifuFlatButton15.IconVisible = false;
-            this.bunifuFlatButton15.IconZoom = 80D;
-            this.bunifuFlatButton15.IsTab = false;
-            this.bunifuFlatButton15.Location = new System.Drawing.Point(225, 521);
-            this.bunifuFlatButton15.Name = "bunifuFlatButton15";
-            this.bunifuFlatButton15.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton15.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
-            this.bunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.selected = false;
-            this.bunifuFlatButton15.Size = new System.Drawing.Size(129, 30);
-            this.bunifuFlatButton15.TabIndex = 94;
-            this.bunifuFlatButton15.Text = "UPDATE";
-            this.bunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuFlatButton4
-            // 
-            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "ON";
-            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
-            this.bunifuFlatButton4.Iconimage_right = null;
-            this.bunifuFlatButton4.Iconimage_right_Selected = null;
-            this.bunifuFlatButton4.Iconimage_Selected = null;
-            this.bunifuFlatButton4.IconRightVisible = true;
-            this.bunifuFlatButton4.IconRightZoom = 0D;
-            this.bunifuFlatButton4.IconVisible = false;
-            this.bunifuFlatButton4.IconZoom = 90D;
-            this.bunifuFlatButton4.IsTab = false;
-            this.bunifuFlatButton4.Location = new System.Drawing.Point(360, 521);
-            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
-            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton4.selected = false;
-            this.bunifuFlatButton4.Size = new System.Drawing.Size(123, 30);
-            this.bunifuFlatButton4.TabIndex = 44;
-            this.bunifuFlatButton4.Text = "ON";
-            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
-            // 
-            // bunifuCustomLabel59
-            // 
-            this.bunifuCustomLabel59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel59.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel59.Location = new System.Drawing.Point(265, 486);
-            this.bunifuCustomLabel59.Name = "bunifuCustomLabel59";
-            this.bunifuCustomLabel59.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel59.TabIndex = 88;
-            this.bunifuCustomLabel59.Text = "5";
-            this.bunifuCustomLabel59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel60
-            // 
-            this.bunifuCustomLabel60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel60.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel60.Location = new System.Drawing.Point(265, 447);
-            this.bunifuCustomLabel60.Name = "bunifuCustomLabel60";
-            this.bunifuCustomLabel60.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel60.TabIndex = 87;
-            this.bunifuCustomLabel60.Text = "4";
-            this.bunifuCustomLabel60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel61
-            // 
-            this.bunifuCustomLabel61.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel61.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel61.Location = new System.Drawing.Point(264, 412);
-            this.bunifuCustomLabel61.Name = "bunifuCustomLabel61";
-            this.bunifuCustomLabel61.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel61.TabIndex = 86;
-            this.bunifuCustomLabel61.Text = "3";
-            this.bunifuCustomLabel61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel62
-            // 
-            this.bunifuCustomLabel62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel62.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel62.Location = new System.Drawing.Point(264, 379);
-            this.bunifuCustomLabel62.Name = "bunifuCustomLabel62";
-            this.bunifuCustomLabel62.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel62.TabIndex = 85;
-            this.bunifuCustomLabel62.Text = "2";
-            this.bunifuCustomLabel62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel63
-            // 
-            this.bunifuCustomLabel63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel63.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel63.Location = new System.Drawing.Point(265, 343);
-            this.bunifuCustomLabel63.Name = "bunifuCustomLabel63";
-            this.bunifuCustomLabel63.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel63.TabIndex = 84;
-            this.bunifuCustomLabel63.Text = "1";
-            this.bunifuCustomLabel63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel52
-            // 
-            this.bunifuCustomLabel52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel52.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel52.Location = new System.Drawing.Point(126, 484);
-            this.bunifuCustomLabel52.Name = "bunifuCustomLabel52";
-            this.bunifuCustomLabel52.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel52.TabIndex = 80;
-            this.bunifuCustomLabel52.Text = "5";
-            this.bunifuCustomLabel52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel55
-            // 
-            this.bunifuCustomLabel55.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel55.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel55.Location = new System.Drawing.Point(127, 449);
-            this.bunifuCustomLabel55.Name = "bunifuCustomLabel55";
-            this.bunifuCustomLabel55.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel55.TabIndex = 78;
-            this.bunifuCustomLabel55.Text = "4";
-            this.bunifuCustomLabel55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel56
-            // 
-            this.bunifuCustomLabel56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel56.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel56.Location = new System.Drawing.Point(127, 415);
-            this.bunifuCustomLabel56.Name = "bunifuCustomLabel56";
-            this.bunifuCustomLabel56.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel56.TabIndex = 76;
-            this.bunifuCustomLabel56.Text = "3";
-            this.bunifuCustomLabel56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel57
-            // 
-            this.bunifuCustomLabel57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel57.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel57.Location = new System.Drawing.Point(126, 379);
-            this.bunifuCustomLabel57.Name = "bunifuCustomLabel57";
-            this.bunifuCustomLabel57.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel57.TabIndex = 75;
-            this.bunifuCustomLabel57.Text = "2";
-            this.bunifuCustomLabel57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel58
-            // 
-            this.bunifuCustomLabel58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel58.Location = new System.Drawing.Point(128, 343);
-            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
-            this.bunifuCustomLabel58.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel58.TabIndex = 74;
-            this.bunifuCustomLabel58.Text = "1";
-            this.bunifuCustomLabel58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel51
-            // 
-            this.bunifuCustomLabel51.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel51.AutoSize = true;
-            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel51.Location = new System.Drawing.Point(216, 284);
-            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
-            this.bunifuCustomLabel51.Size = new System.Drawing.Size(45, 16);
-            this.bunifuCustomLabel51.TabIndex = 73;
-            this.bunifuCustomLabel51.Text = "BANS";
-            // 
-            // bunifuCustomLabel50
-            // 
-            this.bunifuCustomLabel50.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel50.AutoSize = true;
-            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel50.Location = new System.Drawing.Point(284, 51);
-            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
-            this.bunifuCustomLabel50.Size = new System.Drawing.Size(59, 16);
-            this.bunifuCustomLabel50.TabIndex = 72;
-            this.bunifuCustomLabel50.Text = "TEAM R";
-            // 
-            // bunifuCustomLabel23
-            // 
-            this.bunifuCustomLabel23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel23.AutoSize = true;
-            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel23.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel23.Location = new System.Drawing.Point(149, 51);
-            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
-            this.bunifuCustomLabel23.Size = new System.Drawing.Size(56, 16);
-            this.bunifuCustomLabel23.TabIndex = 71;
-            this.bunifuCustomLabel23.Text = "TEAM L";
-            // 
-            // bunifuCustomLabel45
-            // 
-            this.bunifuCustomLabel45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel45.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel45.Location = new System.Drawing.Point(266, 241);
-            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
-            this.bunifuCustomLabel45.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel45.TabIndex = 65;
-            this.bunifuCustomLabel45.Text = "5";
-            this.bunifuCustomLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel46
-            // 
-            this.bunifuCustomLabel46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel46.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel46.Location = new System.Drawing.Point(266, 202);
-            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
-            this.bunifuCustomLabel46.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel46.TabIndex = 64;
-            this.bunifuCustomLabel46.Text = "4";
-            this.bunifuCustomLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel47
-            // 
-            this.bunifuCustomLabel47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel47.Location = new System.Drawing.Point(265, 167);
-            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
-            this.bunifuCustomLabel47.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel47.TabIndex = 63;
-            this.bunifuCustomLabel47.Text = "3";
-            this.bunifuCustomLabel47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel48
-            // 
-            this.bunifuCustomLabel48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel48.Location = new System.Drawing.Point(265, 134);
-            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
-            this.bunifuCustomLabel48.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel48.TabIndex = 62;
-            this.bunifuCustomLabel48.Text = "2";
-            this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel49
-            // 
-            this.bunifuCustomLabel49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel49.Location = new System.Drawing.Point(266, 98);
-            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
-            this.bunifuCustomLabel49.Size = new System.Drawing.Size(93, 15);
-            this.bunifuCustomLabel49.TabIndex = 61;
-            this.bunifuCustomLabel49.Text = "1";
-            this.bunifuCustomLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel39
-            // 
-            this.bunifuCustomLabel39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(126, 239);
-            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
-            this.bunifuCustomLabel39.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel39.TabIndex = 60;
-            this.bunifuCustomLabel39.Text = "5";
-            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel41
-            // 
-            this.bunifuCustomLabel41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(127, 204);
-            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel41.TabIndex = 59;
-            this.bunifuCustomLabel41.Text = "4";
-            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel42
-            // 
-            this.bunifuCustomLabel42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel42.Location = new System.Drawing.Point(127, 170);
-            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
-            this.bunifuCustomLabel42.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel42.TabIndex = 58;
-            this.bunifuCustomLabel42.Text = "3";
-            this.bunifuCustomLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel43
-            // 
-            this.bunifuCustomLabel43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel43.Location = new System.Drawing.Point(126, 134);
-            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
-            this.bunifuCustomLabel43.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel43.TabIndex = 57;
-            this.bunifuCustomLabel43.Text = "2";
-            this.bunifuCustomLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuCustomLabel44
-            // 
-            this.bunifuCustomLabel44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel44.Location = new System.Drawing.Point(128, 98);
-            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
-            this.bunifuCustomLabel44.Size = new System.Drawing.Size(103, 15);
-            this.bunifuCustomLabel44.TabIndex = 56;
-            this.bunifuCustomLabel44.Text = "1";
-            this.bunifuCustomLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
-            this.panel24.Controls.Add(this.bunifuCustomLabel40);
-            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel24.Location = new System.Drawing.Point(0, 0);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(487, 39);
-            this.panel24.TabIndex = 3;
-            // 
-            // bunifuCustomLabel40
-            // 
-            this.bunifuCustomLabel40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.bunifuCustomLabel40.AutoSize = true;
-            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(14, 12);
-            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
-            this.bunifuCustomLabel40.Size = new System.Drawing.Size(86, 16);
-            this.bunifuCustomLabel40.TabIndex = 2;
-            this.bunifuCustomLabel40.Text = "LOAD GAME";
-            // 
-            // panel28
-            // 
-            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel28.Controls.Add(this.bunifuCustomLabel64);
-            this.panel28.Controls.Add(this.clear_ch2);
-            this.panel28.Location = new System.Drawing.Point(1433, 416);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(155, 82);
-            this.panel28.TabIndex = 135;
-            // 
-            // bunifuCustomLabel64
-            // 
-            this.bunifuCustomLabel64.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel64.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel64.Location = new System.Drawing.Point(22, 9);
-            this.bunifuCustomLabel64.Name = "bunifuCustomLabel64";
-            this.bunifuCustomLabel64.Size = new System.Drawing.Size(114, 15);
-            this.bunifuCustomLabel64.TabIndex = 45;
-            this.bunifuCustomLabel64.Text = "CHANNEL 2";
-            this.bunifuCustomLabel64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // clear_ch2
-            // 
-            this.clear_ch2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.clear_ch2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.clear_ch2.BackColor = System.Drawing.Color.Red;
-            this.clear_ch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.clear_ch2.BorderRadius = 0;
-            this.clear_ch2.ButtonText = "CG CLEAR";
-            this.clear_ch2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.clear_ch2.DisabledColor = System.Drawing.Color.Gray;
-            this.clear_ch2.Iconcolor = System.Drawing.Color.Transparent;
-            this.clear_ch2.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch2.Iconimage")));
-            this.clear_ch2.Iconimage_right = null;
-            this.clear_ch2.Iconimage_right_Selected = null;
-            this.clear_ch2.Iconimage_Selected = null;
-            this.clear_ch2.IconRightVisible = true;
-            this.clear_ch2.IconRightZoom = 0D;
-            this.clear_ch2.IconVisible = false;
-            this.clear_ch2.IconZoom = 80D;
-            this.clear_ch2.IsTab = false;
-            this.clear_ch2.Location = new System.Drawing.Point(14, 31);
-            this.clear_ch2.Name = "clear_ch2";
-            this.clear_ch2.Normalcolor = System.Drawing.Color.Red;
-            this.clear_ch2.OnHovercolor = System.Drawing.Color.DarkRed;
-            this.clear_ch2.OnHoverTextColor = System.Drawing.Color.White;
-            this.clear_ch2.selected = false;
-            this.clear_ch2.Size = new System.Drawing.Size(129, 41);
-            this.clear_ch2.TabIndex = 38;
-            this.clear_ch2.Text = "CG CLEAR";
-            this.clear_ch2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.clear_ch2.Textcolor = System.Drawing.Color.White;
-            this.clear_ch2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel30.Controls.Add(this.bunifuCustomLabel65);
-            this.panel30.Controls.Add(this.clear_ch1);
-            this.panel30.Location = new System.Drawing.Point(1433, 328);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(155, 82);
-            this.panel30.TabIndex = 133;
-            // 
-            // bunifuCustomLabel65
-            // 
-            this.bunifuCustomLabel65.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel65.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel65.Location = new System.Drawing.Point(22, 9);
-            this.bunifuCustomLabel65.Name = "bunifuCustomLabel65";
-            this.bunifuCustomLabel65.Size = new System.Drawing.Size(114, 15);
-            this.bunifuCustomLabel65.TabIndex = 44;
-            this.bunifuCustomLabel65.Text = "CHANNEL 1";
-            this.bunifuCustomLabel65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // clear_ch1
-            // 
-            this.clear_ch1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.clear_ch1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.clear_ch1.BackColor = System.Drawing.Color.Red;
-            this.clear_ch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.clear_ch1.BorderRadius = 0;
-            this.clear_ch1.ButtonText = "CG CLEAR";
-            this.clear_ch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.clear_ch1.DisabledColor = System.Drawing.Color.Gray;
-            this.clear_ch1.Iconcolor = System.Drawing.Color.Transparent;
-            this.clear_ch1.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch1.Iconimage")));
-            this.clear_ch1.Iconimage_right = null;
-            this.clear_ch1.Iconimage_right_Selected = null;
-            this.clear_ch1.Iconimage_Selected = null;
-            this.clear_ch1.IconRightVisible = true;
-            this.clear_ch1.IconRightZoom = 0D;
-            this.clear_ch1.IconVisible = false;
-            this.clear_ch1.IconZoom = 80D;
-            this.clear_ch1.IsTab = false;
-            this.clear_ch1.Location = new System.Drawing.Point(14, 31);
-            this.clear_ch1.Name = "clear_ch1";
-            this.clear_ch1.Normalcolor = System.Drawing.Color.Red;
-            this.clear_ch1.OnHovercolor = System.Drawing.Color.DarkRed;
-            this.clear_ch1.OnHoverTextColor = System.Drawing.Color.White;
-            this.clear_ch1.selected = false;
-            this.clear_ch1.Size = new System.Drawing.Size(129, 41);
-            this.clear_ch1.TabIndex = 38;
-            this.clear_ch1.Text = "CG CLEAR";
-            this.clear_ch1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.clear_ch1.Textcolor = System.Drawing.Color.White;
-            this.clear_ch1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // panel29
-            // 
-            this.panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel29.Controls.Add(this.test_channel_butt);
-            this.panel29.Controls.Add(this.bunifuCustomLabel66);
-            this.panel29.Location = new System.Drawing.Point(1433, 240);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(155, 82);
-            this.panel29.TabIndex = 132;
-            // 
-            // test_channel_butt
-            // 
-            this.test_channel_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(255)))));
-            this.test_channel_butt.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.test_channel_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.test_channel_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.test_channel_butt.BorderRadius = 0;
-            this.test_channel_butt.ButtonText = "ON";
-            this.test_channel_butt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.test_channel_butt.DisabledColor = System.Drawing.Color.Gray;
-            this.test_channel_butt.Iconcolor = System.Drawing.Color.Transparent;
-            this.test_channel_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("test_channel_butt.Iconimage")));
-            this.test_channel_butt.Iconimage_right = null;
-            this.test_channel_butt.Iconimage_right_Selected = null;
-            this.test_channel_butt.Iconimage_Selected = null;
-            this.test_channel_butt.IconRightVisible = true;
-            this.test_channel_butt.IconRightZoom = 0D;
-            this.test_channel_butt.IconVisible = false;
-            this.test_channel_butt.IconZoom = 90D;
-            this.test_channel_butt.IsTab = false;
-            this.test_channel_butt.Location = new System.Drawing.Point(13, 30);
-            this.test_channel_butt.Name = "test_channel_butt";
-            this.test_channel_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
-            this.test_channel_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.test_channel_butt.OnHoverTextColor = System.Drawing.Color.White;
-            this.test_channel_butt.selected = false;
-            this.test_channel_butt.Size = new System.Drawing.Size(129, 40);
-            this.test_channel_butt.TabIndex = 44;
-            this.test_channel_butt.Text = "ON";
-            this.test_channel_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.test_channel_butt.Textcolor = System.Drawing.Color.Black;
-            this.test_channel_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // bunifuCustomLabel66
-            // 
-            this.bunifuCustomLabel66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel66.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel66.Location = new System.Drawing.Point(22, 10);
-            this.bunifuCustomLabel66.Name = "bunifuCustomLabel66";
-            this.bunifuCustomLabel66.Size = new System.Drawing.Size(114, 15);
-            this.bunifuCustomLabel66.TabIndex = 43;
-            this.bunifuCustomLabel66.Text = "TEST_CHANNEL";
-            this.bunifuCustomLabel66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel27
-            // 
-            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.panel27.Controls.Add(this.bunifuCustomLabel67);
-            this.panel27.Controls.Add(this.clear_ch3);
-            this.panel27.Location = new System.Drawing.Point(1433, 504);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(155, 82);
-            this.panel27.TabIndex = 134;
-            // 
-            // bunifuCustomLabel67
-            // 
-            this.bunifuCustomLabel67.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.bunifuCustomLabel67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.bunifuCustomLabel67.ForeColor = System.Drawing.Color.Silver;
-            this.bunifuCustomLabel67.Location = new System.Drawing.Point(22, 11);
-            this.bunifuCustomLabel67.Name = "bunifuCustomLabel67";
-            this.bunifuCustomLabel67.Size = new System.Drawing.Size(114, 15);
-            this.bunifuCustomLabel67.TabIndex = 46;
-            this.bunifuCustomLabel67.Text = "CHANNEL 3";
-            this.bunifuCustomLabel67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // clear_ch3
-            // 
-            this.clear_ch3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.clear_ch3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.clear_ch3.BackColor = System.Drawing.Color.Red;
-            this.clear_ch3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.clear_ch3.BorderRadius = 0;
-            this.clear_ch3.ButtonText = "CG CLEAR";
-            this.clear_ch3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.clear_ch3.DisabledColor = System.Drawing.Color.Gray;
-            this.clear_ch3.Iconcolor = System.Drawing.Color.Transparent;
-            this.clear_ch3.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch3.Iconimage")));
-            this.clear_ch3.Iconimage_right = null;
-            this.clear_ch3.Iconimage_right_Selected = null;
-            this.clear_ch3.Iconimage_Selected = null;
-            this.clear_ch3.IconRightVisible = true;
-            this.clear_ch3.IconRightZoom = 0D;
-            this.clear_ch3.IconVisible = false;
-            this.clear_ch3.IconZoom = 80D;
-            this.clear_ch3.IsTab = false;
-            this.clear_ch3.Location = new System.Drawing.Point(14, 31);
-            this.clear_ch3.Name = "clear_ch3";
-            this.clear_ch3.Normalcolor = System.Drawing.Color.Red;
-            this.clear_ch3.OnHovercolor = System.Drawing.Color.DarkRed;
-            this.clear_ch3.OnHoverTextColor = System.Drawing.Color.White;
-            this.clear_ch3.selected = false;
-            this.clear_ch3.Size = new System.Drawing.Size(129, 41);
-            this.clear_ch3.TabIndex = 38;
-            this.clear_ch3.Text = "CG CLEAR";
-            this.clear_ch3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.clear_ch3.Textcolor = System.Drawing.Color.White;
-            this.clear_ch3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox2.Location = new System.Drawing.Point(365, 130);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 96;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox3.Location = new System.Drawing.Point(364, 165);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 97;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox4.Location = new System.Drawing.Point(364, 199);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 98;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox5.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox5.Location = new System.Drawing.Point(364, 238);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
-            this.comboBox5.TabIndex = 99;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox6.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox6.Location = new System.Drawing.Point(1, 238);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 21);
-            this.comboBox6.TabIndex = 104;
-            // 
-            // comboBox7
-            // 
-            this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox7.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox7.Location = new System.Drawing.Point(1, 199);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 103;
-            // 
-            // comboBox8
-            // 
-            this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox8.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox8.Location = new System.Drawing.Point(1, 165);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 21);
-            this.comboBox8.TabIndex = 102;
-            // 
-            // comboBox9
-            // 
-            this.comboBox9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox9.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox9.Location = new System.Drawing.Point(2, 130);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(121, 21);
-            this.comboBox9.TabIndex = 101;
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox10.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
-            "Aatrox",
-            "Ahri",
-            "Akali",
-            "Alistar",
-            "Amumu",
-            "Anivia",
-            "Annie",
-            "Ashe",
-            "Aurelion Sol",
-            "Azir",
-            "Bard",
-            "Blitzcrank",
-            "Brand",
-            "Braum",
-            "Caitlyn",
-            "Camille",
-            "Cassiopeia",
-            "Cho\'Gath",
-            "Corki",
-            "Darius",
-            "Diana",
-            "Dr.Mundo",
-            "Draven",
-            "Ekko",
-            "Elise",
-            "Evelynn",
-            "Ezreal",
-            "Fiddlesticks",
-            "Fiora",
-            "Fizz",
-            "Galio",
-            "Gangplank",
-            "Garen",
-            "Gnar",
-            "Gragas",
-            "Graves",
-            "Hecarim",
-            "Heimerdinger",
-            "Illaoi",
-            "Irelia",
-            "Ivern",
-            "Janna",
-            "Jarvan IV",
-            "Jax",
-            "Jayce",
-            "Jhin",
-            "Jinx",
-            "Kalista",
-            "Karma",
-            "Karthus",
-            "Kassadin",
-            "Katarina",
-            "Kayle",
-            "Kayn",
-            "Kennen",
-            "Kha\'Zix",
-            "Kindred",
-            "Kled",
-            "Kog\'Maw",
-            "LeBlanc",
-            "Lee Sin",
-            "Leona",
-            "Lissandra",
-            "Lucian",
-            "Lulu",
-            "Lux",
-            "Malphite",
-            "Malzahar",
-            "Maokai",
-            "Master Yi",
-            "Miss Fortune",
-            "Mordekaiser",
-            "Morgana",
-            "Nami",
-            "Nasus",
-            "Nautilus",
-            "Nidalee",
-            "Nocturne",
-            "Nunu",
-            "Olaf",
-            "Orianna",
-            "Pantheon",
-            "Poppy",
-            "Quinn",
-            "Rakan",
-            "Rammus",
-            "Rek\'Sai",
-            "Renekton",
-            "Rengar",
-            "Riven",
-            "Rumble",
-            "Ryze",
-            "Sejuani",
-            "Shaco",
-            "Shen",
-            "Shyvana",
-            "Singed",
-            "Sion",
-            "Sivir",
-            "Skarner",
-            "Sona",
-            "Soraka",
-            "Swain",
-            "Syndra",
-            "Tahm Kench",
-            "Taliyah",
-            "Talon",
-            "Taric",
-            "Teemo",
-            "Thresh",
-            "Tristana",
-            "Trundle",
-            "Tryndamere",
-            "Twisted Fate",
-            "Twitch",
-            "Udyr",
-            "Urgot",
-            "Varus",
-            "Vayne",
-            "Veigar",
-            "Vel\'Koz",
-            "Vi",
-            "Viktor",
-            "Vladimir",
-            "Volibear",
-            "Warwick",
-            "Wukong",
-            "Xayah",
-            "Xerath",
-            "Xin Zhao",
-            "Yasuo",
-            "Yorick",
-            "Zac",
-            "Zed",
-            "Ziggs",
-            "Zilean",
-            "Zyra",
-            " "});
-            this.comboBox10.Location = new System.Drawing.Point(2, 95);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 21);
-            this.comboBox10.TabIndex = 100;
             // 
             // comboBox11
             // 
@@ -6250,11 +4144,2258 @@
             this.comboBox20.Size = new System.Drawing.Size(121, 21);
             this.comboBox20.TabIndex = 105;
             // 
+            // comboBox6
+            // 
+            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox6.Location = new System.Drawing.Point(1, 238);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(121, 21);
+            this.comboBox6.TabIndex = 104;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox7.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox7.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox7.Location = new System.Drawing.Point(1, 199);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(121, 21);
+            this.comboBox7.TabIndex = 103;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox8.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox8.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox8.Location = new System.Drawing.Point(1, 165);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(121, 21);
+            this.comboBox8.TabIndex = 102;
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox9.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox9.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox9.Location = new System.Drawing.Point(2, 130);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(121, 21);
+            this.comboBox9.TabIndex = 101;
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox10.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox10.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox10.Location = new System.Drawing.Point(2, 95);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(121, 21);
+            this.comboBox10.TabIndex = 100;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox5.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox5.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox5.Location = new System.Drawing.Point(364, 238);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(121, 21);
+            this.comboBox5.TabIndex = 99;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox4.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox4.Location = new System.Drawing.Point(364, 199);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 21);
+            this.comboBox4.TabIndex = 98;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox3.Location = new System.Drawing.Point(364, 165);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 97;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox2.Location = new System.Drawing.Point(365, 130);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 96;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Aatrox",
+            "Ahri",
+            "Akali",
+            "Alistar",
+            "Amumu",
+            "Anivia",
+            "Annie",
+            "Ashe",
+            "Aurelion Sol",
+            "Azir",
+            "Bard",
+            "Blitzcrank",
+            "Brand",
+            "Braum",
+            "Caitlyn",
+            "Camille",
+            "Cassiopeia",
+            "Cho\'Gath",
+            "Corki",
+            "Darius",
+            "Diana",
+            "Dr.Mundo",
+            "Draven",
+            "Ekko",
+            "Elise",
+            "Evelynn",
+            "Ezreal",
+            "Fiddlesticks",
+            "Fiora",
+            "Fizz",
+            "Galio",
+            "Gangplank",
+            "Garen",
+            "Gnar",
+            "Gragas",
+            "Graves",
+            "Hecarim",
+            "Heimerdinger",
+            "Illaoi",
+            "Irelia",
+            "Ivern",
+            "Janna",
+            "Jarvan IV",
+            "Jax",
+            "Jayce",
+            "Jhin",
+            "Jinx",
+            "Kalista",
+            "Karma",
+            "Karthus",
+            "Kassadin",
+            "Katarina",
+            "Kayle",
+            "Kayn",
+            "Kennen",
+            "Kha\'Zix",
+            "Kindred",
+            "Kled",
+            "Kog\'Maw",
+            "LeBlanc",
+            "Lee Sin",
+            "Leona",
+            "Lissandra",
+            "Lucian",
+            "Lulu",
+            "Lux",
+            "Malphite",
+            "Malzahar",
+            "Maokai",
+            "Master Yi",
+            "Miss Fortune",
+            "Mordekaiser",
+            "Morgana",
+            "Nami",
+            "Nasus",
+            "Nautilus",
+            "Nidalee",
+            "Nocturne",
+            "Nunu",
+            "Olaf",
+            "Orianna",
+            "Pantheon",
+            "Poppy",
+            "Quinn",
+            "Rakan",
+            "Rammus",
+            "Rek\'Sai",
+            "Renekton",
+            "Rengar",
+            "Riven",
+            "Rumble",
+            "Ryze",
+            "Sejuani",
+            "Shaco",
+            "Shen",
+            "Shyvana",
+            "Singed",
+            "Sion",
+            "Sivir",
+            "Skarner",
+            "Sona",
+            "Soraka",
+            "Swain",
+            "Syndra",
+            "Tahm Kench",
+            "Taliyah",
+            "Talon",
+            "Taric",
+            "Teemo",
+            "Thresh",
+            "Tristana",
+            "Trundle",
+            "Tryndamere",
+            "Twisted Fate",
+            "Twitch",
+            "Udyr",
+            "Urgot",
+            "Varus",
+            "Vayne",
+            "Veigar",
+            "Vel\'Koz",
+            "Vi",
+            "Viktor",
+            "Vladimir",
+            "Volibear",
+            "Warwick",
+            "Wukong",
+            "Xayah",
+            "Xerath",
+            "Xin Zhao",
+            "Yasuo",
+            "Yorick",
+            "Zac",
+            "Zed",
+            "Ziggs",
+            "Zilean",
+            "Zyra",
+            " "});
+            this.comboBox1.Location = new System.Drawing.Point(365, 95);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 95;
+            // 
+            // bunifuFlatButton15
+            // 
+            this.bunifuFlatButton15.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(98)))), ((int)(((byte)(15)))));
+            this.bunifuFlatButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFlatButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton15.BorderRadius = 0;
+            this.bunifuFlatButton15.ButtonText = "UPDATE";
+            this.bunifuFlatButton15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton15.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton15.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton15.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton15.Iconimage")));
+            this.bunifuFlatButton15.Iconimage_right = null;
+            this.bunifuFlatButton15.Iconimage_right_Selected = null;
+            this.bunifuFlatButton15.Iconimage_Selected = null;
+            this.bunifuFlatButton15.IconRightVisible = true;
+            this.bunifuFlatButton15.IconRightZoom = 0D;
+            this.bunifuFlatButton15.IconVisible = false;
+            this.bunifuFlatButton15.IconZoom = 80D;
+            this.bunifuFlatButton15.IsTab = false;
+            this.bunifuFlatButton15.Location = new System.Drawing.Point(225, 521);
+            this.bunifuFlatButton15.Name = "bunifuFlatButton15";
+            this.bunifuFlatButton15.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton15.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(123)))), ((int)(((byte)(26)))));
+            this.bunifuFlatButton15.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton15.selected = false;
+            this.bunifuFlatButton15.Size = new System.Drawing.Size(129, 30);
+            this.bunifuFlatButton15.TabIndex = 94;
+            this.bunifuFlatButton15.Text = "UPDATE";
+            this.bunifuFlatButton15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton15.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton15.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton4
+            // 
+            this.bunifuFlatButton4.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton4.BorderRadius = 0;
+            this.bunifuFlatButton4.ButtonText = "ON";
+            this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
+            this.bunifuFlatButton4.Iconimage_right = null;
+            this.bunifuFlatButton4.Iconimage_right_Selected = null;
+            this.bunifuFlatButton4.Iconimage_Selected = null;
+            this.bunifuFlatButton4.IconRightVisible = true;
+            this.bunifuFlatButton4.IconRightZoom = 0D;
+            this.bunifuFlatButton4.IconVisible = false;
+            this.bunifuFlatButton4.IconZoom = 90D;
+            this.bunifuFlatButton4.IsTab = false;
+            this.bunifuFlatButton4.Location = new System.Drawing.Point(360, 521);
+            this.bunifuFlatButton4.Name = "bunifuFlatButton4";
+            this.bunifuFlatButton4.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton4.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.bunifuFlatButton4.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton4.selected = false;
+            this.bunifuFlatButton4.Size = new System.Drawing.Size(123, 30);
+            this.bunifuFlatButton4.TabIndex = 44;
+            this.bunifuFlatButton4.Text = "ON";
+            this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Black;
+            this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton4_Click);
+            // 
+            // bunifuCustomLabel59
+            // 
+            this.bunifuCustomLabel59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel59.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel59.Location = new System.Drawing.Point(265, 486);
+            this.bunifuCustomLabel59.Name = "bunifuCustomLabel59";
+            this.bunifuCustomLabel59.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel59.TabIndex = 88;
+            this.bunifuCustomLabel59.Text = "5";
+            this.bunifuCustomLabel59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel60
+            // 
+            this.bunifuCustomLabel60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel60.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel60.Location = new System.Drawing.Point(265, 447);
+            this.bunifuCustomLabel60.Name = "bunifuCustomLabel60";
+            this.bunifuCustomLabel60.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel60.TabIndex = 87;
+            this.bunifuCustomLabel60.Text = "4";
+            this.bunifuCustomLabel60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel61
+            // 
+            this.bunifuCustomLabel61.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel61.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel61.Location = new System.Drawing.Point(264, 412);
+            this.bunifuCustomLabel61.Name = "bunifuCustomLabel61";
+            this.bunifuCustomLabel61.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel61.TabIndex = 86;
+            this.bunifuCustomLabel61.Text = "3";
+            this.bunifuCustomLabel61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel62
+            // 
+            this.bunifuCustomLabel62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel62.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel62.Location = new System.Drawing.Point(264, 379);
+            this.bunifuCustomLabel62.Name = "bunifuCustomLabel62";
+            this.bunifuCustomLabel62.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel62.TabIndex = 85;
+            this.bunifuCustomLabel62.Text = "2";
+            this.bunifuCustomLabel62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel63
+            // 
+            this.bunifuCustomLabel63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel63.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel63.Location = new System.Drawing.Point(265, 343);
+            this.bunifuCustomLabel63.Name = "bunifuCustomLabel63";
+            this.bunifuCustomLabel63.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel63.TabIndex = 84;
+            this.bunifuCustomLabel63.Text = "1";
+            this.bunifuCustomLabel63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel52
+            // 
+            this.bunifuCustomLabel52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel52.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel52.Location = new System.Drawing.Point(126, 484);
+            this.bunifuCustomLabel52.Name = "bunifuCustomLabel52";
+            this.bunifuCustomLabel52.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel52.TabIndex = 80;
+            this.bunifuCustomLabel52.Text = "5";
+            this.bunifuCustomLabel52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel55
+            // 
+            this.bunifuCustomLabel55.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel55.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel55.Location = new System.Drawing.Point(127, 449);
+            this.bunifuCustomLabel55.Name = "bunifuCustomLabel55";
+            this.bunifuCustomLabel55.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel55.TabIndex = 78;
+            this.bunifuCustomLabel55.Text = "4";
+            this.bunifuCustomLabel55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel56
+            // 
+            this.bunifuCustomLabel56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel56.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel56.Location = new System.Drawing.Point(127, 415);
+            this.bunifuCustomLabel56.Name = "bunifuCustomLabel56";
+            this.bunifuCustomLabel56.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel56.TabIndex = 76;
+            this.bunifuCustomLabel56.Text = "3";
+            this.bunifuCustomLabel56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel57
+            // 
+            this.bunifuCustomLabel57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel57.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel57.Location = new System.Drawing.Point(126, 379);
+            this.bunifuCustomLabel57.Name = "bunifuCustomLabel57";
+            this.bunifuCustomLabel57.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel57.TabIndex = 75;
+            this.bunifuCustomLabel57.Text = "2";
+            this.bunifuCustomLabel57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel58
+            // 
+            this.bunifuCustomLabel58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel58.Location = new System.Drawing.Point(128, 343);
+            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
+            this.bunifuCustomLabel58.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel58.TabIndex = 74;
+            this.bunifuCustomLabel58.Text = "1";
+            this.bunifuCustomLabel58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel51
+            // 
+            this.bunifuCustomLabel51.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel51.AutoSize = true;
+            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel51.Location = new System.Drawing.Point(216, 284);
+            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
+            this.bunifuCustomLabel51.Size = new System.Drawing.Size(45, 16);
+            this.bunifuCustomLabel51.TabIndex = 73;
+            this.bunifuCustomLabel51.Text = "BANS";
+            // 
+            // bunifuCustomLabel50
+            // 
+            this.bunifuCustomLabel50.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel50.AutoSize = true;
+            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(284, 51);
+            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
+            this.bunifuCustomLabel50.Size = new System.Drawing.Size(59, 16);
+            this.bunifuCustomLabel50.TabIndex = 72;
+            this.bunifuCustomLabel50.Text = "TEAM R";
+            // 
+            // bunifuCustomLabel23
+            // 
+            this.bunifuCustomLabel23.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel23.AutoSize = true;
+            this.bunifuCustomLabel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel23.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel23.Location = new System.Drawing.Point(149, 51);
+            this.bunifuCustomLabel23.Name = "bunifuCustomLabel23";
+            this.bunifuCustomLabel23.Size = new System.Drawing.Size(56, 16);
+            this.bunifuCustomLabel23.TabIndex = 71;
+            this.bunifuCustomLabel23.Text = "TEAM L";
+            // 
+            // bunifuCustomLabel45
+            // 
+            this.bunifuCustomLabel45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel45.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel45.Location = new System.Drawing.Point(266, 241);
+            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
+            this.bunifuCustomLabel45.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel45.TabIndex = 65;
+            this.bunifuCustomLabel45.Text = "5";
+            this.bunifuCustomLabel45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel46
+            // 
+            this.bunifuCustomLabel46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel46.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel46.Location = new System.Drawing.Point(266, 202);
+            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
+            this.bunifuCustomLabel46.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel46.TabIndex = 64;
+            this.bunifuCustomLabel46.Text = "4";
+            this.bunifuCustomLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel47
+            // 
+            this.bunifuCustomLabel47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(265, 167);
+            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
+            this.bunifuCustomLabel47.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel47.TabIndex = 63;
+            this.bunifuCustomLabel47.Text = "3";
+            this.bunifuCustomLabel47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel48
+            // 
+            this.bunifuCustomLabel48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel48.Location = new System.Drawing.Point(265, 134);
+            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
+            this.bunifuCustomLabel48.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel48.TabIndex = 62;
+            this.bunifuCustomLabel48.Text = "2";
+            this.bunifuCustomLabel48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel49
+            // 
+            this.bunifuCustomLabel49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel49.Location = new System.Drawing.Point(266, 98);
+            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
+            this.bunifuCustomLabel49.Size = new System.Drawing.Size(93, 15);
+            this.bunifuCustomLabel49.TabIndex = 61;
+            this.bunifuCustomLabel49.Text = "1";
+            this.bunifuCustomLabel49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel39
+            // 
+            this.bunifuCustomLabel39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel39.Location = new System.Drawing.Point(126, 239);
+            this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
+            this.bunifuCustomLabel39.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel39.TabIndex = 60;
+            this.bunifuCustomLabel39.Text = "5";
+            this.bunifuCustomLabel39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel41
+            // 
+            this.bunifuCustomLabel41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel41.Location = new System.Drawing.Point(127, 204);
+            this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
+            this.bunifuCustomLabel41.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel41.TabIndex = 59;
+            this.bunifuCustomLabel41.Text = "4";
+            this.bunifuCustomLabel41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel42
+            // 
+            this.bunifuCustomLabel42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel42.Location = new System.Drawing.Point(127, 170);
+            this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
+            this.bunifuCustomLabel42.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel42.TabIndex = 58;
+            this.bunifuCustomLabel42.Text = "3";
+            this.bunifuCustomLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel43
+            // 
+            this.bunifuCustomLabel43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel43.Location = new System.Drawing.Point(126, 134);
+            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
+            this.bunifuCustomLabel43.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel43.TabIndex = 57;
+            this.bunifuCustomLabel43.Text = "2";
+            this.bunifuCustomLabel43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(128, 98);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(103, 15);
+            this.bunifuCustomLabel44.TabIndex = 56;
+            this.bunifuCustomLabel44.Text = "1";
+            this.bunifuCustomLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.panel24.Controls.Add(this.bunifuCustomLabel40);
+            this.panel24.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel24.Location = new System.Drawing.Point(0, 0);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(487, 39);
+            this.panel24.TabIndex = 3;
+            // 
+            // bunifuCustomLabel40
+            // 
+            this.bunifuCustomLabel40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.bunifuCustomLabel40.AutoSize = true;
+            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(14, 12);
+            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
+            this.bunifuCustomLabel40.Size = new System.Drawing.Size(86, 16);
+            this.bunifuCustomLabel40.TabIndex = 2;
+            this.bunifuCustomLabel40.Text = "LOAD GAME";
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel28.Controls.Add(this.bunifuCustomLabel64);
+            this.panel28.Controls.Add(this.clear_ch2);
+            this.panel28.Location = new System.Drawing.Point(1433, 416);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(155, 82);
+            this.panel28.TabIndex = 135;
+            // 
+            // bunifuCustomLabel64
+            // 
+            this.bunifuCustomLabel64.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel64.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel64.Location = new System.Drawing.Point(22, 9);
+            this.bunifuCustomLabel64.Name = "bunifuCustomLabel64";
+            this.bunifuCustomLabel64.Size = new System.Drawing.Size(114, 15);
+            this.bunifuCustomLabel64.TabIndex = 45;
+            this.bunifuCustomLabel64.Text = "CHANNEL 2";
+            this.bunifuCustomLabel64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // clear_ch2
+            // 
+            this.clear_ch2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.clear_ch2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.clear_ch2.BackColor = System.Drawing.Color.Red;
+            this.clear_ch2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.clear_ch2.BorderRadius = 0;
+            this.clear_ch2.ButtonText = "CG CLEAR";
+            this.clear_ch2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clear_ch2.DisabledColor = System.Drawing.Color.Gray;
+            this.clear_ch2.Iconcolor = System.Drawing.Color.Transparent;
+            this.clear_ch2.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch2.Iconimage")));
+            this.clear_ch2.Iconimage_right = null;
+            this.clear_ch2.Iconimage_right_Selected = null;
+            this.clear_ch2.Iconimage_Selected = null;
+            this.clear_ch2.IconRightVisible = true;
+            this.clear_ch2.IconRightZoom = 0D;
+            this.clear_ch2.IconVisible = false;
+            this.clear_ch2.IconZoom = 80D;
+            this.clear_ch2.IsTab = false;
+            this.clear_ch2.Location = new System.Drawing.Point(14, 31);
+            this.clear_ch2.Name = "clear_ch2";
+            this.clear_ch2.Normalcolor = System.Drawing.Color.Red;
+            this.clear_ch2.OnHovercolor = System.Drawing.Color.DarkRed;
+            this.clear_ch2.OnHoverTextColor = System.Drawing.Color.White;
+            this.clear_ch2.selected = false;
+            this.clear_ch2.Size = new System.Drawing.Size(129, 41);
+            this.clear_ch2.TabIndex = 38;
+            this.clear_ch2.Text = "CG CLEAR";
+            this.clear_ch2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.clear_ch2.Textcolor = System.Drawing.Color.White;
+            this.clear_ch2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch2.Click += new System.EventHandler(this.clear_ch2_Click);
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel30.Controls.Add(this.bunifuCustomLabel65);
+            this.panel30.Controls.Add(this.clear_ch1);
+            this.panel30.Location = new System.Drawing.Point(1433, 328);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(155, 82);
+            this.panel30.TabIndex = 133;
+            // 
+            // bunifuCustomLabel65
+            // 
+            this.bunifuCustomLabel65.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel65.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel65.Location = new System.Drawing.Point(22, 9);
+            this.bunifuCustomLabel65.Name = "bunifuCustomLabel65";
+            this.bunifuCustomLabel65.Size = new System.Drawing.Size(114, 15);
+            this.bunifuCustomLabel65.TabIndex = 44;
+            this.bunifuCustomLabel65.Text = "CHANNEL 1";
+            this.bunifuCustomLabel65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // clear_ch1
+            // 
+            this.clear_ch1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.clear_ch1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.clear_ch1.BackColor = System.Drawing.Color.Red;
+            this.clear_ch1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.clear_ch1.BorderRadius = 0;
+            this.clear_ch1.ButtonText = "CG CLEAR";
+            this.clear_ch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clear_ch1.DisabledColor = System.Drawing.Color.Gray;
+            this.clear_ch1.Iconcolor = System.Drawing.Color.Transparent;
+            this.clear_ch1.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch1.Iconimage")));
+            this.clear_ch1.Iconimage_right = null;
+            this.clear_ch1.Iconimage_right_Selected = null;
+            this.clear_ch1.Iconimage_Selected = null;
+            this.clear_ch1.IconRightVisible = true;
+            this.clear_ch1.IconRightZoom = 0D;
+            this.clear_ch1.IconVisible = false;
+            this.clear_ch1.IconZoom = 80D;
+            this.clear_ch1.IsTab = false;
+            this.clear_ch1.Location = new System.Drawing.Point(14, 31);
+            this.clear_ch1.Name = "clear_ch1";
+            this.clear_ch1.Normalcolor = System.Drawing.Color.Red;
+            this.clear_ch1.OnHovercolor = System.Drawing.Color.DarkRed;
+            this.clear_ch1.OnHoverTextColor = System.Drawing.Color.White;
+            this.clear_ch1.selected = false;
+            this.clear_ch1.Size = new System.Drawing.Size(129, 41);
+            this.clear_ch1.TabIndex = 38;
+            this.clear_ch1.Text = "CG CLEAR";
+            this.clear_ch1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.clear_ch1.Textcolor = System.Drawing.Color.White;
+            this.clear_ch1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch1.Click += new System.EventHandler(this.clear_ch1_Click);
+            // 
+            // panel29
+            // 
+            this.panel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel29.Controls.Add(this.test_channel_butt);
+            this.panel29.Controls.Add(this.bunifuCustomLabel66);
+            this.panel29.Location = new System.Drawing.Point(1433, 240);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(155, 82);
+            this.panel29.TabIndex = 132;
+            // 
+            // test_channel_butt
+            // 
+            this.test_channel_butt.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(255)))));
+            this.test_channel_butt.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.test_channel_butt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.test_channel_butt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.test_channel_butt.BorderRadius = 0;
+            this.test_channel_butt.ButtonText = "ON";
+            this.test_channel_butt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.test_channel_butt.DisabledColor = System.Drawing.Color.Gray;
+            this.test_channel_butt.Iconcolor = System.Drawing.Color.Transparent;
+            this.test_channel_butt.Iconimage = ((System.Drawing.Image)(resources.GetObject("test_channel_butt.Iconimage")));
+            this.test_channel_butt.Iconimage_right = null;
+            this.test_channel_butt.Iconimage_right_Selected = null;
+            this.test_channel_butt.Iconimage_Selected = null;
+            this.test_channel_butt.IconRightVisible = true;
+            this.test_channel_butt.IconRightZoom = 0D;
+            this.test_channel_butt.IconVisible = false;
+            this.test_channel_butt.IconZoom = 90D;
+            this.test_channel_butt.IsTab = false;
+            this.test_channel_butt.Location = new System.Drawing.Point(13, 30);
+            this.test_channel_butt.Name = "test_channel_butt";
+            this.test_channel_butt.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.test_channel_butt.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.test_channel_butt.OnHoverTextColor = System.Drawing.Color.White;
+            this.test_channel_butt.selected = false;
+            this.test_channel_butt.Size = new System.Drawing.Size(129, 40);
+            this.test_channel_butt.TabIndex = 44;
+            this.test_channel_butt.Text = "ON";
+            this.test_channel_butt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.test_channel_butt.Textcolor = System.Drawing.Color.Black;
+            this.test_channel_butt.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuCustomLabel66
+            // 
+            this.bunifuCustomLabel66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel66.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel66.Location = new System.Drawing.Point(22, 10);
+            this.bunifuCustomLabel66.Name = "bunifuCustomLabel66";
+            this.bunifuCustomLabel66.Size = new System.Drawing.Size(114, 15);
+            this.bunifuCustomLabel66.TabIndex = 43;
+            this.bunifuCustomLabel66.Text = "TEST_CHANNEL";
+            this.bunifuCustomLabel66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel27.Controls.Add(this.bunifuCustomLabel67);
+            this.panel27.Controls.Add(this.clear_ch3);
+            this.panel27.Location = new System.Drawing.Point(1433, 504);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(155, 82);
+            this.panel27.TabIndex = 134;
+            // 
+            // bunifuCustomLabel67
+            // 
+            this.bunifuCustomLabel67.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel67.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel67.Location = new System.Drawing.Point(22, 11);
+            this.bunifuCustomLabel67.Name = "bunifuCustomLabel67";
+            this.bunifuCustomLabel67.Size = new System.Drawing.Size(114, 15);
+            this.bunifuCustomLabel67.TabIndex = 46;
+            this.bunifuCustomLabel67.Text = "CHANNEL 3";
+            this.bunifuCustomLabel67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // clear_ch3
+            // 
+            this.clear_ch3.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.clear_ch3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.clear_ch3.BackColor = System.Drawing.Color.Red;
+            this.clear_ch3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.clear_ch3.BorderRadius = 0;
+            this.clear_ch3.ButtonText = "CG CLEAR";
+            this.clear_ch3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clear_ch3.DisabledColor = System.Drawing.Color.Gray;
+            this.clear_ch3.Iconcolor = System.Drawing.Color.Transparent;
+            this.clear_ch3.Iconimage = ((System.Drawing.Image)(resources.GetObject("clear_ch3.Iconimage")));
+            this.clear_ch3.Iconimage_right = null;
+            this.clear_ch3.Iconimage_right_Selected = null;
+            this.clear_ch3.Iconimage_Selected = null;
+            this.clear_ch3.IconRightVisible = true;
+            this.clear_ch3.IconRightZoom = 0D;
+            this.clear_ch3.IconVisible = false;
+            this.clear_ch3.IconZoom = 80D;
+            this.clear_ch3.IsTab = false;
+            this.clear_ch3.Location = new System.Drawing.Point(14, 31);
+            this.clear_ch3.Name = "clear_ch3";
+            this.clear_ch3.Normalcolor = System.Drawing.Color.Red;
+            this.clear_ch3.OnHovercolor = System.Drawing.Color.DarkRed;
+            this.clear_ch3.OnHoverTextColor = System.Drawing.Color.White;
+            this.clear_ch3.selected = false;
+            this.clear_ch3.Size = new System.Drawing.Size(129, 41);
+            this.clear_ch3.TabIndex = 38;
+            this.clear_ch3.Text = "CG CLEAR";
+            this.clear_ch3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.clear_ch3.Textcolor = System.Drawing.Color.White;
+            this.clear_ch3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clear_ch3.Click += new System.EventHandler(this.clear_ch3_Click);
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(54)))), ((int)(((byte)(57)))));
+            this.panel12.Controls.Add(this.bunifuMaterialTextbox1);
+            this.panel12.Controls.Add(this.analyzer_name);
+            this.panel12.Controls.Add(this.metroComboBox3);
+            this.panel12.Controls.Add(this.metroComboBox2);
+            this.panel12.Controls.Add(this.bunifuFlatButton10);
+            this.panel12.Controls.Add(this.bunifuCustomLabel80);
+            this.panel12.Location = new System.Drawing.Point(991, 669);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(504, 196);
+            this.panel12.TabIndex = 44;
+            // 
+            // bunifuMaterialTextbox1
+            // 
+            this.bunifuMaterialTextbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuMaterialTextbox1.isPassword = false;
+            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
+            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuMaterialTextbox1.LineThickness = 2;
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(196, 99);
+            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
+            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(304, 29);
+            this.bunifuMaterialTextbox1.TabIndex = 46;
+            this.bunifuMaterialTextbox1.Text = "Caster Name";
+            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // analyzer_name
+            // 
+            this.analyzer_name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(46)))), ((int)(((byte)(48)))));
+            this.analyzer_name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.analyzer_name.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.analyzer_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.analyzer_name.isPassword = false;
+            this.analyzer_name.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.analyzer_name.LineIdleColor = System.Drawing.Color.Gray;
+            this.analyzer_name.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.analyzer_name.LineThickness = 2;
+            this.analyzer_name.Location = new System.Drawing.Point(196, 44);
+            this.analyzer_name.Margin = new System.Windows.Forms.Padding(4);
+            this.analyzer_name.Name = "analyzer_name";
+            this.analyzer_name.Size = new System.Drawing.Size(304, 29);
+            this.analyzer_name.TabIndex = 45;
+            this.analyzer_name.Text = "Caster Name";
+            this.analyzer_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // metroComboBox3
+            // 
+            this.metroComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox3.FormattingEnabled = true;
+            this.metroComboBox3.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox3.ItemHeight = 23;
+            this.metroComboBox3.Location = new System.Drawing.Point(18, 98);
+            this.metroComboBox3.Name = "metroComboBox3";
+            this.metroComboBox3.Size = new System.Drawing.Size(171, 29);
+            this.metroComboBox3.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox3.TabIndex = 44;
+            this.metroComboBox3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // metroComboBox2
+            // 
+            this.metroComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.metroComboBox2.FormattingEnabled = true;
+            this.metroComboBox2.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.metroComboBox2.ItemHeight = 23;
+            this.metroComboBox2.Location = new System.Drawing.Point(18, 44);
+            this.metroComboBox2.Name = "metroComboBox2";
+            this.metroComboBox2.Size = new System.Drawing.Size(171, 29);
+            this.metroComboBox2.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroComboBox2.TabIndex = 21;
+            this.metroComboBox2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // bunifuFlatButton10
+            // 
+            this.bunifuFlatButton10.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
+            this.bunifuFlatButton10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuFlatButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton10.BorderRadius = 0;
+            this.bunifuFlatButton10.ButtonText = "ON";
+            this.bunifuFlatButton10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton10.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton10.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton10.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton10.Iconimage")));
+            this.bunifuFlatButton10.Iconimage_right = null;
+            this.bunifuFlatButton10.Iconimage_right_Selected = null;
+            this.bunifuFlatButton10.Iconimage_Selected = null;
+            this.bunifuFlatButton10.IconRightVisible = true;
+            this.bunifuFlatButton10.IconRightZoom = 0D;
+            this.bunifuFlatButton10.IconVisible = false;
+            this.bunifuFlatButton10.IconZoom = 90D;
+            this.bunifuFlatButton10.IsTab = false;
+            this.bunifuFlatButton10.Location = new System.Drawing.Point(320, 153);
+            this.bunifuFlatButton10.Name = "bunifuFlatButton10";
+            this.bunifuFlatButton10.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(183)))), ((int)(((byte)(183)))));
+            this.bunifuFlatButton10.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
+            this.bunifuFlatButton10.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton10.selected = false;
+            this.bunifuFlatButton10.Size = new System.Drawing.Size(171, 30);
+            this.bunifuFlatButton10.TabIndex = 42;
+            this.bunifuFlatButton10.Text = "ON";
+            this.bunifuFlatButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuFlatButton10.Textcolor = System.Drawing.Color.Black;
+            this.bunifuFlatButton10.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton10.Click += new System.EventHandler(this.bunifuFlatButton10_Click);
+            // 
+            // bunifuCustomLabel80
+            // 
+            this.bunifuCustomLabel80.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bunifuCustomLabel80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.bunifuCustomLabel80.ForeColor = System.Drawing.Color.Silver;
+            this.bunifuCustomLabel80.Location = new System.Drawing.Point(15, 15);
+            this.bunifuCustomLabel80.Name = "bunifuCustomLabel80";
+            this.bunifuCustomLabel80.Size = new System.Drawing.Size(197, 15);
+            this.bunifuCustomLabel80.TabIndex = 43;
+            this.bunifuCustomLabel80.Text = "KDA PLAYER";
+            this.bunifuCustomLabel80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // InGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel28);
             this.Controls.Add(this.panel30);
             this.Controls.Add(this.panel29);
@@ -6315,6 +6456,7 @@
             this.panel30.ResumeLayout(false);
             this.panel29.ResumeLayout(false);
             this.panel27.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -6512,5 +6654,12 @@
         private System.Windows.Forms.ComboBox comboBox18;
         private System.Windows.Forms.ComboBox comboBox19;
         private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.Panel panel12;
+        private MetroFramework.Controls.MetroComboBox metroComboBox3;
+        private MetroFramework.Controls.MetroComboBox metroComboBox2;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton10;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel80;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox analyzer_name;
     }
 }

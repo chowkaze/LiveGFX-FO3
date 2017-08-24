@@ -1673,6 +1673,13 @@ namespace LiveGFX_FO3
                                 {
                                     inputsource[1] = "TIES SERIES " + selected + " - " + selected1;
                                 }
+                                else
+                                {
+                                    if (lscore < rscore)
+                                    {
+                                        inputsource[1] = "TRAILS SERIES " + selected + " - " + selected1;
+                                    }
+                                }
                             }
                             inputsource[2] = info[2];
                             if (test_channel)
@@ -1763,6 +1770,13 @@ namespace LiveGFX_FO3
                                 if (lscore == rscore)
                                 {
                                     inputsource[1] = "TIES SERIES " + selected + " - " + selected1;
+                                }
+                                else
+                                {
+                                    if (lscore > rscore)
+                                    {
+                                        inputsource[1] = "TRAILS SERIES " + selected + " - " + selected1;
+                                    }
                                 }
                             }
                             inputsource[2] = info1[2];
@@ -2068,6 +2082,89 @@ namespace LiveGFX_FO3
                             button_on[13] = true;
                         }
                         runcg(ty, inputsource, layer, channal, temp);
+                    }
+                    catch (Exception d)
+                    {
+                        MessageBox.Show("You forget to choose title", "INVLIVE-GFX",
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    }
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("You forget to connected server", "INVLIVE-GFX",
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+        }
+
+        private void bunifuFlatButton20_Click(object sender, EventArgs e)
+        {
+            if (caspar_.IsConnected)
+            {
+                string[] ty = new string[20];
+                string[] inputsource = new string[20];
+                int layer = 15;
+                int channal = 0;
+                bool check_on = button_on[14];
+                if (test_channel)
+                {
+                    channal = 2;
+                    check_on = test_on[14];
+                }
+                if (check_on)
+                {
+                    bunifuFlatButton20.Normalcolor = Color.FromArgb(183, 183, 183);
+                    bunifuFlatButton20.Textcolor = Color.Black;
+                    stopcg(layer, channal);
+                    if (test_channel)
+                    {
+                        test_on[14] = false;
+                    }
+                    else
+                    {
+                        button_on[14] = false;
+                    }
+                }
+                else
+                {
+                    try
+                    {
+                        ty[0] = "keystonel1";
+                        ty[1] = "keystonel2";
+                        ty[2] = "keystonel3";
+                        ty[3] = "keystonel4";
+                        ty[4] = "keystonel5";
+                        ty[5] = "keystoner1";
+                        ty[6] = "keystoner2";
+                        ty[7] = "keystoner3";
+                        ty[8] = "keystoner4";
+                        ty[9] = "keystoner5";
+                        inputsource[0] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox35.GetItemText(this.metroComboBox35.SelectedItem) + ".png";
+                        inputsource[1] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox34.GetItemText(this.metroComboBox34.SelectedItem) + ".png";
+                        inputsource[2] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox33.GetItemText(this.metroComboBox33.SelectedItem) + ".png";
+                        inputsource[3] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox32.GetItemText(this.metroComboBox32.SelectedItem) + ".png";
+                        inputsource[4] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox31.GetItemText(this.metroComboBox31.SelectedItem) + ".png";
+                        inputsource[5] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox30.GetItemText(this.metroComboBox30.SelectedItem) + ".png";
+                        inputsource[6] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox29.GetItemText(this.metroComboBox29.SelectedItem) + ".png";
+                        inputsource[7] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox28.GetItemText(this.metroComboBox28.SelectedItem) + ".png";
+                        inputsource[8] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox27.GetItemText(this.metroComboBox27.SelectedItem) + ".png";
+                        inputsource[9] = @"\\Casparcgserver\assets\Keystone\" + this.metroComboBox26.GetItemText(this.metroComboBox26.SelectedItem) + ".png";
+
+
+                        if (test_channel)
+                        {
+                            bunifuFlatButton20.Normalcolor = Color.FromArgb(65, 211, 253);
+                            bunifuFlatButton20.Textcolor = Color.White;
+                            test_on[14] = true;
+                        }
+                        else
+                        {
+                            bunifuFlatButton20.Normalcolor = Color.FromArgb(57, 181, 74);
+                            bunifuFlatButton20.Textcolor = Color.White;
+                            button_on[14] = true;
+                        }
+                        runcg(ty, inputsource, layer, channal, "GPL2017/keystone");
                     }
                     catch (Exception d)
                     {

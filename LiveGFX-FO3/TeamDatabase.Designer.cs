@@ -85,6 +85,7 @@
             this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.playerpic6 = new System.Windows.Forms.PictureBox();
             this.playername6 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teampic)).BeginInit();
@@ -193,6 +194,7 @@
             this.logo.Size = new System.Drawing.Size(60, 60);
             this.logo.TabIndex = 23;
             this.logo.TabStop = false;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // delete
             // 
@@ -237,6 +239,7 @@
             this.teampic.Size = new System.Drawing.Size(107, 60);
             this.teampic.TabIndex = 22;
             this.teampic.TabStop = false;
+            this.teampic.Click += new System.EventHandler(this.teampic_Click);
             // 
             // bunifuCustomLabel8
             // 
@@ -406,6 +409,7 @@
             this.playerpic1.Size = new System.Drawing.Size(190, 190);
             this.playerpic1.TabIndex = 23;
             this.playerpic1.TabStop = false;
+            this.playerpic1.Click += new System.EventHandler(this.playerpic1_Click);
             // 
             // playername1
             // 
@@ -465,6 +469,7 @@
             this.tm_pic.Size = new System.Drawing.Size(328, 43);
             this.tm_pic.TabIndex = 23;
             this.tm_pic.TabStop = false;
+            this.tm_pic.Click += new System.EventHandler(this.tm_pic_Click);
             // 
             // panel12
             // 
@@ -497,6 +502,7 @@
             this.bracket_pic.Size = new System.Drawing.Size(328, 55);
             this.bracket_pic.TabIndex = 23;
             this.bracket_pic.TabStop = false;
+            this.bracket_pic.Click += new System.EventHandler(this.bracket_pic_Click);
             // 
             // panel2
             // 
@@ -569,6 +575,7 @@
             this.playerpic2.Size = new System.Drawing.Size(190, 190);
             this.playerpic2.TabIndex = 23;
             this.playerpic2.TabStop = false;
+            this.playerpic2.Click += new System.EventHandler(this.playerpic2_Click);
             // 
             // playername2
             // 
@@ -659,6 +666,7 @@
             this.playerpic3.Size = new System.Drawing.Size(190, 190);
             this.playerpic3.TabIndex = 23;
             this.playerpic3.TabStop = false;
+            this.playerpic3.Click += new System.EventHandler(this.playerpic3_Click);
             // 
             // playername3
             // 
@@ -749,6 +757,7 @@
             this.playerpic4.Size = new System.Drawing.Size(190, 190);
             this.playerpic4.TabIndex = 23;
             this.playerpic4.TabStop = false;
+            this.playerpic4.Click += new System.EventHandler(this.playerpic4_Click);
             // 
             // playername4
             // 
@@ -839,6 +848,7 @@
             this.playerpic5.Size = new System.Drawing.Size(190, 190);
             this.playerpic5.TabIndex = 23;
             this.playerpic5.TabStop = false;
+            this.playerpic5.Click += new System.EventHandler(this.playerpic5_Click);
             // 
             // playername5
             // 
@@ -885,7 +895,6 @@
             "player3",
             "player4",
             "player5",
-            "player6",
             "substitute1",
             " "});
             this.playercombo6.Location = new System.Drawing.Point(0, 0);
@@ -929,6 +938,7 @@
             this.playerpic6.Size = new System.Drawing.Size(190, 190);
             this.playerpic6.TabIndex = 23;
             this.playerpic6.TabStop = false;
+            this.playerpic6.Click += new System.EventHandler(this.playerpic6_Click);
             // 
             // playername6
             // 
@@ -947,6 +957,10 @@
             this.playername6.Size = new System.Drawing.Size(171, 24);
             this.playername6.TabIndex = 24;
             this.playername6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // TeamDatabase
             // 
@@ -1055,5 +1069,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel17;
         private System.Windows.Forms.PictureBox playerpic6;
         private Bunifu.Framework.UI.BunifuMaterialTextbox playername6;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

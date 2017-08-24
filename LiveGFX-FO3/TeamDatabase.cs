@@ -7,16 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace LiveGFX_FO3
 {
     public partial class TeamDatabase : UserControl
     {
+        private string filepath = @"\\BENZ\LiveGFX";
+        private string photopath = "";
         private List<string> teamname = new List<string>();
         db sqldb = new db();
         public TeamDatabase()
         {
             InitializeComponent();
+            try
+            {
+                teamname = sqldb.getdata("teamname", "teamdatabase");
+            }
+            catch (Exception d)
+            {
+            }
+            foreach (string i in teamname)
+            {
+                combo.Items.Add(i);
+            }
+            playercombo1.SelectedIndex = 0;
+            playercombo2.SelectedIndex = 1;
+            playercombo3.SelectedIndex = 2;
+            playercombo4.SelectedIndex = 3;
+            playercombo5.SelectedIndex = 4;
+            playercombo6.SelectedIndex = 5;
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -311,6 +331,156 @@ namespace LiveGFX_FO3
             playerpic6.SizeMode = PictureBoxSizeMode.StretchImage;
             MessageBox.Show("LOADING COMPLETE", "INVLIVE-GFX",
                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                logo.ImageLocation = photopath;
+                logo.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void teampic_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                teampic.ImageLocation = photopath;
+                teampic.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void tm_pic_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                tm_pic.ImageLocation = photopath;
+                tm_pic.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void bracket_pic_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                bracket_pic.ImageLocation = photopath;
+                bracket_pic.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic1_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic1.ImageLocation = photopath;
+                playerpic1.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic2_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic2.ImageLocation = photopath;
+                playerpic2.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic3_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic3.ImageLocation = photopath;
+                playerpic3.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic4_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic4.ImageLocation = photopath;
+                playerpic4.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic5_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic5.ImageLocation = photopath;
+                playerpic5.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
+        }
+
+        private void playerpic6_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.Title = "Open Portrait File";
+            openFileDialog1.InitialDirectory = filepath;
+            DialogResult result = openFileDialog1.ShowDialog(); // Show the dialog.
+
+            if (result == DialogResult.OK) // Test result.
+            {
+                photopath = openFileDialog1.FileName.ToString();
+                playerpic6.ImageLocation = photopath;
+                playerpic6.SizeMode = PictureBoxSizeMode.StretchImage;
+                filepath = Path.GetDirectoryName(photopath);
+            }
         }
     }
 }

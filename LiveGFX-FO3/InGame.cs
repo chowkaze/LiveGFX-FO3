@@ -612,7 +612,7 @@ namespace LiveGFX_FO3
                 int layer = 16;
                 int channal = 0;
                 bool check_on = button_on[1];
-                string temp = "";
+                string temp = "GPL2017/dragon_get";
                 if (test_channel)
                 {
                     channal = 2;
@@ -653,7 +653,7 @@ namespace LiveGFX_FO3
                         ty[14] = "dragonr7";
                         ty[15] = "dragonr8";
                         string select = this.metroComboBox5.GetItemText(this.metroComboBox5.SelectedItem);
-                        if (select != " ")
+                        if (select != " "&& select!= "")
                         {
                             inputsource[0] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -662,7 +662,7 @@ namespace LiveGFX_FO3
                             inputsource[0] = "";
                         }
                         select = this.metroComboBox6.GetItemText(this.metroComboBox6.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[1] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -671,7 +671,7 @@ namespace LiveGFX_FO3
                             inputsource[1] = "";
                         }
                         select = this.metroComboBox7.GetItemText(this.metroComboBox7.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[2] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -680,7 +680,7 @@ namespace LiveGFX_FO3
                             inputsource[2] = "";
                         }
                         select = this.metroComboBox8.GetItemText(this.metroComboBox8.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[3] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -689,7 +689,7 @@ namespace LiveGFX_FO3
                             inputsource[3] = "";
                         }
                         select = this.metroComboBox9.GetItemText(this.metroComboBox9.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[4] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -698,7 +698,7 @@ namespace LiveGFX_FO3
                             inputsource[4] = "";
                         }
                         select = this.metroComboBox10.GetItemText(this.metroComboBox10.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[5] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -707,7 +707,7 @@ namespace LiveGFX_FO3
                             inputsource[5] = "";
                         }
                         select = this.metroComboBox11.GetItemText(this.metroComboBox11.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[6] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -716,7 +716,7 @@ namespace LiveGFX_FO3
                             inputsource[6] = "";
                         }
                         select = this.metroComboBox12.GetItemText(this.metroComboBox12.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[7] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -725,7 +725,7 @@ namespace LiveGFX_FO3
                             inputsource[7] = "";
                         }
                         select = this.metroComboBox19.GetItemText(this.metroComboBox19.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[8] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -734,7 +734,7 @@ namespace LiveGFX_FO3
                             inputsource[8] = "";
                         }
                         select = this.metroComboBox18.GetItemText(this.metroComboBox18.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[9] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -743,7 +743,7 @@ namespace LiveGFX_FO3
                             inputsource[9] = "";
                         }
                         select = this.metroComboBox17.GetItemText(this.metroComboBox17.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[10] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -752,7 +752,7 @@ namespace LiveGFX_FO3
                             inputsource[10] = "";
                         }
                         select = this.metroComboBox16.GetItemText(this.metroComboBox16.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[11] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -761,7 +761,7 @@ namespace LiveGFX_FO3
                             inputsource[11] = "";
                         }
                         select = this.metroComboBox15.GetItemText(this.metroComboBox15.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[12] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -770,7 +770,7 @@ namespace LiveGFX_FO3
                             inputsource[12] = "";
                         }
                         select = this.metroComboBox14.GetItemText(this.metroComboBox14.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[13] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -779,7 +779,7 @@ namespace LiveGFX_FO3
                             inputsource[13] = "";
                         }
                         select = this.metroComboBox13.GetItemText(this.metroComboBox13.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[14] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -788,7 +788,7 @@ namespace LiveGFX_FO3
                             inputsource[14] = "";
                         }
                         select = this.metroComboBox1.GetItemText(this.metroComboBox1.SelectedItem);
-                        if (select != " ")
+                        if (select != " " && select != "")
                         {
                             inputsource[15] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
                         }
@@ -1031,7 +1031,7 @@ namespace LiveGFX_FO3
                 string[] ty = new string[50];
                 string[] inputsource = new string[50];
                 int layer = 15;
-                int channal = 0;
+                int channal = 1;
                 bool check_on = button_on[0];
                 string temp = "GPL2017/GPL_LoadGame";
                 if (test_channel)
@@ -1041,8 +1041,8 @@ namespace LiveGFX_FO3
                 }
                 if (check_on)
                 {
-                    bunifuFlatButton14.Normalcolor = Color.FromArgb(183, 183, 183);
-                    bunifuFlatButton14.Textcolor = Color.Black;
+                    bunifuFlatButton4.Normalcolor = Color.FromArgb(183, 183, 183);
+                    bunifuFlatButton4.Textcolor = Color.Black;
                     stopcg(layer, channal);
                     if (test_channel)
                     {
@@ -1101,21 +1101,21 @@ namespace LiveGFX_FO3
                         ty[41] = "R_CName_5";
                         inputsource[0] = @"\\Casparcgserver\assets\Draft_Logo\L\" + info[1] + ".png";
                         inputsource[1] = @"\\Casparcgserver\assets\Draft_Logo\R\" + info1[1] + ".png";
-                        inputsource[2] = info[6];
-                        inputsource[3] = info[7];
-                        inputsource[4] = info[8];
-                        inputsource[5] = info[9];
-                        inputsource[6] = info[10];
+                        inputsource[2] = info[6].ToUpper();
+                        inputsource[3] = info[7].ToUpper();
+                        inputsource[4] = info[8].ToUpper();
+                        inputsource[5] = info[9].ToUpper();
+                        inputsource[6] = info[10].ToUpper();
                         inputsource[7] = @"\\Casparcgserver\assets\character\L\" + this.comboBox10.GetItemText(this.comboBox10.SelectedItem) + ".png";
                         inputsource[8] = @"\\Casparcgserver\assets\character\L\" + this.comboBox9.GetItemText(this.comboBox9.SelectedItem) + ".png";
                         inputsource[9] = @"\\Casparcgserver\assets\character\L\" + this.comboBox8.GetItemText(this.comboBox8.SelectedItem) + ".png";
                         inputsource[10] = @"\\Casparcgserver\assets\character\L\" + this.comboBox7.GetItemText(this.comboBox7.SelectedItem) + ".png";
                         inputsource[11] = @"\\Casparcgserver\assets\character\L\" + this.comboBox6.GetItemText(this.comboBox6.SelectedItem) + ".png";
-                        inputsource[12] = info1[6];
-                        inputsource[13] = info1[7];
-                        inputsource[14] = info1[8];
-                        inputsource[15] = info1[9];
-                        inputsource[16] = info1[10];
+                        inputsource[12] = info1[6].ToUpper();
+                        inputsource[13] = info1[7].ToUpper();
+                        inputsource[14] = info1[8].ToUpper();
+                        inputsource[15] = info1[9].ToUpper();
+                        inputsource[16] = info1[10].ToUpper();
                         inputsource[17] = @"\\Casparcgserver\assets\character\R\R-" + this.comboBox1.GetItemText(this.comboBox1.SelectedItem) + ".png";
                         inputsource[18] = @"\\Casparcgserver\assets\character\R\R-" + this.comboBox2.GetItemText(this.comboBox2.SelectedItem) + ".png";
                         inputsource[19] = @"\\Casparcgserver\assets\character\R\R-" + this.comboBox3.GetItemText(this.comboBox3.SelectedItem) + ".png";
@@ -1131,26 +1131,26 @@ namespace LiveGFX_FO3
                         inputsource[29] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox18.GetItemText(this.comboBox18.SelectedItem) + "Square.png";
                         inputsource[30] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox17.GetItemText(this.comboBox17.SelectedItem) + "Square.png";
                         inputsource[31] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox16.GetItemText(this.comboBox16.SelectedItem) + "Square.png";
-                        inputsource[32] = this.comboBox10.GetItemText(this.comboBox10.SelectedItem);
-                        inputsource[33] = this.comboBox9.GetItemText(this.comboBox9.SelectedItem);
-                        inputsource[34] = this.comboBox8.GetItemText(this.comboBox8.SelectedItem);
-                        inputsource[35] = this.comboBox7.GetItemText(this.comboBox7.SelectedItem);
-                        inputsource[36] =  this.comboBox6.GetItemText(this.comboBox6.SelectedItem);
-                        inputsource[37] =  this.comboBox1.GetItemText(this.comboBox1.SelectedItem);
-                        inputsource[38] = this.comboBox2.GetItemText(this.comboBox2.SelectedItem);
-                        inputsource[39] = this.comboBox3.GetItemText(this.comboBox3.SelectedItem);
-                        inputsource[40] = this.comboBox4.GetItemText(this.comboBox4.SelectedItem);
-                        inputsource[41] = this.comboBox5.GetItemText(this.comboBox5.SelectedItem);
+                        inputsource[32] = this.comboBox10.GetItemText(this.comboBox10.SelectedItem).ToUpper();
+                        inputsource[33] = this.comboBox9.GetItemText(this.comboBox9.SelectedItem).ToUpper();
+                        inputsource[34] = this.comboBox8.GetItemText(this.comboBox8.SelectedItem).ToUpper();
+                        inputsource[35] = this.comboBox7.GetItemText(this.comboBox7.SelectedItem).ToUpper();
+                        inputsource[36] =  this.comboBox6.GetItemText(this.comboBox6.SelectedItem).ToUpper();
+                        inputsource[37] =  this.comboBox1.GetItemText(this.comboBox1.SelectedItem).ToUpper();
+                        inputsource[38] = this.comboBox2.GetItemText(this.comboBox2.SelectedItem).ToUpper();
+                        inputsource[39] = this.comboBox3.GetItemText(this.comboBox3.SelectedItem).ToUpper();
+                        inputsource[40] = this.comboBox4.GetItemText(this.comboBox4.SelectedItem).ToUpper();
+                        inputsource[41] = this.comboBox5.GetItemText(this.comboBox5.SelectedItem).ToUpper();
                         if (test_channel)
                         {
-                            bunifuFlatButton14.Normalcolor = Color.FromArgb(65, 211, 253);
-                            bunifuFlatButton14.Textcolor = Color.White;
+                            bunifuFlatButton4.Normalcolor = Color.FromArgb(65, 211, 253);
+                            bunifuFlatButton4.Textcolor = Color.White;
                             test_on[0] = true;
                         }
                         else
                         {
-                            bunifuFlatButton14.Normalcolor = Color.FromArgb(57, 181, 74);
-                            bunifuFlatButton14.Textcolor = Color.White;
+                            bunifuFlatButton4.Normalcolor = Color.FromArgb(57, 181, 74);
+                            bunifuFlatButton4.Textcolor = Color.White;
                             button_on[0] = true;
                         }
                         runcg(ty, inputsource, layer, channal, temp);
@@ -1404,7 +1404,7 @@ namespace LiveGFX_FO3
             string[] inputsource = new string[20];
             
             string select = this.metroComboBox5.GetItemText(this.metroComboBox5.SelectedItem);
-            if (select != " ")
+            if (select != " "&&select !="")
             {
                 inputsource[0] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1413,7 +1413,7 @@ namespace LiveGFX_FO3
                 inputsource[0] = "";
             }
             select = this.metroComboBox6.GetItemText(this.metroComboBox6.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[1] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1422,7 +1422,7 @@ namespace LiveGFX_FO3
                 inputsource[1] = "";
             }
             select = this.metroComboBox7.GetItemText(this.metroComboBox7.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[2] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1431,7 +1431,7 @@ namespace LiveGFX_FO3
                 inputsource[2] = "";
             }
             select = this.metroComboBox8.GetItemText(this.metroComboBox8.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[3] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1440,7 +1440,7 @@ namespace LiveGFX_FO3
                 inputsource[3] = "";
             }
             select = this.metroComboBox9.GetItemText(this.metroComboBox9.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[4] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1449,7 +1449,7 @@ namespace LiveGFX_FO3
                 inputsource[4] = "";
             }
             select = this.metroComboBox10.GetItemText(this.metroComboBox10.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[5] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1458,7 +1458,7 @@ namespace LiveGFX_FO3
                 inputsource[5] = "";
             }
             select = this.metroComboBox11.GetItemText(this.metroComboBox11.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[6] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1467,7 +1467,7 @@ namespace LiveGFX_FO3
                 inputsource[6] = "";
             }
             select = this.metroComboBox12.GetItemText(this.metroComboBox12.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[7] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1476,7 +1476,7 @@ namespace LiveGFX_FO3
                 inputsource[7] = "";
             }
             select = this.metroComboBox19.GetItemText(this.metroComboBox19.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[8] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1485,7 +1485,7 @@ namespace LiveGFX_FO3
                 inputsource[8] = "";
             }
             select = this.metroComboBox18.GetItemText(this.metroComboBox18.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[9] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1494,7 +1494,7 @@ namespace LiveGFX_FO3
                 inputsource[9] = "";
             }
             select = this.metroComboBox17.GetItemText(this.metroComboBox17.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[10] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1503,7 +1503,7 @@ namespace LiveGFX_FO3
                 inputsource[10] = "";
             }
             select = this.metroComboBox16.GetItemText(this.metroComboBox16.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[11] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1512,7 +1512,7 @@ namespace LiveGFX_FO3
                 inputsource[11] = "";
             }
             select = this.metroComboBox15.GetItemText(this.metroComboBox15.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[12] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1521,7 +1521,7 @@ namespace LiveGFX_FO3
                 inputsource[12] = "";
             }
             select = this.metroComboBox14.GetItemText(this.metroComboBox14.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[13] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1530,7 +1530,7 @@ namespace LiveGFX_FO3
                 inputsource[13] = "";
             }
             select = this.metroComboBox13.GetItemText(this.metroComboBox13.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[14] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1539,7 +1539,7 @@ namespace LiveGFX_FO3
                 inputsource[14] = "";
             }
             select = this.metroComboBox1.GetItemText(this.metroComboBox1.SelectedItem);
-            if (select != " ")
+            if (select != " " && select != "")
             {
                 inputsource[15] = @"\\Casparcgserver\assets\Dragon\" + select + ".png";
             }
@@ -1691,7 +1691,7 @@ namespace LiveGFX_FO3
                         }
                         else
                         {
-                            runvideo("GPL2017/GPL_Gamefinal", channal, layer);
+                            runvideo("GPL2017/"+info[1], channal+1, layer);
                         }
                         
                        
@@ -1782,7 +1782,7 @@ namespace LiveGFX_FO3
                         }
                         else
                         {
-                            runvideo("GPL2017/GPL_Gamefinal", channal, layer);
+                            runvideo("GPL2017/"+info1[1], channal+1, layer);
                         }
 
 
@@ -1888,26 +1888,26 @@ namespace LiveGFX_FO3
                         ty[6] = "L_Role";
                         ty[7] = "R_Role";
                         inputsource[0] = @"\\Casparcgserver\assets\KDA_Player\"+info[1]+"\\L\\" + select + ".png"; ;
-                        inputsource[1] = @"\\Casparcgserver\assets\KDA_Player\" + info1[1] + "\\R\\" + select + ".png"; ;
-                        inputsource[2] = select;
-                        inputsource[3] = selected;
+                        inputsource[1] = @"\\Casparcgserver\assets\KDA_Player\" + info1[1] + "\\R\\" + selected + ".png"; ;
+                        inputsource[2] = select.ToUpper();
+                        inputsource[3] = selected.ToUpper();
                         inputsource[4] = analyzer_name.Text;
                         inputsource[5] = bunifuMaterialTextbox1.Text;
                         switch(this.metroComboBox2.SelectedIndex)
                         {
-                            case 1:
+                            case 0:
                                 inputsource[6] = "TOP";
                                 break;
-                            case 2:
+                            case 1:
                                 inputsource[6] = "JUNG";
                                 break;
-                            case 3:
+                            case 2:
                                 inputsource[6] = "MID";
                                 break;
-                            case 4:
+                            case 3:
                                 inputsource[6] = "ADC";
                                 break;
-                            case 5:
+                            case 4:
                                 inputsource[6] = "SUP";
                                 break;
                             default:
@@ -1915,19 +1915,19 @@ namespace LiveGFX_FO3
                         }
                         switch (this.metroComboBox3.SelectedIndex)
                         {
-                            case 1:
+                            case 0:
                                 inputsource[7] = "TOP";
                                 break;
-                            case 2:
+                            case 1:
                                 inputsource[7] = "JUNG";
                                 break;
-                            case 3:
+                            case 2:
                                 inputsource[7] = "MID";
                                 break;
-                            case 4:
+                            case 3:
                                 inputsource[7] = "ADC";
                                 break;
-                            case 5:
+                            case 4:
                                 inputsource[7] = "SUP";
                                 break;
                             default:
@@ -1952,6 +1952,129 @@ namespace LiveGFX_FO3
                         MessageBox.Show("You forget to choose title", "INVLIVE-GFX",
                     MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     }
+                }
+            }
+            else
+            {
+                MessageBox.Show("You forget to connected server", "INVLIVE-GFX",
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+        }
+
+        private void bunifuFlatButton18_Click(object sender, EventArgs e)
+        {
+            if (caspar_.IsConnected)
+            {
+                string[] ty = new string[50];
+                string[] inputsource = new string[50];
+                int layer = 15;
+                int channal = 0;
+                bool check_on = button_on[13];
+                string temp = "GPL2017/GPL_TAB_ANALYZE";
+                if (test_channel)
+                {
+                    channal = 2;
+                    check_on = test_on[13];
+                }
+                if (check_on)
+                {
+                    bunifuFlatButton18.Normalcolor = Color.FromArgb(183, 183, 183);
+                    bunifuFlatButton18.Textcolor = Color.Black;
+                    stopcg(layer, channal);
+                    if (test_channel)
+                    {
+                        test_on[13] = false;
+                    }
+                    else
+                    {
+                        button_on[13] = false;
+                    }
+                }
+                else
+                {
+                    try
+                    {
+                        ty[0] = "L_Logo";
+                        ty[1] = "R_Logo";
+                        ty[2] = "L_Pick1";
+                        ty[3] = "L_Pick2";
+                        ty[4] = "L_Pick3";
+                        ty[5] = "L_Pick4";
+                        ty[6] = "L_Pick5";
+                        ty[7] = "R_Pick1";
+                        ty[8] = "R_Pick2";
+                        ty[9] = "R_Pick3";
+                        ty[10] = "R_Pick4";
+                        ty[11] = "R_Pick5";
+                        ty[12] = "L_Ban1";
+                        ty[13] = "L_Ban2";
+                        ty[14] = "L_Ban3";
+                        ty[15] = "L_Ban4";
+                        ty[16] = "L_Ban5";
+                        ty[17] = "R_Ban1";
+                        ty[18] = "R_Ban2";
+                        ty[19] = "R_Ban3";
+                        ty[20] = "R_Ban4";
+                        ty[21] = "R_Ban5";
+                        ty[22] = "L_Stat";
+                        ty[23] = "R_Stat";
+                        ty[24] = "Title";
+                        inputsource[0] = info[2];
+                        inputsource[1] = info1[2];
+                        inputsource[2] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox10.GetItemText(this.comboBox10.SelectedItem) + "Square.png";
+                        inputsource[3] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox9.GetItemText(this.comboBox9.SelectedItem) + "Square.png";
+                        inputsource[4] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox8.GetItemText(this.comboBox8.SelectedItem) + "Square.png";
+                        inputsource[5] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox7.GetItemText(this.comboBox7.SelectedItem) + "Square.png";
+                        inputsource[6] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox6.GetItemText(this.comboBox6.SelectedItem) + "Square.png";
+                        inputsource[7] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox1.GetItemText(this.comboBox1.SelectedItem) + "Square.png";
+                        inputsource[8] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox2.GetItemText(this.comboBox2.SelectedItem) + "Square.png";
+                        inputsource[9] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox3.GetItemText(this.comboBox3.SelectedItem) + "Square.png";
+                        inputsource[10] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox4.GetItemText(this.comboBox4.SelectedItem) + "Square.png";
+                        inputsource[11] = @"\\Casparcgserver\assets\Champion Icon\" + this.comboBox5.GetItemText(this.comboBox5.SelectedItem) + "Square.png";
+                        inputsource[12] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox15.GetItemText(this.comboBox15.SelectedItem) + "Square.png";
+                        inputsource[13] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox14.GetItemText(this.comboBox14.SelectedItem) + "Square.png";
+                        inputsource[14] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox13.GetItemText(this.comboBox13.SelectedItem) + "Square.png";
+                        inputsource[15] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox12.GetItemText(this.comboBox12.SelectedItem) + "Square.png";
+                        inputsource[16] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox11.GetItemText(this.comboBox11.SelectedItem) + "Square.png";
+                        inputsource[17] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox20.GetItemText(this.comboBox20.SelectedItem) + "Square.png";
+                        inputsource[18] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox19.GetItemText(this.comboBox19.SelectedItem) + "Square.png";
+                        inputsource[19] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox18.GetItemText(this.comboBox18.SelectedItem) + "Square.png";
+                        inputsource[20] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox17.GetItemText(this.comboBox17.SelectedItem) + "Square.png";
+                        inputsource[21] = @"\\Casparcgserver\assets\character\bw\" + this.comboBox16.GetItemText(this.comboBox16.SelectedItem) + "Square.png";
+                        inputsource[24] = bunifuMaterialTextbox2.Text;
+                        if(analyzed_winl.Checked)
+                        {
+                            inputsource[22] = "WIN";
+                            inputsource[23] = "LOSS";
+                        }
+                        else
+                        {
+                            if(analyzed_winr.Checked)
+                            {
+                                inputsource[23] = "WIN";
+                                inputsource[22] = "LOSS";
+                            }
+                        }
+                        if (test_channel)
+                        {
+                            bunifuFlatButton18.Normalcolor = Color.FromArgb(65, 211, 253);
+                            bunifuFlatButton18.Textcolor = Color.White;
+                            test_on[13] = true;
+                        }
+                        else
+                        {
+                            bunifuFlatButton18.Normalcolor = Color.FromArgb(57, 181, 74);
+                            bunifuFlatButton18.Textcolor = Color.White;
+                            button_on[13] = true;
+                        }
+                        runcg(ty, inputsource, layer, channal, temp);
+                    }
+                    catch (Exception d)
+                    {
+                        MessageBox.Show("You forget to choose title", "INVLIVE-GFX",
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    }
+
                 }
             }
             else

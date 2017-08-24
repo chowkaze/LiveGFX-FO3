@@ -21,6 +21,7 @@ namespace LiveGFX_FO3
             try
             {
                 bracket = sqldb.getdata("title", "bracket");
+                teamname = sqldb.getdata("teamname", "teamdatabase");
             }
             catch(Exception d)
             {
@@ -30,6 +31,20 @@ namespace LiveGFX_FO3
             foreach (string i in bracket)
             {
                 bracket_combo.Items.Add(i);
+               
+            }
+            foreach (string i in teamname)
+            {
+                team1.Items.Add(i);
+                team2.Items.Add(i);
+                team3.Items.Add(i);
+                team4.Items.Add(i);
+                team5.Items.Add(i);
+                team6.Items.Add(i);
+                team7.Items.Add(i);
+                team8.Items.Add(i);
+                team9.Items.Add(i);
+                team10.Items.Add(i);
             }
         }
 

@@ -34,7 +34,7 @@ namespace LiveGFX_FO3
         List<string> l3_long = new List<string>();
         List<string> bracket = new List<string>();
         List<string> tm = new List<string>();
-        List<string> analyzed= new List<string>();
+        List<string> analyzed = new List<string>();
         int countdowntimelayer = 0;
         int countdowntimechannal = 0;
         bool countdowntick = false;
@@ -50,9 +50,9 @@ namespace LiveGFX_FO3
             {
                 teamname = sqldb.getdata("teamname", "teamdatabase");
                 l3 = sqldb.getdata("title", "lowerthird");
-                tm = sqldb.getdata("sname", "today_matches");
+                tm = sqldb.getdata("savename", "today_matches");
                 caster = sqldb.getdata("name", "caster_lowerthird");
-                analyzer = sqldb.getdata("name", "analyzer");
+                analyzer = sqldb.getdata("name", "analyzer_lowerthird");
                 analyzed = sqldb.getdata("title", "analyzed_tab");
                 bracket = sqldb.getdata("title", "bracket");
             }
@@ -94,18 +94,16 @@ namespace LiveGFX_FO3
                     predict_team3.Items.Add(i);
                     current_teaml.Items.Add(i);
                     current_teamr.Items.Add(i);
-                    l3_team1.Items.Add(i);
-                    l3_team2.Items.Add(i);
-                }
-                foreach (string i in analyzed)
-                {
-                    analyzed_combo.Items.Add(i);
                 }
                 foreach (string i in bracket)
                 {
                     bracket_combo.Items.Add(i);
                 }
+
             }
+            caspar_.Connected += new EventHandler<NetworkEventArgs>(caspar__Connected);
+            caspar_.FailedConnect += new EventHandler<NetworkEventArgs>(caspar__FailedConnected);
+            caspar_.Disconnected += new EventHandler<NetworkEventArgs>(caspar__Disconnected);
         }
         #region caspar connection
 
@@ -638,73 +636,6 @@ namespace LiveGFX_FO3
             }
         }
 
-        private void l3_team1_butt_Click(object sender, EventArgs e)
-        {
-            if (caspar_.IsConnected)
-            {
-                string[] ty = new string[20];
-                string[] inputsource = new string[20];
-                int layer = 18;
-                int channal = 1;
-                bool check_on = button_on[5];
-                List<string> info = new List<string>();
-                if (test_channel)
-                {
-                    channal = 2;
-                    check_on = test_on[5];
-                }
-                if (check_on)
-                {
-                    l3_team1_butt.Normalcolor = Color.FromArgb(183, 183, 183);
-                    l3_team1_butt.Textcolor = Color.Black;
-                    stopcg(layer, channal);
-                    if (test_channel)
-                    {
-                        test_on[5] = false;
-                    }
-                    else
-                    {
-                        button_on[5] = false;
-                    }
-                }
-                else
-                {
-                    string select = this.l3_team1.GetItemText(this.l3_team1.SelectedItem);
-                    try
-                    {
-                        info = sqldb.getdata("*", "teamdatabase", "teamname", select);
-                        ty[0] = "Title";
-                        ty[1] = "Desc";
-                        inputsource[0] = select;
-                        inputsource[1] = info[0];
-                        if (test_channel)
-                        {
-                            l3_team1_butt.Normalcolor = Color.FromArgb(65, 211, 253);
-                            l3_team1_butt.Textcolor = Color.White;
-                            test_on[5] = true;
-                        }
-                        else
-                        {
-                            l3_team1_butt.Normalcolor = Color.FromArgb(57, 181, 74);
-                            l3_team1_butt.Textcolor = Color.White;
-                            button_on[5] = true;
-                        }
-                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_LONG");
-                    }
-                    catch (Exception d)
-                    {
-                        MessageBox.Show("You forget to choose title", "INVLIVE-GFX",
-                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    }
-
-                }
-            }
-            else
-            {
-                MessageBox.Show("You forget to connected server", "INVLIVE-GFX",
-                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            }
-        }
 
         private async void tm_butt_Click(object sender, EventArgs e)
         {
@@ -758,11 +689,11 @@ namespace LiveGFX_FO3
                 {
                     string select = this.tm_combo.GetItemText(this.tm_combo.SelectedItem);
                     info = sqldb.getdata("*", "today_matches", "savename", select);
-                    ty1[0] = "desc";
+                    ty1[0] = "Desc";
                     ty1[1] = "Q1_Team_L";
                     ty1[2] = "Q1_Team_R";
                     ty1[3] = "Q1_Logo_L";
-                    ty1[4] = "Q1_Logo_L";
+                    ty1[4] = "Q1_Logo_R";
                     ty1[5] = "Q2_Team_L";
                     ty1[6] = "Q2_Team_R";
                     ty1[7] = "Q2_Logo_L";
@@ -777,26 +708,26 @@ namespace LiveGFX_FO3
                     teaml = sqldb.getdata("*", "teamdatabase", "teamname", info[2]);
                     teamr = sqldb.getdata("*", "teamdatabase", "teamname", info[3]);
                     inputsource1[0] = info[1];
-                    inputsource1[1] = teaml[0];
-                    inputsource1[2] = teamr[0];
+                    inputsource1[1] = teaml[1];
+                    inputsource1[2] = teamr[1];
                     inputsource1[3] = teaml[2];
                     inputsource1[4] = teamr[2];
                     teaml = sqldb.getdata("*", "teamdatabase", "teamname", info[4]);
                     teamr = sqldb.getdata("*", "teamdatabase", "teamname", info[5]);
-                    inputsource1[5] = teaml[0];
-                    inputsource1[6] = teamr[0];
+                    inputsource1[5] = teaml[1];
+                    inputsource1[6] = teamr[1];
                     inputsource1[7] = teaml[2];
                     inputsource1[8] = teamr[2];
                     inputsource1[9] = info[6];
                     inputsource1[10] = info[7];
-                    if(info[8] == "win")
+                    if (info[8] == "win")
                     {
                         inputsource[11] = "";
                         inputsource[12] = "";
                     }
                     else
                     {
-                        if(info[9] == "win")
+                        if (info[9] == "win")
                         {
                             inputsource[11] = "";
                             inputsource[12] = "";
@@ -905,7 +836,7 @@ namespace LiveGFX_FO3
                     nextmatchtick = true;
                     nextmatchtimechannal = channal;
                     nextmatchtimelayer = layer;
-                    if (tm_min.Text == "00"&& tm_sec.Text == "00")
+                    if (tm_min.Text == "00" && tm_sec.Text == "00")
                     {
                         stopcg(nextmatchtimelayer, nextmatchtimechannal);
                         await Task.Delay(2000);
@@ -1136,9 +1067,9 @@ namespace LiveGFX_FO3
                         teamr = sqldb.getdata("*", "teamdatabase", "teamname", selected);
                         inputsource[0] = teaml[2];
                         inputsource[1] = teamr[2];
-                        inputsource[2] = teaml[0];
-                        inputsource[3] = teamr[0];
-                        inputsource[3] = current_mess.Text;
+                        inputsource[2] = teaml[1];
+                        inputsource[3] = teamr[1];
+                        inputsource[4] = current_mess.Text;
                         if (test_channel)
                         {
                             current_butt.Normalcolor = Color.FromArgb(65, 211, 253);
@@ -1199,7 +1130,7 @@ namespace LiveGFX_FO3
                 }
                 else
                 {
-                    
+
 
                     try
                     {
@@ -1288,10 +1219,10 @@ namespace LiveGFX_FO3
                     try
                     {
                         info = sqldb.getdata("*", "bracket", "title", select);
-                        for(int i = 0;i<10;i++)
+                        for (int i = 0; i < 10; i++)
                         {
                             ty[i] = "team" + (i + 1);
-                            ty[i + 10] = "score" + (i+1);
+                            ty[i + 10] = "score" + (i + 1);
                             teamm = sqldb.getdata("bracket_pic", "teamdatabase", "teamname", info[i + 1]);
                             inputsource[i] = teamm[0];
                             inputsource[i + 10] = info[i + 11];
@@ -1325,103 +1256,7 @@ namespace LiveGFX_FO3
             }
         }
 
-        private void analyzed_butt_Click(object sender, EventArgs e)
-        {
-            if (caspar_.IsConnected)
-            {
-                string[] ty = new string[20];
-                string[] inputsource = new string[20];
-                int layer = 15;
-                int channal = 1;
-                bool check_on = button_on[11];
-                List<string> info = new List<string>();
-                List<string> teaml = new List<string>();
-                List<string> teamr = new List<string>();
-                if (test_channel)
-                {
-                    channal = 2;
-                    check_on = test_on[11];
-                }
-                if (check_on)
-                {
-                    analyzed_butt.Normalcolor = Color.FromArgb(183, 183, 183);
-                    analyzed_butt.Textcolor = Color.Black;
-                    stopcg(layer, channal);
-                    if (test_channel)
-                    {
-                        test_on[11] = false;
-                    }
-                    else
-                    {
-                        button_on[11] = false;
-                    }
-                }
-                else
-                {
-                    string select = this.analyzed_combo.GetItemText(this.analyzed_combo.SelectedItem);
-                   
-                    try
-                    {
-                        info = sqldb.getdata("*", "analyzed_tab", "title", select);
-                        ty[20] = "L_Logo";
-                        ty[21] = "L_Stat";
-                        ty[22] = "R_Logo";
-                        ty[23] = "R_Stat";
-                        for (int i = 0; i < 5; i++)
-                        {
-                            ty[i] = "L_Pick" + (i + 1);
-                            ty[i + 5] = "L_Ban1" + (i + 1);
-                            ty[i+10] = "R_Pick" + (i + 1);
-                            ty[i + 15] = "R_Ban1" + (i + 1);
-
-                            inputsource[i] = info[i+3];
-                            inputsource[i+5] = info[i + 8];
-                            inputsource[i+10] = info[i + 13];
-                            inputsource[i+15] = info[i + 18];
-                        }
-                        teaml = sqldb.getdata("logo", "teamdatabase", "teamname", info[1]);
-                        teamr = sqldb.getdata("logo", "teamdatabase", "teamname", info[2]);
-                        inputsource[20] = teaml[0];
-                        inputsource[22] = teamr[0];
-                        if (info[23] == "win")
-                        {
-                            inputsource[21] = "WIN";
-                            inputsource[23] = "LOSS";
-
-                        }
-                        else
-                        {
-                            inputsource[21] = "LOSS";
-                            inputsource[23] = "WIN";
-                        }
-                        if (test_channel)
-                        {
-                            analyzed_butt.Normalcolor = Color.FromArgb(65, 211, 253);
-                            analyzed_butt.Textcolor = Color.White;
-                            test_on[11] = true;
-                        }
-                        else
-                        {
-                            analyzed_butt.Normalcolor = Color.FromArgb(57, 181, 74);
-                            analyzed_butt.Textcolor = Color.White;
-                            button_on[11] = true;
-                        }
-                        runcg(ty, inputsource, layer, channal, "GPL2017/GPL_TAB_Analyze");
-                    }
-                    catch (Exception d)
-                    {
-                        MessageBox.Show("You forget to choose title", "INVLIVE-GFX",
-                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    }
-
-                }
-            }
-            else
-            {
-                MessageBox.Show("You forget to connected server", "INVLIVE-GFX",
-                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            }
-        }
+      
 
         private void predict_update_Click(object sender, EventArgs e)
         {
@@ -1468,6 +1303,171 @@ namespace LiveGFX_FO3
                 System.Diagnostics.Debug.WriteLine(ex.ToString());
                 throw;
             }
+        }
+
+        private void metroButton14_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "00";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton12_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "05";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton11_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "10";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton10_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "15";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton9_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "20";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton8_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "30";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton7_Click(object sender, EventArgs e)
+        {
+            tm_min.Text = "60";
+            tm_sec.Text = "00";
+        }
+
+        private void metroButton13_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "00";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "05";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "10";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "15";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "20";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton5_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "30";
+            tab_timesec.Text = "00";
+        }
+
+        private void metroButton6_Click(object sender, EventArgs e)
+        {
+            tab_timemin.Text = "60";
+            tab_timesec.Text = "00";
+        }
+
+        private void bunifuFlatButton16_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                teamname = sqldb.getdata("teamname", "teamdatabase");
+                l3 = sqldb.getdata("title", "lowerthird");
+                tm = sqldb.getdata("savename", "today_matches");
+                caster = sqldb.getdata("name", "caster_lowerthird");
+                analyzer = sqldb.getdata("name", "analyzer_lowerthird");
+                analyzed = sqldb.getdata("title", "analyzed_tab");
+                bracket = sqldb.getdata("title", "bracket");
+            }
+            catch (Exception d)
+            {
+
+            }
+            finally
+            {
+                l3_1.Items.Clear();
+                l3_2.Items.Clear();
+                l3_3.Items.Clear();
+                tm_combo.Items.Clear();
+                tab2_1.Items.Clear();
+                tab2_2.Items.Clear();
+                tab3_1.Items.Clear();
+                tab3_2.Items.Clear();
+                tab3_3.Items.Clear();
+                predict_1.Items.Clear();
+                predict_2.Items.Clear();
+                predict_3.Items.Clear();
+                predict_team1.Items.Clear();
+                predict_team2.Items.Clear();
+                predict_team3.Items.Clear();
+                current_teaml.Items.Clear();
+                current_teamr.Items.Clear();
+
+                bracket_combo.Items.Clear();
+                foreach (string i in l3)
+                {
+                    l3_1.Items.Add(i);
+                    l3_2.Items.Add(i);
+                    l3_3.Items.Add(i);
+                }
+                foreach (string i in tm)
+                {
+                    tm_combo.Items.Add(i);
+                }
+                foreach (string i in caster)
+                {
+                    tab2_1.Items.Add(i);
+                    tab2_2.Items.Add(i);
+                }
+                foreach (string i in analyzer)
+                {
+                    tab3_1.Items.Add(i);
+                    tab3_2.Items.Add(i);
+                    tab3_3.Items.Add(i);
+                    predict_1.Items.Add(i);
+                    predict_2.Items.Add(i);
+                    predict_3.Items.Add(i);
+                }
+                foreach (string i in teamname)
+                {
+                    predict_team1.Items.Add(i);
+                    predict_team2.Items.Add(i);
+                    predict_team3.Items.Add(i);
+                    current_teaml.Items.Add(i);
+                    current_teamr.Items.Add(i);
+                }
+                foreach (string i in bracket)
+                {
+                    bracket_combo.Items.Add(i);
+                }
+            }
+        }
+
+        private void tm_time_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

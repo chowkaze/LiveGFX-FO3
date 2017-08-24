@@ -29,10 +29,9 @@ namespace LiveGFX_FO3
             {
                 teamname = sqldb.getdata("teamname", "teamdatabase");
                 l3 = sqldb.getdata("title", "lowerthird");
-                tm = sqldb.getdata("sname", "today_matches");
+                tm = sqldb.getdata("savename", "today_matches");
                 caster = sqldb.getdata("name", "caster_lowerthird");
-                interview = sqldb.getdata("name", "interviewer");
-                analyzer = sqldb.getdata("name", "analyzer");
+                analyzer = sqldb.getdata("name", "analyzer_lowerthird");
                 analyzed = sqldb.getdata("title","analyzed_tab");
             }
             catch(Exception d)
